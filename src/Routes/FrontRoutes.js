@@ -2,6 +2,8 @@ import Main from "../Frontend/Home";
 import Upcoming from "../Frontend/Home/Upcoming";
 import Franchise from "../Frontend/Franchise"
 import About from "../Frontend/About"
+
+
 import Appointment from "../Frontend/Appointment"
 
 
