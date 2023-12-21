@@ -1,0 +1,8639 @@
+@import url(http://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400;1,700;1,900&amp;display=swap);
+
+.btn,
+.frmbtn {
+  letter-spacing: 2px;
+}
+.btn,
+.frmbtn,
+.twoColEqualImg-btn {
+  transition: 0.3s ease-in-out;
+}
+body.inner-page .header-bx {
+  position: relative;
+  top: 0;
+  height: 65px;
+  padding: 10px 0;
+}
+body.inner-page header {
+  background: #c74a1b;
+  padding: 20px 0 5px;
+}
+.h2,
+h2 {
+  color: #121212;
+  margin-top: 0;
+}
+.desc-disc h3 strong,
+.detailtext h3 strong,
+p,
+section.inner-banner-sec p strong {
+  font-weight: 300;
+}
+.bottom-banner-menu .left-box {
+  background: #c74a1b;
+  padding: 15px 20px;
+  width: 100%;
+  border-radius: 10px;
+  height: 90px;
+  overflow: visible;
+}
+.bottom-banner-menu .left-box p {
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #f9ff54;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+.bottom-banner-menu .left-box .icon {
+  display: inline-block;
+  background: #fff;
+  height: 90px;
+  line-height: 90px;
+  width: 75px;
+  text-align: center;
+  border-radius: 7px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.23);
+}
+.bottom-banner-menu .left-box .innerbx-sel {
+  display: inline-block;
+  padding: 0 30px;
+  position: relative;
+  width: 40%;
+  margin-right: 2%;
+}
+.bottom-banner-menu .left-box .innerbx-sel select {
+  background: 0 0;
+  border: 0;
+  color: #fff;
+  font-size: 28px;
+  font-family: Philosopher, sans-serif;
+  -webkit-appearance: none;
+  position: relative;
+  width: 100%;
+  cursor: pointer;
+}
+.bottom-banner-menu .left-box .innerbx-sel select option {
+  color: #191919;
+  font-size: 15px;
+}
+.bottom-banner-menu .left-box .innerbx-sel select:focus,
+section.contact-form input:focus,
+section.contact-form textarea:focus {
+  outline: 0;
+}
+.bottom-banner-menu .bootstrap-select.btn-group .dropdown-menu li.selected a {
+  color: inherit;
+  background: #e4f61b;
+}
+.bottom-banner-menu
+  .bootstrap-select.btn-group
+  .dropdown-menu::-webkit-scrollbar-thumb {
+  background: #87944e;
+}
+.mini-disease-page .inner-banner-sec h3,
+.video-consult-page section.inner-banner-sec h1,
+section.inner-banner-sec h1,
+section.inner-banner-sec h2 {
+  color: #fff;
+  margin-top: -70px;
+  font-size: 72px;
+  line-height: 0.9;
+  margin-bottom: 20px;
+  font-weight: 100;
+  text-transform: none;
+}
+body.inner-page .breadcrumb {
+  display: block;
+  background: 0 0;
+  margin: 15px 0 0;
+  padding: 0 0 10px;
+  width: 100%;
+  float: left;
+  border-radius: 0;
+}
+.breadcrumb ul li {
+  display: inline-block;
+  color: #fff;
+}
+.breadcrumb ul li a {
+  color: #fff;
+  opacity: 0.5;
+  transition: 0.2s;
+}
+.breadcrumb ul li.active a,
+.breadcrumb ul li:hover a,
+.inputgrp .select .select option,
+.inputgrp .select select option,
+.inputgrp input .select option,
+.inputgrp input select option,
+.inputgrp select .select option,
+.inputgrp select select option,
+.inputgrp textarea .select option,
+.inputgrp textarea select option,
+.page-loaded .aboutJiva-video-group > video {
+  opacity: 1;
+}
+.breadcrumb ul li a::after {
+  content: "/";
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.breadcrumb ul li:last-child a::after {
+  margin: 0;
+  opacity: 0;
+}
+section.inner-banner-sec {
+  min-height: 490px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  background-size: cover;
+  padding: 40px 0;
+  background-position: right;
+}
+.bottom-banner-menu {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: -30px;
+}
+.bottom-banner-menu .bottom-bx {
+  position: static;
+  text-align: center;
+  background: #c3cc9d;
+}
+.bottom-banner-menu .left-box .icon img,
+.tab-sec .tab-content {
+  width: 70%;
+}
+.bottom-banner-menu .left-box .innerbx-sel::after {
+  content: "";
+  /* background: url(../img/chev-right-yellow.png) 0 0/12px no-repeat; */
+  position: absolute;
+  width: 15px;
+  height: 14px;
+  right: 0;
+  bottom: 10px;
+}
+.symptombx {
+  margin-bottom: 0;
+  padding-bottom: 40px;
+  margin-top: 30px;
+}
+.symptombx ul li {
+  display: inline-block;
+  margin-right: 0;
+  width: auto;
+  margin-bottom: 6px;
+}
+.symptombx ul li a {
+  background: #f0f0f0;
+  padding: 12px 40px;
+  display: block;
+  border-radius: 10px;
+  font-size: 20px;
+  position: relative;
+  color: #000;
+  font-weight: 500;
+  transition: 0.4s;
+  pointer-events: none;
+}
+.symptombx ul {
+  margin-top: 30px;
+  width: 100%;
+}
+.enquire-form {
+  background: #fff;
+  box-shadow: 4px 5px 50px rgba(0, 0, 0, 0.2);
+  padding: 0;
+  border-radius: 8px;
+  width: 100%;
+}
+.desc-disc .col-md-2,
+.symptombx .col-md-2,
+.tech-slider.slick-slider .slick-slide,
+.test-crsl .slick-slide,
+section.gmap {
+  padding: 0;
+}
+.enquire-form input {
+  margin-bottom: 8px;
+  background: #e5e5e5;
+  border: 0;
+  padding: 14px 20px;
+  border-radius: 6px;
+  width: 90%;
+  display: block;
+}
+.detailtext,
+.type-sec p {
+  border-bottom: 1px solid #ddd;
+}
+.enquire-form input[type="submit"] {
+  background: #c74a1b;
+  color: #fff;
+  font-weight: 500;
+  font-family: Roboto;
+  border-radius: 30px;
+  text-transform: uppercase;
+  width: 200px;
+  display: block;
+  margin-top: 10px;
+  transition: 0.2s;
+}
+.enquire-form p {
+  font-size: 18px;
+  line-height: 1.4;
+  margin-bottom: 15px;
+  padding-top: 5px;
+}
+.causes {
+  padding: 60px 0 0;
+  margin: 0;
+}
+.ayurnique-treatment h3,
+.detailtext h2,
+.how-bg .head-bx,
+.inner-doctor h2 {
+  margin-bottom: 20px;
+}
+.ayurnique-treatment .innerbx img,
+.detailtext .col-md-4 img,
+.heritage-sec .col-md-4 img,
+.inner-ayurpanch img,
+.inner-offer .inner img,
+.inner-personalised .inner-form .input textarea,
+section.diabetic-sec .inner-diabetic .col-md-6 img,
+section.locations-sec.panch-locate .dropdown.bootstrap-select,
+section.offer-phone .inner-offer,
+section.offer-phone .inner-offer img,
+section.panchdis-sec .disease-inner,
+section.why-jiva .banner img {
+  width: 100%;
+}
+.ayurvedbx {
+  background: #00652d;
+  float: left;
+  width: 96%;
+  padding: 65px 65px 40px;
+  margin-bottom: 70px;
+}
+.ayurvedbx p {
+  color: #fff;
+  margin-bottom: 25px;
+}
+.ayurvedbx p span {
+  color: #f9ff56;
+  font-weight: 400;
+}
+.ayurvedbx img {
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+.ayurvedbx h2,
+.btm-banner h2,
+.btm-banner h3,
+.btm-banner h3 span,
+.enquire-form .top-part p,
+section.diabetic-sec h2,
+section.diabetic-sec h3,
+section.diabetic-sec p {
+  color: #fff;
+}
+.appointment-frm p,
+.ayurnique-treatment p,
+.enquire-form .form-prt p,
+.panchkarma-banner .content p,
+section.diabetic-sec p,
+section.inner-banner-sec .inner-consult .iconbx .inner p {
+  font-size: 18px;
+}
+.box-sec {
+  float: left;
+  width: 100%;
+  margin-top: 40px;
+}
+section.contact-form .heading {
+  text-align: center;
+  margin-bottom: 30px;
+}
+section.contact-form input,
+section.contact-form textarea {
+  width: 100%;
+  padding: 20px;
+  border: 0;
+  border-radius: 6px;
+}
+section.contact-form {
+  background: #e5e5e5;
+  margin-top: 20px;
+  position: relative;
+}
+section.contact-form .col-md-3 {
+  padding: 0 2px;
+}
+section.contact-form .col-md-12 textarea {
+  width: 100%;
+  height: 150px;
+}
+section.contact-form .col-md-12 {
+  padding: 0;
+  margin-top: 3px;
+}
+section.contact-form input[type="submit"] {
+  display: block;
+  width: 250px;
+  margin: 20px auto 0;
+  background: #fa670f;
+  color: #fff;
+  text-transform: uppercase;
+  border-radius: 30px;
+  transition: 0.2s;
+  font-weight: 500;
+  font-family: Roboto;
+}
+.form-part,
+section.diabetic-sec .inner-diabetic {
+  width: 80%;
+  margin: auto;
+}
+.enquire-form.fixed {
+  top: 150px;
+  position: fixed;
+}
+.appointment-frm .submt input[type="submit"]:hover,
+.enquire-form input[type="submit"]:hover,
+.inner-personalised .inner-form .submit input:hover,
+.video-consult-page .consult-btn.btnwicon a:first-child:hover,
+section.diabetic-sec,
+section.digestive .consult-btn a:hover,
+section.inner-banner-sec.category-banner .consult-btn a:hover {
+  background: #723421;
+}
+section.contact-form input[type="submit"]:hover {
+  background: #383838;
+}
+.col-md-3.form-sec-appoint,
+section.desc-disc .col-md-3 {
+  padding-left: 50px;
+}
+.add-inner.row .inner .contact a.show-mobile,
+.inner-personalised label .bootstrap-select button span,
+.innerbx-sel.catbx .bootstrap-select > .dropdown-toggle span.bs-caret,
+.know-btn.orange a.call,
+.location,
+.missionVision-sec-content-group p > br,
+.tab-sec .btn_tabs_change,
+.testi_p_cards .owl-nav,
+.video-consult-page .consult-btn.btnwicon a.show-mobile,
+body.inner-page .stickmenu,
+section.locations-sec.panch-locate .bootstrap-select button span {
+  display: none;
+}
+body.inner-page .breadcrumb ul {
+  float: right;
+}
+body.inner-page.locate-clinic-page .breadcrumb {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.14);
+}
+section.inner-banner-sec h3,
+section.inner-banner-sec h4 {
+  text-transform: uppercase;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.phone-consult-page section.inner-banner-sec h1,
+section.inner-banner-sec p {
+  font-size: 28px;
+  color: #fff;
+  font-weight: 400;
+  font-family: Roboto;
+  line-height: 1.2;
+}
+.healthandhealingstories-sec .btn-grp > :first-child,
+.phone-consult-page section.inner-banner-sec h1,
+.secheader-grp > :first-child,
+ul.helthandhelngstris-list > li .li-innr .text-grp > :first-child,
+ul.knowyourdiseases-list > li .text > :first-child {
+  margin-top: 0 !important;
+}
+.consult-btn,
+.head-bx {
+  margin-top: 30px;
+}
+.consult-btn a {
+  background: #fff;
+  padding: 20px 40px;
+  font-size: 16px;
+  color: #ab8572;
+  font-family: Roboto, sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  transition: 0.2s;
+  letter-spacing: 1px;
+}
+section.inner-banner-sec .consult-btn a:hover {
+  background: #723421;
+  color: #fff;
+}
+.symptombx ul li a::before {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  top: 40%;
+  left: 14px;
+  // background-image: url(../img/chev-down.png);
+  background-repeat: no-repeat;
+  transform: rotate(-90deg);
+}
+.detailtext h1,
+.symptombx h1,
+.symptombx h2 {
+  font-size: 40px;
+  color: #121212;
+}
+.enquire-form .top-part {
+  padding: 40px 45px 10px;
+  background: #c3cc9d;
+  border-radius: 8px 8px 0 0;
+}
+.btm-prt,
+.btm-prt::before {
+  background: #f3f3f3;
+  position: absolute;
+}
+.enquire-form .top-part h2 {
+  font-size: 60px;
+  color: #fff;
+  font-family: roboto;
+  margin-bottom: 0;
+}
+.enquire-form .form-prt {
+  padding: 20px 45px 55px;
+}
+.enquire-form .form-prt h4 {
+  font-size: 16px;
+  font-family: Roboto;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+section.desc-disc .col-md-8 {
+  width: 64%;
+  padding-right: 80px;
+}
+section.desc-disc .col-md-4 {
+  width: 36%;
+}
+.enquire-form .form-prt .form {
+  padding-top: 10px;
+}
+.btm-prt img,
+.btm-prt p {
+  display: inline-block;
+  font-size: 14px;
+  margin-bottom: 7px;
+  font-weight: 400;
+}
+.btm-prt {
+  right: 0;
+  bottom: 0;
+  width: 50%;
+  padding: 2px 17px;
+}
+.btm-prt::before {
+  content: "";
+  width: 20px;
+  height: 95%;
+  left: -9px;
+  transform: skew(-20deg);
+}
+.btm-prt img {
+  margin-top: 4px;
+}
+.enquire-form input#terms,
+section.contact-adres .box .button,
+section.contact-adres .box p {
+  width: auto;
+  display: inline-block;
+}
+label.terms {
+  padding-bottom: 10px;
+  padding-top: 15px;
+  font-family: roboto;
+  font-weight: 400;
+}
+.book-hd,
+.inner-success .bx .bottom p,
+.jivaayrvdcnsltatnadvntg-sec .cntnt-grp .h1 > span,
+.jivaayrvdcnsltatnadvntg-sec .cntnt-grp .h2 > span,
+.jivaayrvdcnsltatnadvntg-sec .cntnt-grp .h3 > span,
+.jivaayrvdcnsltatnadvntg-sec .cntnt-grp .h4 > span,
+.jivaayrvdcnsltatnadvntg-sec .cntnt-grp .h5 > span,
+.jivaayrvdcnsltatnadvntg-sec .cntnt-grp .h6 > span,
+.jivaayrvdcnsltatnadvntg-sec .cntnt-grp h1 > span,
+.jivaayrvdcnsltatnadvntg-sec .cntnt-grp h2 > span,
+.jivaayrvdcnsltatnadvntg-sec .cntnt-grp h3 > span,
+.jivaayrvdcnsltatnadvntg-sec .cntnt-grp h4 > span,
+.jivaayrvdcnsltatnadvntg-sec .cntnt-grp h5 > span,
+.jivaayrvdcnsltatnadvntg-sec .cntnt-grp h6 > span,
+.jivaayrvdcnsltatnadvntg-sec .cntnt-grp p > span,
+label.terms span,
+ul.helthandhelngstris-list > li .li-innr .h5,
+ul.helthandhelngstris-list > li .li-innr h5 {
+  color: #c74a1b;
+}
+label.terms span a {
+  color: #c74a1b;
+  text-decoration: none;
+}
+label.terms span a:focus,
+label.terms span a:hover {
+  color: #723421;
+  text-decoration: none;
+}
+section.digestive {
+  background: #f1f1f1;
+}
+section.digestive .head-bx h2 {
+  font-size: 43px;
+}
+.right-icon a.booknow:hover,
+section.diabetic-sec .btm-tag a,
+section.digestive .consult-btn a,
+section.inner-banner-sec .consult-btn a {
+  background: #c74a1b;
+  color: #fff;
+}
+.panchdis-sec .disease-inner .row .col .inner h4,
+section#faqs,
+section.digestive .consult-btn {
+  padding-top: 30px;
+}
+.right-icobx .inner {
+  background: #fff;
+  min-height: 300px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 20px #ddd;
+  padding: 35px 25px 20px;
+}
+.right-icobx .inner .text {
+  margin-top: 130px;
+}
+.right-icobx .inner .text h4 {
+  font-family: Roboto;
+  font-weight: 600;
+  font-size: 28px;
+}
+.right-icobx .inner .text h4 span {
+  font-size: 17px;
+  display: block;
+  margin-bottom: 4px;
+}
+.offwhite,
+body.inner-page section.testimonials {
+  background: #fcf2e9;
+}
+.ayurnique-treatment .col-md-4 {
+  padding: 25px;
+}
+.ayurnique-treatment .head-sec {
+  text-align: center;
+  margin-top: 30px;
+}
+.detailtext {
+  padding-bottom: 45px;
+}
+section.testimonials .left-head h4 {
+  font-family: roboto;
+  font-weight: 700;
+  margin: 20px 0;
+  line-height: 1.4;
+  font-size: 22px;
+}
+.desc-disc h3,
+.detailtext .col-md-12 h2,
+.more-detail.panchfirstsec h2 {
+  font-size: 38px;
+}
+section.more-detail.desc-disc .col-md-8 {
+  padding-right: 160px;
+}
+.inner-location .col-md-4,
+.inner-success .col-md-4,
+section.more-detail .detailtext p {
+  margin-bottom: 30px;
+}
+.head-bx,
+.inner-treat .col-md-3,
+section.diabetic-sec .btm-tag h3 {
+  margin-bottom: 50px;
+}
+section.treat-possible-sec {
+  background: #f6f6f6;
+}
+section.treat-possible-sec .head-bx {
+  text-align: center;
+  margin-bottom: 70px;
+}
+.inner-treat h4 {
+  font-family: Roboto;
+  font-weight: 500;
+  position: absolute;
+  left: 40px;
+  top: 30px;
+  width: 70%;
+}
+section.treat-possible-sec .head-bx h3 {
+  margin-top: 15px;
+}
+.head-bx {
+  text-align: center;
+}
+.inner-choose .inner {
+  background: #eee;
+  padding: 40px;
+  height: 100%;
+}
+.btm-jiva-why .inner,
+.disease-inner .row .col .inner,
+.inner-know-want ul li {
+  background: #c74a1b;
+  border-radius: 20px;
+}
+.inner-choose .inner .num {
+  background: #c74a1b;
+  width: 120px;
+  height: 120px;
+  display: flex;
+  align-items: flex-end;
+  padding: 0 10px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+.inner-choose .inner .num h2 {
+  color: #fff;
+  font-family: Roboto;
+}
+.inner-choose .inner h4 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.inner-choose .inner p,
+.inner-interesting p {
+  font-size: 18px;
+  color: #000;
+}
+.inner-choose {
+  width: 85%;
+  margin: AUTO;
+}
+section.diabetic-sec .btm-tag {
+  text-align: center;
+  margin-top: 70px;
+}
+section.diabetic-sec .btm-tag a:hover {
+  background: #b74115;
+}
+.inner-interesting .col-md-6,
+section.diabetic-sec .inner-diabetic .col-md-6 {
+  padding: 0 40px;
+}
+.inner-interesting img {
+  width: 100%;
+  background: #00652d;
+  border-radius: 22px;
+}
+.inner-interesting {
+  width: 95%;
+  margin: auto;
+}
+section.desc-disc.more-detail {
+  padding-top: 110px;
+  padding-bottom: 100px;
+}
+section.ayurveda-choose {
+  padding-bottom: 110px;
+}
+.ayurnique-treatment .head-sec p,
+.head-bx p,
+section.diabetic-sec .head-bx p {
+  font-size: 22px;
+}
+.inner-choose .row {
+  display: flex;
+}
+.inner-choose .row .col-md-4 {
+  flex: 1;
+}
+.mini-disease-page .inner-banner-sec h3,
+section.inner-banner-sec .inner-consult h2,
+section.inner-banner-sec .inner-consult p,
+section.inner-banner-sec.category-banner .content-inner h1,
+section.inner-banner-sec.category-banner .content-inner h2,
+section.inner-banner-sec.category-banner .content-inner p {
+  color: #000;
+}
+.btm-banner {
+  /* background-image: url(../img/bottom-banner.jpg); */
+  float: left;
+  width: 100%;
+  padding: 90px;
+  margin-top: 100px;
+  background-size: cover;
+}
+.btm-banner h3 {
+  font-size: 28px;
+  line-height: 1.4;
+}
+.comfort_icons ul,
+.inner-know-want ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.inner-know-want ul li {
+  margin: 5px;
+  width: 12%;
+}
+.inner-know-want ul li a {
+  padding: 20px;
+  display: block;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  width: 100%;
+}
+.row.know-want-sec {
+  margin-top: 80px;
+}
+.inner-know-want ul li:hover {
+  background: linear-gradient(#c3cc9d, #a2ab7f);
+}
+.advantage-sec .head-bx,
+.testi_sec ul,
+section#faqs .head-bx,
+section.contact-adres .add-inner.row.jiva-office .col-md-8,
+section.digestive .head-bx,
+section.journey-sec .head-bx,
+section.offer-phone .head-bx,
+section.panchdis-sec .disease-inner .head-bx {
+  text-align: left;
+}
+.row.know-want-sec h3 {
+  font-size: 28px;
+  margin-top: 0;
+  color: #000;
+}
+.enquire-form {
+  margin-top: 0;
+}
+.how-bg {
+  position: relative;
+  /* background: url(../img/how-video-bg.jpg) bottom/contain no-repeat #ececec; */
+  min-height: 860px;
+  padding: 50px;
+}
+.banner,
+.tab-sec {
+  min-height: 600px;
+}
+.inner-video .col {
+  display: inline-block;
+  width: 33%;
+  vertical-align: top;
+}
+.inner-video .col h4 {
+  font-size: 24px;
+  background: #c74a1b;
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  line-height: 80px;
+  color: #fff;
+  font-family: Roboto;
+  border-radius: 50%;
+}
+section.meet-doctor .head-bx h2 span {
+  display: block;
+  font-size: 72px;
+}
+.item {
+  padding: 0 5px;
+}
+.doctor-slider,
+.inner-btm,
+.inner-offer {
+  width: 90%;
+  margin: auto;
+}
+.inner-btm .col-md-3 {
+  padding: 0 6px;
+}
+.video-consult-page .consult-btn.btnwicon a {
+  padding-left: 30px;
+  padding-right: 30px;
+  color: #fff;
+  background: #2ab200;
+  font-size: 16px;
+}
+.video-consult-page .consult-btn.btnwicon a:first-child {
+  background: #c74a1b;
+  margin-right: 10px;
+}
+.video-consult-page .consult-btn.btnwicon,
+body.panchakarma-page .consult-btn,
+section.consult-category .col-md-4 .know-more {
+  margin-top: 50px;
+}
+.video-consult-page .consult-btn.btnwicon img {
+  padding-left: 20px;
+  margin-left: 10px;
+  border-left: 1px solid rgba(255, 255, 255, 0.3);
+  width: 44px;
+  height: 22px;
+  object-fit: contain;
+}
+.error404sec .container,
+section.inner-banner-sec .container {
+  height: 100%;
+}
+.bottom-video-banner {
+  position: absolute;
+  bottom: 0;
+}
+.banner,
+.btm-jiva-why,
+.imrc_benefit li span.img-benefit,
+.imrc_info,
+.inner-offer .inner,
+.inputgrp.slctinputgrp,
+.panchkarma-banner,
+.top-consult .know-btn,
+section.technology-sec .container {
+  position: relative;
+}
+.bottom-video-banner ul li {
+  display: inline-block;
+  margin: 0 10px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 0;
+}
+.bottom-video-banner ul {
+  background: rgba(255, 255, 255, 0.65);
+  padding: 10px;
+}
+.bottom-video-banner ul li img {
+  vertical-align: middle;
+  margin-right: 5px;
+}
+.bottom-video-banner ul li:first-child {
+  border-right: 2px solid #000;
+  padding-right: 20px;
+}
+.disease-inner .row,
+.inner-success,
+section.diabetic-sec .inner-diabetic .row,
+section.journey-sec .inner-journey {
+  display: flex;
+  flex-wrap: wrap;
+}
+.disease-inner .row .col {
+  width: calc(100% / 3);
+  padding: 0 6px;
+  margin-bottom: 10px;
+}
+.disease-inner .row .col .inner {
+  padding: 30px;
+  height: 100%;
+}
+.disease-inner .row .col .inner h4 {
+  color: #fff;
+  vertical-align: bottom;
+  padding-top: 60px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.3;
+  width: 80%;
+  margin-bottom: 0;
+}
+.disease-inner {
+  width: 75%;
+  margin: auto;
+}
+.disease-inner .inner .icon {
+  width: 70px;
+  height: 60px;
+}
+.btm-jiva-why {
+  padding: 90px 100px;
+  margin-top: 0;
+  z-index: 9;
+  background: #fff;
+  box-shadow: 4px 8px 50px rgba(221, 221, 221, 0.6);
+}
+.banner {
+  z-index: -1;
+  /* background: url(../img/why-jiva-banner.jpg) 0 0 / cover fixed; */
+}
+.quote-bx,
+body.inner-page section.testimonials.white,
+section.digestive.quality-sec {
+  background: #fff;
+}
+.btm-jiva-why .inner p {
+  color: #fff;
+  font-weight: 400;
+}
+.btm-jiva-why .inner {
+  padding: 40px 20px;
+}
+.btm-jiva-why .inner_nbg,
+section.doctor-section .slider .slick-next:hover,
+section.doctor-section .slider .slick-prev:hover {
+  background-color: #c74a1b;
+}
+.btm-jiva-why .inner h2 {
+  color: #fff;
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 60px;
+}
+.btm-jiva-why .btm-line {
+  text-align: center;
+  margin-top: 40px;
+}
+.btm-jiva-why .btm-line p {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 22px;
+}
+section.why-jiva {
+  padding-top: 0;
+  padding-bottom: 30px;
+}
+.inner-offer .inner::after {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  content: "";
+  bottom: 0;
+  left: 0;
+  opacity: 0.8;
+  border-radius: 18px;
+  background: linear-gradient(rgba(0, 0, 0, 0), #000);
+  transition: 0.4s;
+}
+.inner-offer .inner:hover::after {
+  opacity: 1;
+  height: 50%;
+}
+.inner-offer .inner h4 {
+  color: #fff;
+  font-size: 22px;
+  line-height: 1.2;
+}
+.inner-offer .inner .content {
+  position: absolute;
+  bottom: -10px;
+  z-index: 99;
+  padding: 30px;
+}
+.quote-bx h3 {
+  font-size: 22px;
+  font-weight: 500;
+  margin-top: 0;
+}
+.quote-bx {
+  padding: 20px;
+  width: 300px;
+  margin: -30px auto 0;
+  position: relative;
+  border-radius: 6px;
+  text-align: center;
+  z-index: 99;
+}
+.mid-laptop {
+  text-align: center;
+  position: absolute;
+  bottom: -50px;
+  width: 100%;
+  left: 0;
+}
+.quote-bx::after {
+  content: "";
+  width: 50px;
+  height: 60px;
+  /* background: url(../img/quote-bx.png) no-repeat; */
+  top: 100%;
+  position: absolute;
+  left: 60%;
+}
+.appointment-frm .btm-prt::before,
+.inner-video .col:nth-child(2) .quote-bx::after,
+.right-icon ul li:last-child a::after {
+  opacity: 0;
+}
+.inner-video .col:nth-child(2) {
+  text-align: center;
+  position: relative;
+  transform: translateY(30%);
+}
+.inner-video .col:nth-child(2) .calender-img {
+  position: absolute;
+  top: 70px;
+  z-index: 0;
+  left: 0;
+  width: 100%;
+}
+.inner-video .col:last-child,
+section.contact-adres .col-md-8,
+section.how-phone-works .col-md-12.third .num {
+  text-align: right;
+}
+.inner-video .col:last-child .quote-bx::after {
+  transform: rotate(45deg);
+  top: 90%;
+}
+section.meet-doctor {
+  background: #f6f6f6;
+  margin-top: 80px;
+}
+section.meet-doctor .head-bx h2 {
+  line-height: 0.9;
+  margin-bottom: 30px;
+}
+.doctor-slider h4 {
+  font-size: 18px;
+  font-family: Roboto;
+  font-weight: 700;
+  min-height: 40px;
+}
+.doctor-slider h6 {
+  display: inline-block;
+  font-weight: 600;
+  opacity: 0.6;
+  font-size: 14px;
+  min-height: 50px;
+  color: #c74a1b;
+}
+.doctor-slider p {
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+.doctor-slider .slick-next,
+.doctor-slider .slick-prev {
+  background-color: #c74a1b;
+  // background-image: url(../img/chev-right.png);
+  width: 70px;
+  height: 70px;
+}
+.doctor-slider .slick-prev {
+  transform: rotate(180deg) translateY(45px);
+}
+section#faqs .head-bx .heading {
+  display: inline-block;
+  width: 80%;
+  padding-left: 40px;
+}
+section#faqs .head-bx .icon {
+  display: inline-block;
+  vertical-align: top;
+}
+section#faqs .inner-faq {
+  padding: 70px;
+  background: #f6f6f6;
+}
+section#faqs .inner-faq:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+section.how-video {
+  padding-top: 40px;
+  padding-bottom: 110px;
+}
+.doctor-slider .slick-next:hover,
+.doctor-slider .slick-prev:hover {
+  background-color: #723421;
+}
+.missionVision-sec-content-group p > span,
+body.inner-page.video-consult-page .stickmenu,
+ul.helthandhelngstris-list > li .li-innr,
+ul.helthandhelngstris-list > li .li-innr > span,
+ul.jivabrandstore-list > li .li-innr > span,
+ul.jivabrandstore-list > li > a,
+ul.knowyourdiseases-list > li .icon,
+ul.knowyourdiseases-list > li .text,
+ul.stpprsnldayrdictrtmnt-list > li .li-innr > span,
+ul.whychsejivaayrvd-list > li .li-innr,
+ul.whychsejivaayrvd-list > li .li-innr > span {
+  display: block;
+}
+.clinic-bx {
+  width: 560px;
+  margin-left: auto;
+}
+.inner-consult {
+  background: #fff;
+  padding: 60px 70px 70px;
+  box-shadow: 10px 10px 30px #0000001f;
+}
+section.inner-banner-sec .inner-consult .iconbx {
+  display: inline-block;
+  padding: 0 4px;
+  width: 100%;
+}
+section.inner-banner-sec .inner-consult h2 {
+  font-size: 38px;
+  margin: 0 0 15px;
+}
+section.inner-banner-sec .inner-consult p {
+  font-size: 22px;
+  opacity: 0.7;
+  margin-bottom: 15px;
+}
+section.inner-banner-sec .inner-consult .iconbx .inner {
+  background: #c3cc9d;
+  padding: 20px 30px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  margin-bottom: 2px;
+}
+section.inner-banner-sec .inner-consult h3 {
+  font-size: 30px;
+  font-family: roboto;
+  color: #fff;
+  margin-bottom: 4px;
+  margin-top: 20px;
+}
+section.inner-banner-sec .inner-consult .iconbx p {
+  color: #fff;
+  opacity: 1;
+  line-height: 1.2;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 0;
+  vertical-align: middle;
+  padding-left: 10px;
+  width: 80%;
+}
+.inner-consult .know-btn,
+.panchkarma-banner .content .know-btn {
+  text-align: left;
+  padding-top: 40px;
+}
+.inner-consult .know-btn a {
+  padding: 20px 40px;
+}
+.clinic-consult-page section.inner-banner-sec {
+  height: 500px;
+  padding: 60px 0;
+}
+.right-icon ul li,
+section.how-phone-works .box.first,
+section.inner-banner-sec .inner-consult .iconbx .inner img,
+section.inner-banner-sec .inner-consult .iconbx .inner p {
+  display: inline-block;
+}
+section.inner-banner-sec .inner-consult .iconbx .inner img {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+}
+.right-icon a.booknow {
+  display: inline-block;
+  vertical-align: top;
+  padding: 10px 20px;
+  border-radius: 30px;
+  background: #e4e4e4;
+  color: #000;
+  transition: 0.1s;
+  font-weight: 600;
+}
+.right-icon ul {
+  display: inline-block;
+  padding-left: 20px;
+}
+.right-icon ul li a::after {
+  right: -8px;
+  background: #d2d2d2;
+  height: 50%;
+  width: 1px;
+  position: absolute;
+  content: "";
+  top: 32%;
+}
+.right-icon ul li:last-child {
+  margin-right: 0;
+  padding-right: 0;
+}
+p.closed::before {
+  content: "";
+  position: absolute;
+  /* background-image: url(../img/caution.png); */
+  width: 19px;
+  height: 27px;
+  left: -5px;
+  background-position: center center;
+  background-size: 18px;
+  background-repeat: no-repeat;
+}
+.location-bx .bottom-area p.closed {
+  padding-left: 20px;
+  position: relative;
+  float: right;
+  color: #c74a1b;
+  font-weight: 500;
+  margin-top: 10px;
+}
+section.doctors-jiva {
+  background: #f7f7f7;
+}
+section.doctors-jiva h1 {
+  margin-bottom: 0;
+  line-height: 1;
+}
+.inner-doctor .image {
+  margin-top: 25px;
+}
+.inner-doctor .left {
+  padding-right: 35px;
+}
+section.digestive.quality-sec .inner h2 {
+  font-size: 48px;
+  font-family: Roboto;
+  color: #c74a1b;
+  font-weight: 800;
+  position: relative;
+}
+section.digestive.quality-sec .inner h3 {
+  font-family: Roboto;
+  line-height: 1.3;
+  font-weight: 600;
+  min-height: 80px;
+  font-size: 15px;
+}
+section.digestive.quality-sec .inner .text {
+  margin-top: 60px;
+}
+section.digestive.quality-sec .inner h2 span {
+  font-size: 20px;
+  text-transform: uppercase;
+  position: absolute;
+  top: -18px;
+}
+section.digestive.quality-sec .right-icobx .inner {
+  padding: 25px 30px 20px;
+}
+.selctbx::after {
+  content: "";
+  // background: url(../img/chev-down.png) no-repeat;
+  position: absolute;
+  right: 30px;
+  width: 10px;
+  height: 7px;
+  top: 25px;
+  opacity: 1;
+  z-index: 99;
+}
+.more-detail.panchfirstsec h1,
+.phone-consult-page section.inner-banner-sec h2 {
+  line-height: 1;
+}
+.phone-consult-page .consult-btn.orange.know-btn {
+  text-align: left;
+  padding-top: 0;
+  margin-top: 50px;
+}
+.phone-consult-page .inner-banner-sec form input {
+  background: 0 0;
+  border: 0;
+  border-bottom: 1px solid #fff;
+  width: 170%;
+  font-family: Roboto;
+  font-size: 18px;
+  color: #fff;
+  font-weight: 100;
+  padding-bottom: 6px;
+}
+.phone-consult-page form input::placeholder {
+  color: #fff;
+}
+.phone-consult-page .inner-banner-sec form {
+  display: inline-block;
+  opacity: 0.4;
+  margin-top: 10px;
+}
+.phone-consult-page .consult-btn.orange.know-btn a {
+  margin-right: 10px;
+}
+.doctor-jiva-phone .inner-doctor p,
+body.mini-disease-page section.inner-banner-sec .content-inner,
+body.panchakarma-page .content-inner {
+  margin-top: 20px;
+}
+.advantage-sec .disease-inner {
+  width: 85%;
+  margin: 0;
+}
+.advantage-sec .disease-inner .row .col {
+  width: calc(100% / 4);
+}
+.advantage-sec .head-bx h2 span {
+  background: #c74a1b;
+  color: #fff;
+  padding: 0 5px;
+}
+.advantage-sec .head-bx h2 {
+  line-height: 1.3;
+}
+.advantage-sec .disease-inner .row .col .inner h4 {
+  font-family: Roboto;
+}
+.appointment-frm {
+  width: 300px;
+  position: relative;
+  background: #fff;
+  box-shadow: 1px 4px 25px rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+}
+.appointment-frm .inner-form {
+  padding: 20px 25px 0;
+}
+.appointment-frm .inner-form input,
+.appointment-frm .inner-form select {
+  background: #e5e5e5;
+  width: 100%;
+  border: 0;
+  padding: 16px;
+  margin-bottom: 3px;
+  color: #7d7d7d;
+  border-radius: 6px;
+  font-size: 16px;
+  font-family: Roboto;
+}
+.appointment-frm .inner-form input::placeholder {
+  color: #7d7d7d;
+}
+.appointment-frm .inner-form select {
+  -webkit-appearance: none;
+  margin-bottom: 10px;
+}
+.appointment-frm .btm-prt {
+  width: 100%;
+  background: 0 0;
+  text-align: center;
+  position: relative;
+  margin-top: 30px;
+}
+.appointment-frm .inner-form input[name="agree"] {
+  display: inline-block;
+  width: auto;
+  vertical-align: top;
+}
+.appointment-frm .inner-form label.terms {
+  display: inline-block;
+  width: 92%;
+  padding: 0;
+  font-size: 14px;
+}
+.appointment-frm .btm-prt p {
+  font-size: 14px;
+}
+.appointment-frm form {
+  margin-top: 20px;
+  margin-bottom: -10px;
+}
+.appointment-frm .submt input[type="submit"] {
+  background: #c74a1b;
+  color: #fff;
+  border-radius: 30px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.appointment-frm .submt {
+  margin: 10px 0;
+}
+.appointment-frm.fixed {
+  top: 100px;
+  position: fixed;
+}
+section.how-phone-works {
+  background: #e6e6e6;
+}
+section.how-phone-works h2 {
+  display: inline-block;
+  vertical-align: top;
+  padding-right: 60px;
+}
+section.how-phone-works .box .num {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+section.how-phone-works .quote {
+  background: #fff;
+  padding: 5px 15px;
+  border-radius: 4px;
+  position: ABSOLUTE;
+  min-width: 280px;
+  top: 80px;
+  left: 90%;
+}
+section.how-phone-works .quote h3 {
+  font-size: 22px;
+  line-height: 1.3;
+}
+section.how-phone-works .box {
+  position: relative;
+  display: inline-block;
+}
+section.how-phone-works .col-md-12.second {
+  width: 75%;
+  float: none;
+  margin: AUTO;
+}
+.about-jiva-content-group,
+.btn-grp,
+.imrc_benefit,
+.map,
+.our-success-content-wrap,
+section.contact-adres .head,
+section.how-phone-works .col-md-12.third,
+section.locations-sec.panch-locate .head {
+  text-align: center;
+}
+section.how-phone-works .col-md-12.third .quote {
+  text-align: left;
+  top: 180px;
+}
+.doctor-jiva-phone .bottom-box {
+  display: flex;
+  margin-top: 30px;
+}
+.doctor-jiva-phone .bottom-box .boxprt {
+  width: calc(100% / 4);
+  padding: 0 6px;
+}
+.doctor-jiva-phone .bottom-box .boxprt .inner {
+  background: #fff;
+  box-shadow: 1px 6px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 20px 26px;
+  min-height: 200px;
+  display: FLEX;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.doctor-jiva-phone .bottom-box .boxprt .inner h2 {
+  font-size: 48px;
+  font-family: Roboto;
+  color: #c74a1b;
+  font-weight: 600;
+}
+.doctor-jiva-phone .bottom-box .boxprt .inner p {
+  font-size: 18px;
+  font-weight: 600;
+}
+section.doctor-jiva-phone h1,
+section.doctor-jiva-phone head h2 {
+  margin: 0;
+  color: #000;
+}
+section.how-phone-works .quote::before {
+  content: "";
+  position: absolute;
+  left: -20px;
+  top: 40%;
+  width: 20px;
+  height: 20px;
+  /* background: url(../img/quote-2.png); */
+}
+.leaf {
+  position: absolute;
+}
+.leaf.one {
+  top: 17%;
+  left: 14%;
+}
+.leaf.two {
+  top: 52%;
+  left: 50%;
+}
+.leaf.three {
+  top: 79%;
+  left: 18%;
+  transform: scale(-1);
+}
+.leaf.four {
+  top: 92%;
+  left: 70%;
+  transform: scale(-1);
+}
+.type-sec {
+  display: inline-block;
+  position: relative;
+  margin: 30px 0 10px;
+}
+.type-sec span {
+  font-size: 18px;
+  color: #fff;
+  top: -15px;
+}
+.type-sec p {
+  position: absolute;
+  top: -15px;
+  line-height: 0.5;
+  padding-bottom: 9px;
+  opacity: 1;
+  min-height: 30px;
+  min-width: 240px;
+}
+section.consult-category .col-md-4 {
+  background: #42bd78;
+  padding: 0;
+  position: relative;
+  overflow: hidden;
+  border-right: 2px solid #fff;
+}
+section.consult-category .col-md-4.clinic {
+  background: #c29f05;
+}
+section.consult-category .col-md-4.video {
+  background: #7bb648;
+}
+section.consult-category .col-md-4 .inner {
+  padding: 0 60px 60px;
+}
+section.consult-category .col-md-4 .inner h3 {
+  font-size: 28px;
+  font-weight: 600;
+  position: absolute;
+  top: 140px;
+  width: 40%;
+}
+section.consult-category .col-md-4 li {
+  font-family: Roboto;
+  color: #fff;
+  font-size: 20px;
+  position: relative;
+  padding-left: 40px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+section.consult-category .col-md-4 li::before {
+  content: "";
+  // background: url(../img/chev-right.png) center center/7px no-repeat;
+  width: 20px;
+  height: 28px;
+  left: 0;
+  position: absolute;
+}
+section.consult-category .col-md-4 .know-more a {
+  padding: 15px 40px;
+  font-family: Roboto;
+  font-size: 18px;
+  color: #000;
+  background: #e4f61b;
+  border-radius: 40px;
+  transition: 0.4s;
+  font-weight: 500;
+  text-transform: uppercase;
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+.tabs ul li a,
+section.contact-adres .box .button a {
+  transition: 0.2s;
+  font-family: Roboto;
+  text-transform: uppercase;
+}
+.row.top-consultation {
+  margin-bottom: 100px;
+  display: flex;
+  flex-wrap: wrap;
+}
+section.consult-category .col-md-4 .know-more a:hover {
+  background: #fa670f;
+  color: #fff;
+}
+.panchkarma-banner .content {
+  position: absolute;
+  width: 60%;
+  top: 0;
+  height: 100%;
+  padding: 70px;
+}
+.panchkarma-banner .content h3,
+.panchkarma-banner .content p,
+.tab-sec .inner-tab h2,
+.tab-sec .inner-tab h3,
+.tab-sec .inner-tab p,
+section.appointment-form h2,
+section.appointment-form p,
+section.firstwhyjiva .greenbx h2,
+section.firstwhyjiva .greenbx p,
+section.trust-sec .inner-trust .head-bx h2 {
+  color: #fff;
+}
+.panchkarma-banner .content .know-btn a {
+  font-size: 16px;
+}
+.panchkarma-banner .content h3 {
+  font-size: 38px;
+  margin-bottom: 20px;
+}
+section.about.consult-ayur-sec {
+  padding: 30px 0 70px;
+  background: #fff;
+  margin-bottom: 50px;
+}
+section.about.consult-ayur-sec .right-abt .h2,
+section.about.consult-ayur-sec .right-abt h1,
+section.about.consult-ayur-sec .right-abt h2 {
+  color: #c74a1b;
+  margin-bottom: 20px;
+}
+.more-detail.panchfirstsec h2 {
+  color: #000;
+  line-height: 1.4;
+  font-weight: 500;
+}
+.tab-sec {
+  /* background: url(../img/tabs-bg.jpg) 0 0 / cover; */
+  margin: 80px 0 0;
+  display: flex;
+  align-items: center;
+}
+.panchfirstsec .enquire-form .form-prt {
+  padding-bottom: 70px;
+}
+.panchfirstsec .detailtext {
+  border: 0;
+  padding: 0;
+}
+body.panchakarma-page .enquire-form .top-part p,
+section.doctor-section .slider .slide p {
+  font-weight: 400;
+}
+.more-detail.panchfirstsec h3 span,
+.thankinner h1 {
+  color: #08a34d;
+}
+.more-detail.panchfirstsec h3 {
+  font-size: 32px;
+  line-height: 1.2;
+  font-weight: 500;
+}
+.tabs ul {
+  background: #fff;
+  margin: 0;
+  padding: 20px;
+  border-radius: 10px;
+  width: 90%;
+}
+.tabs ul li {
+  display: block;
+  float: none;
+  margin-bottom: 2px;
+}
+.tabs ul li a {
+  background: #f6f6f6;
+  display: block;
+  width: 100%;
+  font-weight: 600;
+  border-radius: 12px;
+  padding: 18px 20px;
+}
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:focus,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li:hover a {
+  background: #d3ac00;
+  width: 115%;
+  color: #000;
+  box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.3);
+  border: 0;
+}
+.tab-sec .inner-tab p {
+  margin-bottom: 25px;
+}
+.tab-sec .inner-tab h3 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  opacity: 0.8;
+}
+.tab-sec .inner-tab h2 {
+  line-height: 1.3;
+  margin-bottom: 0;
+}
+.detailtext .col-md-12 h2 strong,
+.tab-sec .inner-tab p b,
+section.inner-banner-sec h3 strong,
+section.inner-banner-sec h4 strong {
+  font-weight: 500;
+}
+.tab-content > .tab-pane {
+  transform: translateY(30px);
+}
+.tab-content > .tab-pane.active {
+  -webkit-animation: 0.4s forwards tabsanim;
+  animation-timing-function: ease;
+}
+@keyframes tabsanim {
+  0% {
+    transform: translateY(25px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+section.panchdis-sec {
+  /* background: url(../img/sadhu-2.jpg); */
+}
+section.personalized-form {
+  background: #e6e6e6;
+  padding-bottom: 5px;
+}
+section.appointment-form {
+  background: #c74a1b;
+}
+.inner-personalised label select {
+  background: #c74a1b;
+  width: 50%;
+  margin: auto;
+  font-weight: 400;
+  display: block;
+  padding: 25px 30px 25px 23%;
+  font-size: 20px;
+  color: #fff;
+  font-family: Roboto;
+  border-radius: 5px;
+  outline: 0;
+}
+.inner-personalised label {
+  width: 50%;
+  position: relative;
+  margin: AUTO AUTO 60px;
+  display: block;
+  font-family: Roboto;
+}
+.inner-personalised ul.dropdown-menu.inner li.active a {
+  background: #08a34d;
+}
+.inner-personalised label .bootstrap-select button {
+  background: #c74a1b !important;
+  outline: 0 !important;
+  border-radius: 6px;
+}
+.inner-personalised label h3 {
+  position: absolute;
+  left: 28%;
+  font-family: Roboto;
+  color: #fff;
+  font-weight: 400;
+  text-transform: uppercase;
+  top: 14%;
+  font-size: 18px;
+}
+.inner-personalised .inner-form {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.inner-appointment .inner-form .input,
+.inner-personalised .inner-form .input {
+  width: calc(100% / 4);
+  padding: 4px 2px;
+}
+.inner-personalised .inner-form .input input {
+  width: 100%;
+  border: 0;
+  padding: 20px;
+  border-radius: 4px;
+}
+.inner-appointment .inner-form .select {
+  width: calc(100% / 5);
+  padding: 4px 2px;
+}
+.inner-appointment .inner-form .select select {
+  width: 99.9%;
+  border: 0;
+  padding: 20px;
+  border-radius: 4px;
+  color: #333;
+}
+.inner-personalised .inner-form textarea {
+  border: 0;
+  border-radius: 4px;
+  padding: 20px;
+  height: 160px;
+  width: 99.9%;
+  margin: auto;
+  outline: 0;
+}
+.inner-personalised .inner-form .submit {
+  text-align: center;
+  width: 100%;
+  margin-top: 20px;
+}
+.inner-personalised .inner-form .submit input {
+  background: #c74a1b;
+  color: #fff;
+  font-family: Roboto;
+  padding: 20px 40px;
+  border-radius: 40px;
+  border: 0;
+  font-size: 16px;
+  transition: 0.4s;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+.inner-appointment .inner-form .submit input {
+  background: #fff;
+  color: #c74a1b;
+}
+.comfort_icons {
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  padding-top: 50px;
+}
+.comfort_icons li {
+  font-size: 14px;
+  line-height: 20px;
+  padding: 0 20px;
+  width: 14%;
+}
+.comfort_icons li .comf_icon {
+  width: 60px;
+  height: 60px;
+  margin: 0 auto 10px;
+}
+section.locations-sec.panch-locate .slctstate .selctbx {
+  width: 78%;
+}
+section.locations-sec.panch-locate {
+  padding-top: 80px;
+  background: #c74a1b;
+}
+section.locations-sec.panch-locate .head h2 {
+  color: #fff;
+  font-size: 72px;
+  line-height: 1.1;
+  margin-bottom: 60px;
+}
+section.locations-sec.panch-locate .location-bx {
+  margin-bottom: 10px;
+}
+section.locations-sec.panch-locate .bootstrap-select button {
+  background: #e6e6e6 !important;
+  padding: 16px 40px;
+  border: 0;
+  border-radius: 40px;
+  color: #888;
+  outline: 0 !important;
+}
+.bootstrap-select button {
+  outline: 0 !important;
+  font-family: Roboto;
+}
+.bootstrap-select .dropdown-menu {
+  overflow-y: scroll !important;
+}
+section#faqs.panch-faqs .inner-faq {
+  background: #fff;
+  padding-bottom: 0;
+}
+section#faqs.panch-faqs .inner-faq .panel-heading {
+  background: 0 0;
+}
+section#faqs .panel-body {
+  padding-left: 0;
+  background-color: transparent;
+}
+.video-sec .play {
+  position: absolute;
+  top: 45%;
+  left: 45%;
+}
+.nav-tabs > li a {
+  border: 0;
+}
+.more-detail.panchfirstsec h1 {
+  font-size: 57px;
+  padding-top: 0;
+}
+section.panchdis-sec .disease-inner .row .col {
+  padding: 0 3px;
+}
+.know-btn.load-active a {
+  opacity: 0.1;
+  pointer-events: none;
+}
+.know-btn #loader {
+  opacity: 0;
+  visibility: hidden;
+}
+.know-btn.load-active #loader {
+  opacity: 1;
+  visibility: visible;
+}
+#loader {
+  position: absolute;
+  left: 72%;
+  top: 70px;
+  z-index: 1;
+  margin: -75px 0 0 -75px;
+  border: 6px solid #c9e2d5;
+  border-radius: 50%;
+  border-top: 6px solid #08a34d;
+  width: 40px;
+  height: 40px;
+  transform-origin: center;
+  -webkit-animation: 2s linear infinite spin;
+  animation: 1s linear infinite spin;
+}
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.animate-bottom {
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1s;
+}
+@-webkit-keyframes animatebottom {
+  from {
+    bottom: -100px;
+    opacity: 0;
+  }
+  to {
+    bottom: 0;
+    opacity: 1;
+  }
+}
+@keyframes animatebottom {
+  from {
+    bottom: -100px;
+    opacity: 0;
+  }
+  to {
+    bottom: 0;
+    opacity: 1;
+  }
+}
+.bootstrap-select.form-control {
+  background: 0 0;
+  border: 0;
+  box-shadow: none;
+}
+.inner-personalised .selctbx::after,
+.symptombx ul li a:hover:before {
+  filter: invert(1);
+}
+section.firstwhyjiva .greenbx {
+  background: #c3cc9d;
+  padding: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.heritage-sec {
+  margin-top: 90px;
+}
+.heritage-sec .col-md-4 {
+  padding: 0 20px;
+}
+.heritage-sec .row {
+  max-width: 1030px;
+  margin: auto;
+}
+section.doctor-section {
+  /* background-image: url(../img/doctors-bg.jpg); */
+  min-height: 1200px;
+  background-size: cover;
+  background-position: bottom;
+  background-color: #e9edec;
+}
+section.doctor-section .left-sec {
+  padding-right: 100px;
+}
+section.doctor-section .slider {
+  background: #fff;
+  padding: 30px 70px 70px;
+}
+section.doctor-section .slider .slide h3 {
+  color: #c74a1b;
+  margin-top: 0;
+}
+section.doctor-section .slider .slide {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 20px;
+  margin-bottom: 0;
+}
+section.doctor-section .slider .slick-dots {
+  display: inline-block;
+  width: auto;
+  bottom: -50px;
+  left: 10px;
+}
+section.doctor-section .slider .slick-dots li a {
+  background: #ffb89e;
+  color: #fff;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  display: block;
+  border-radius: 50%;
+}
+section.doctor-section .slider .slick-dots li {
+  margin: 0 8px;
+}
+section.doctor-section .slider .slick-dots li.slick-active a {
+  background: #c74a1b;
+  width: 30px;
+  height: 30px;
+  display: block;
+}
+section.doctor-section .slider .slick-next,
+section.doctor-section .slider .slick-prev {
+  bottom: -19%;
+  // background-image: url(../img/chev-right.png);
+  background-size: 8px;
+  background-color: #ffb89e;
+  top: auto;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  right: 0;
+  transform: rotate(-90deg);
+}
+section.doctor-section .slider .slick-prev {
+  right: 55px;
+  left: auto;
+  // background-image: url(../img/chev-left.png);
+}
+section.journey-sec {
+  background: #f5f5f5;
+  padding: 100px 0 120px;
+}
+section.journey-sec .inner-journey .col {
+  width: calc(100% / 5);
+  padding: 0 12px;
+}
+section.journey-sec .inner-journey .col .inner {
+  background: #fff;
+  padding: 30px;
+  height: 100%;
+  box-shadow: 5px 5px 20px #00000014;
+  border-radius: 20px;
+}
+section.journey-sec .inner-journey .col .inner p {
+  font-size: 18px;
+  margin-top: 80px;
+  font-weight: 600;
+}
+section.journey-sec .inner-journey .col .inner p span {
+  color: #00652d;
+}
+.inner-success .bx {
+  background: #f4f1ea;
+  padding: 0;
+  border-radius: 20px;
+  height: 100%;
+}
+.inner-success .bx .top {
+  background: #723421;
+  padding: 40px;
+  border-radius: 20px 20px 0 0;
+}
+.inner-success .bx .bottom {
+  padding: 60px 40px;
+}
+.inner-success .bx .top h2 {
+  font-family: Roboto;
+  color: #ffe8df;
+  font-weight: 700;
+}
+.inner-success .bx .top p {
+  color: #fff;
+  margin-bottom: 0;
+}
+section.success-num .head-bx {
+  margin-bottom: 70px;
+}
+.ayurnique-treatment .head-sec sup {
+  font-size: 26px;
+  font-weight: 600;
+}
+section.technology-sec {
+  position: relative;
+  padding-bottom: 0;
+}
+section.technology-sec .row {
+  background: #e4e5e7;
+  padding: 0;
+}
+section.technology-sec .row img {
+  bottom: 0;
+}
+section.technology-sec .head h2 {
+  font-size: 72px;
+  position: relative;
+  z-index: 9;
+  transform: translateY(60px);
+}
+section.technology-sec .col-md-6 {
+  position: static;
+  padding-right: 100px;
+}
+section.technology-sec .head {
+  margin-bottom: 40px;
+  padding-left: 90px;
+}
+section.technology-sec .col-md-6 h2 {
+  margin-bottom: 30px;
+  position: relative;
+}
+.techbx .inner-right h4 {
+  font-size: 28px;
+  line-height: 1.3;
+}
+section.consult-category.whyjiva-consult {
+  padding-top: 110px;
+  padding-bottom: 0;
+}
+section.trust-sec {
+  background: #c74a1b;
+  text-align: center;
+}
+section.trust-sec .inner-trust {
+  width: 70%;
+  margin: AUTO;
+}
+.inner-trust .head-bx h3 {
+  color: #e4f61b;
+}
+section.trust-sec .inner-trust .other-head .head-bx {
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+section.trust-sec .inner-trust .other-head h2 span {
+  color: #e4f61b;
+  text-transform: capitalize;
+}
+section.trust-sec .inner-trust .other-head h4 {
+  font-size: 28px;
+  color: #fff;
+  line-height: 1.25;
+}
+.showcase {
+  display: flex;
+  margin-top: 50px;
+}
+.showcase .box {
+  background: #fff;
+  padding: 50px 70px;
+  margin: 0 1px;
+  text-align: left;
+  display: flex;
+}
+.showcase .box p {
+  margin-top: 20px;
+  font-size: 18px;
+}
+.mini-disease-page .inner-banner-sec h4,
+.thankinner p {
+  font-size: 28px;
+}
+section.presence-sec .head-bx h2 {
+  margin-bottom: 6px;
+}
+section.presence-sec .head-bx {
+  margin-bottom: 60px;
+}
+.thankinner {
+  text-align: center;
+  padding: 50px 0 40px;
+}
+.thankinner p {
+  font-weight: 600;
+}
+.thankinner .know-btn {
+  padding-top: 40px;
+}
+section.diabetic-sec .inner-diabetic .col-md-6 {
+  font-size: 18px;
+  color: #fff;
+  font-weight: 100;
+  font-family: Roboto;
+  margin-bottom: 30px;
+}
+.slctstate .btn-group.bootstrap-select {
+  width: 100% !important;
+}
+.bootstrap-select.btn-group .dropdown-menu.open {
+  overflow: hidden !important;
+}
+input#pop_terms {
+  width: auto;
+}
+.innerbx-sel.catbx .bootstrap-select > .dropdown-toggle {
+  color: #fff;
+  background: 0 0 !important;
+  padding: 0;
+  font-size: 17px;
+  text-transform: capitalize;
+  font-family: Philosopher, sans-serif;
+  font-weight: 100;
+  line-height: 1;
+  outline: 0 !important;
+  margin-top: 5px;
+}
+.symptombx ul li a:hover {
+  background: #00652d;
+  color: #fff;
+}
+section.consult-category .col-md-4 .inner ul {
+  min-height: 210px;
+}
+section.doctor-section .slick-slider .slick-slide {
+  padding: 5px;
+}
+.tech-slider .slide {
+  display: flex !important;
+  align-items: center;
+}
+section.technology-sec .col-md-6:first-child {
+  padding-left: 0;
+}
+.techbx .slick-prev {
+  left: -50px;
+}
+.techbx .slick-next {
+  right: -50px;
+}
+.techbx .slick-next,
+.techbx .slick-prev {
+  top: 30%;
+}
+.bottom-bx.float {
+  position: FIXED;
+  z-index: 99999;
+  bottom: 50px;
+  background-color: #a83e15;
+  display: none !important;
+}
+.consult-btn.btnwicon.sticky {
+  position: FIXED;
+  bottom: 40px;
+  left: 40px;
+  z-index: 999;
+}
+.add-inner.row {
+  margin-top: 150px;
+}
+.add-inner.row .inner h5 {
+  font-family: Roboto;
+  position: relative;
+  padding-bottom: 15px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.add-inner.row .inner h5::after {
+  width: 40px;
+  bottom: 0;
+  background: #000;
+  content: "";
+  position: absolute;
+  height: 1px;
+  left: 0;
+}
+.add-inner.row .inner h3,
+section.contact-adres .head h3 {
+  font-size: 50px;
+  color: #000;
+}
+.add-inner.row .inner p {
+  font-size: 22px;
+  font-weight: 400;
+}
+.add-inner.row .inner .contact a {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: Roboto;
+}
+.add-inner.row .inner .contact,
+.jivaayrvdcnsltatnadvntg-sec .container {
+  padding-top: 20px;
+}
+section.inner-banner-sec .inner-cont {
+  text-align: CENTER;
+  color: #fff;
+}
+section.inner-banner-sec .inner-cont h3 {
+  font-size: 50px;
+  text-transform: none;
+}
+section.contact-adres .head h2 {
+  font-size: 100px;
+  color: #00632d;
+}
+section.contact-adres .box {
+  background: #313131;
+  width: 340px;
+  position: absolute;
+  border-radius: 10px;
+  padding: 50px 30px;
+  height: 390px;
+  top: 20%;
+  text-align: left;
+  left: 5%;
+}
+section.contact-adres .box p {
+  color: #fff;
+  font-size: 18px;
+}
+section.contact-adres .box .button a {
+  color: #000;
+  border: 1px solid;
+  padding: 12px 20px;
+  border-radius: 40px;
+  font-size: 13px;
+}
+.add-inner.row.jivagram h3 span,
+.add-inner.row.jivagram h5 {
+  color: #9b896b;
+}
+.add-inner.row.jivagram .box {
+  background: #9b896b;
+}
+.add-inner.row .box p {
+  font-size: 18px;
+  font-weight: 300;
+  padding-top: 30px;
+  margin-bottom: 40px;
+}
+.aboutus-banner-section h1 > span,
+.aboutus-banner-section h2 > span,
+.add-inner.row.jiva-office h3 span,
+.add-inner.row.jiva-office h5 {
+  color: #fa670f;
+}
+.add-inner.row.jiva-school h3 span,
+.add-inner.row.jiva-school h5 {
+  color: #1a0d41;
+}
+.add-inner.row.jiva-office .box {
+  background: #c74a1a;
+}
+.add-inner.row.jiva-school .box {
+  background: #1a0d41;
+}
+section.contact-adres .add-inner.row.jiva-office .box {
+  right: 5%;
+  left: auto;
+}
+.add-inner.row.jiva-school {
+  margin-bottom: 80px;
+}
+section.why-jiva.years-sec {
+  background: #faeac5;
+  padding-top: 80px;
+  padding-bottom: 70px;
+}
+section.why-jiva.years-sec .btm-jiva-why {
+  box-shadow: none;
+  margin-top: 0;
+  padding: 0;
+  background: 0 0;
+}
+section.why-jiva.years-sec .btm-jiva-why .inner {
+  background: #1a1102;
+}
+section.why-jiva.years-sec .btm-jiva-why .inner h2 {
+  color: #b68741;
+}
+section.contact-adres .box .button a:hover {
+  background: #fff;
+  border-color: #fff;
+}
+section.ayurved-banner.speak-cont-sec .right-ayurved .input input::placeholder,
+section.ayurved-banner.speak-cont-sec
+  .right-ayurved
+  .input
+  textarea::placeholder {
+  color: #fff;
+}
+.error404sec {
+  /* background-image: url(../img/404bg.jpg); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.error404sec .errorinner {
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+.error404sec .errorinner .v-center {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+.error404sec .errorinner h1 {
+  font-size: 230px;
+  color: #fff;
+}
+.error404sec .errorinner .text-clr {
+  color: #f9ff56;
+}
+.error404sec .errorinner p {
+  font-size: 30px;
+  color: #fff;
+  font-family: Philosopher, sans-serifl;
+  line-height: 30px;
+}
+.jivaayrvdcnsltatnadvntg-sec {
+  padding: 95px 0 100px;
+  background-color: #f4f1ea;
+}
+.jivaayrvdcnsltatnadvntg-sec .container > .rowflex {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+.jivaayrvdcnsltatnadvntg-sec .cntnt-grp {
+  color: rgba(35, 31, 32, 0.7);
+  font-size: 136%;
+  font-weight: 300;
+  line-height: 1.55;
+  width: 95%;
+  max-width: 675px;
+  padding: 0 0 30px;
+}
+.inputgrp > label,
+.jivaayrvdcnsltatnadvntg-sec .cntnt-grp .h1,
+.jivaayrvdcnsltatnadvntg-sec .cntnt-grp .h2,
+.jivaayrvdcnsltatnadvntg-sec .cntnt-grp .h3,
+.jivaayrvdcnsltatnadvntg-sec .cntnt-grp .h4,
+.jivaayrvdcnsltatnadvntg-sec .cntnt-grp .h5,
+.jivaayrvdcnsltatnadvntg-sec .cntnt-grp .h6,
+.jivaayrvdcnsltatnadvntg-sec .cntnt-grp h1,
+.jivaayrvdcnsltatnadvntg-sec .cntnt-grp h2,
+.jivaayrvdcnsltatnadvntg-sec .cntnt-grp h3,
+.jivaayrvdcnsltatnadvntg-sec .cntnt-grp h4,
+.jivaayrvdcnsltatnadvntg-sec .cntnt-grp h5,
+.jivaayrvdcnsltatnadvntg-sec .cntnt-grp h6 {
+  color: #000;
+  font-family: Lato, arial;
+}
+.jivaayrvdcnsltatnadvntg-sec .form-grp {
+  width: 90%;
+  max-width: 320px;
+  margin: 0 0 0 auto;
+}
+.jivaayrvdcnsltatnadvntg-sec .form-grp h4 {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.5;
+  font-family: Lato, arial;
+}
+.jivaayrvdcnsltatnadvntg-sec .form-grp form {
+  padding: 10px 0 0;
+}
+.jivaayrvdcnsltatnadvntg-sec .form-grp .frmbtn {
+  width: 100%;
+  max-width: 100%;
+  margin: 20px 0 0;
+}
+@media (min-width: 1601px) {
+  .jivaayrvdcnsltatnadvntg-sec .cntnt-grp .h3,
+  .jivaayrvdcnsltatnadvntg-sec .cntnt-grp h3 {
+    font-size: 34.6px;
+    line-height: 1.3;
+  }
+}
+@media (max-width: 1600px) {
+  .jivaayrvdcnsltatnadvntg-sec .container {
+    padding-top: 7px;
+  }
+  .jivaayrvdcnsltatnadvntg-sec .cntnt-grp {
+    padding-bottom: 24px;
+  }
+}
+@media (max-width: 1366px) {
+  .jivaayrvdcnsltatnadvntg-sec {
+    padding: 80px 0 85px;
+  }
+  .jivaayrvdcnsltatnadvntg-sec .cntnt-grp {
+    font-size: 123%;
+    width: 90%;
+    max-width: 600px;
+    padding-bottom: 15px;
+  }
+  .jivaayrvdcnsltatnadvntg-sec .form-grp {
+    width: 90%;
+    max-width: 270px;
+  }
+  .jivaayrvdcnsltatnadvntg-sec .form-grp .frmbtn {
+    margin-top: 14px;
+  }
+}
+@media (max-width: 1300px) {
+  .jivaayrvdcnsltatnadvntg-sec {
+    padding: 80px 0;
+  }
+  .jivaayrvdcnsltatnadvntg-sec .container {
+    padding-top: 3px;
+  }
+  .jivaayrvdcnsltatnadvntg-sec .cntnt-grp {
+    line-height: 1.6;
+    width: 88%;
+    max-width: 580px;
+  }
+  .jivaayrvdcnsltatnadvntg-sec .cntnt-grp .h3,
+  .jivaayrvdcnsltatnadvntg-sec .cntnt-grp h3 {
+    line-height: 1.3;
+  }
+  .jivaayrvdcnsltatnadvntg-sec .cntnt-grp > * {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .jivaayrvdcnsltatnadvntg-sec .form-grp {
+    width: 85%;
+    max-width: 253px;
+  }
+}
+ul.ayrvdcnsltatnadvntg-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0 -6px;
+  list-style: none;
+}
+ul.ayrvdcnsltatnadvntg-list > li {
+  width: 25%;
+  padding: 0 6px;
+  margin: 26px 0 0;
+}
+ul.ayrvdcnsltatnadvntg-list > li .li-innr {
+  width: 100%;
+  height: 100%;
+  min-height: 260px;
+  padding: 30px 28px 25px;
+  background-color: rgba(255, 255, 255, 0.8);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: row;
+}
+ul.ayrvdcnsltatnadvntg-list > li .li-innr > span {
+  display: block;
+  width: 100%;
+}
+ul.ayrvdcnsltatnadvntg-list > li .li-innr .icon {
+  margin: 0 0 20px;
+  min-height: 52%;
+}
+ul.ayrvdcnsltatnadvntg-list > li .li-innr .text {
+  color: #200;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 1.5;
+  text-transform: uppercase;
+}
+@media (max-width: 1600px) {
+  ul.ayrvdcnsltatnadvntg-list > li .li-innr {
+    min-height: 256px;
+  }
+}
+@media (max-width: 1366px) {
+  ul.ayrvdcnsltatnadvntg-list > li .li-innr {
+    min-height: 216px;
+    padding: 25px 23px 20px;
+  }
+  ul.ayrvdcnsltatnadvntg-list > li .li-innr .icon {
+    margin-bottom: 15px;
+  }
+  ul.ayrvdcnsltatnadvntg-list > li .li-innr .icon > img {
+    max-height: 48px;
+    max-width: 62px;
+  }
+  ul.ayrvdcnsltatnadvntg-list > li .li-innr .text {
+    font-size: 14.5px;
+  }
+}
+@media (max-width: 1300px) {
+  ul.ayrvdcnsltatnadvntg-list > li .li-innr {
+    min-height: 206px;
+    padding: 24px 22px 18px;
+  }
+  ul.ayrvdcnsltatnadvntg-list > li .li-innr .icon > img {
+    max-height: 45px;
+    max-width: 58px;
+  }
+  ul.ayrvdcnsltatnadvntg-list > li .li-innr .text {
+    font-size: 13px;
+  }
+}
+@media (max-width: 1100px) {
+  .jivaayrvdcnsltatnadvntg-sec .container > .row > * {
+    width: 100%;
+  }
+  .jivaayrvdcnsltatnadvntg-sec .cntnt-grp {
+    width: 100%;
+    max-width: 100%;
+    padding-bottom: 15px;
+  }
+  .jivaayrvdcnsltatnadvntg-sec .form-grp {
+    width: 55%;
+    max-width: 400px;
+    margin: 10px 0 0;
+    padding: 30px 0 0;
+  }
+  ul.ayrvdcnsltatnadvntg-list > li {
+    margin-top: 10px;
+  }
+}
+@media (max-width: 767px) {
+  .jivaayrvdcnsltatnadvntg-sec .container {
+    padding-top: 0;
+  }
+  .jivaayrvdcnsltatnadvntg-sec .cntnt-grp {
+    font-size: 125%;
+    text-align: center;
+  }
+  .jivaayrvdcnsltatnadvntg-sec .form-grp {
+    width: 100%;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .jivaayrvdcnsltatnadvntg-sec .container > .rowflex {
+    flex-direction: column;
+  }
+  ul.ayrvdcnsltatnadvntg-list > li {
+    width: 50%;
+    max-width: 171px;
+    margin-top: 10px;
+  }
+  ul.ayrvdcnsltatnadvntg-list > li .li-innr {
+    min-height: 240px;
+  }
+  ul.ayrvdcnsltatnadvntg-list > li .li-innr .text {
+    font-size: 15px;
+  }
+  .formtitle {
+    text-align: center;
+  }
+}
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+fieldset.row {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+fieldset.row > div[class*="md-col"],
+fieldset.row > div[class*="xs-col"] {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.inputgrp {
+  width: 100%;
+  margin: 0;
+  padding: 0 0 5px;
+  position: relative;
+  overflow: hidden;
+}
+.inputgrp > label {
+  display: block;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.4;
+}
+.inputgrp .select,
+.inputgrp input,
+.inputgrp select,
+.inputgrp textarea {
+  display: block;
+  color: #000;
+  font-family: Lato, arial;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.4;
+  border: 0;
+  padding: 24px 25px;
+  margin: 5px 0 0;
+  width: 100%;
+  max-width: 100%;
+}
+.inputgrp .select::-webkit-input-placeholder,
+.inputgrp input::-webkit-input-placeholder,
+.inputgrp select::-webkit-input-placeholder,
+.inputgrp textarea::-webkit-input-placeholder {
+  color: inherit;
+  opacity: 0.7;
+}
+.inputgrp .select::-ms-input-placeholder,
+.inputgrp input::-ms-input-placeholder,
+.inputgrp select::-ms-input-placeholder,
+.inputgrp textarea::-ms-input-placeholder {
+  color: inherit;
+  opacity: 0.7;
+}
+.inputgrp .select::-moz-placeholder,
+.inputgrp input::-moz-placeholder,
+.inputgrp select::-moz-placeholder,
+.inputgrp textarea::-moz-placeholder {
+  color: inherit;
+  opacity: 0.7;
+}
+.inputgrp .select:focus,
+.inputgrp input:focus,
+.inputgrp select:focus,
+.inputgrp textarea:focus {
+  outline: 0;
+  border-color: #eee;
+}
+.inputgrp .select .select,
+.inputgrp .select select,
+.inputgrp input .select,
+.inputgrp input select,
+.inputgrp select .select,
+.inputgrp select select,
+.inputgrp textarea .select,
+.inputgrp textarea select {
+  color: rgba(0, 0, 0, 0.7);
+}
+.inputgrp.slctinputgrp:after {
+  content: "";
+  width: 13px;
+  height: 6px;
+  /* background-image: url(../img/selectinput-arrow.png); */
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  top: 50%;
+  left: auto;
+  right: 30px;
+  transform: translateY(-50%);
+  opacity: 0.7;
+}
+.inputgrp.slctinputgrp .select,
+.inputgrp.slctinputgrp select {
+  color: rgba(0, 0, 0, 0.7);
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+.inputgrp textarea {
+  min-height: 70px;
+}
+@media (max-width: 1600px) {
+  .inputgrp .select,
+  .inputgrp input,
+  .inputgrp select,
+  .inputgrp textarea {
+    padding: 23px 22px;
+  }
+  .inputgrp.slctinputgrp:after {
+    width: 12px;
+    height: 5px;
+    right: 20px;
+  }
+}
+@media (max-width: 1366px) {
+  .inputgrp {
+    padding-bottom: 3px;
+  }
+  .inputgrp .select,
+  .inputgrp input,
+  .inputgrp select,
+  .inputgrp textarea {
+    font-size: 13px;
+    padding: 20.5px 20px;
+  }
+}
+@media (max-width: 1300px) {
+  .inputgrp .select,
+  .inputgrp input,
+  .inputgrp select,
+  .inputgrp textarea {
+    font-size: 12px;
+    padding: 19.5px 18px;
+  }
+}
+@media (max-width: 1100px) {
+  .inputgrp .select,
+  .inputgrp input,
+  .inputgrp select,
+  .inputgrp textarea {
+    font-size: 14px;
+    padding: 22px 24px;
+  }
+}
+@media (max-width: 767px) {
+  .inputgrp .select,
+  .inputgrp input,
+  .inputgrp select,
+  .inputgrp textarea {
+    font-size: 16px;
+    padding: 25px 30px;
+  }
+}
+.frmbtn {
+  cursor: pointer;
+  color: #fff;
+  font-family: Lato, arial;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.45;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: #c74a1b;
+  border: 1px solid #c74a1b;
+  padding: 24px 25px;
+  margin: 10px 0;
+  display: inline-block;
+  vertical-align: top;
+  min-width: 100px;
+}
+.frmbtn:hover {
+  color: #c74a1b;
+  background-color: #fff;
+  border-color: #c74a1b;
+}
+@media (max-width: 1600px) {
+  .frmbtn {
+    padding: 23.5px 25px;
+    margin: 15px 0 -1px;
+  }
+}
+@media (max-width: 1366px) {
+  .frmbtn {
+    font-size: 12px;
+    padding: 20px 25px;
+  }
+}
+@media (max-width: 1300px) {
+  .frmbtn {
+    font-size: 11px;
+    padding: 19px 20px;
+  }
+}
+.testi_p_info {
+  background-color: #fbf9f5;
+}
+.testi_p_head {
+  text-align: center;
+  width: 950px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+.testi_p_head h2 {
+  color: #402221;
+  font-family: Lato, arial;
+}
+.testi_p_head h4 {
+  font-family: Lato, arial;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 500;
+  color: #707070;
+  margin-bottom: 30px;
+}
+.testi_select {
+  width: 60%;
+  margin: 0 auto 70px;
+  background: #e8e4db;
+}
+.testi_select .selctbx {
+  width: 49.5%;
+}
+.testi_select .selctbx select {
+  background-color: #fff;
+  color: #c84a1a;
+}
+.testi_sec {
+  width: 60%;
+}
+.testi_sec h1 {
+  font-family: Lato, arial;
+  color: #c84a1a !important;
+  font-size: 60px !important;
+  font-weight: 600 !important;
+  position: relative;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+.testi_sec h1 span {
+  color: #000;
+  display: block;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  font-size: 58px;
+  padding-bottom: 10px;
+}
+.testi_sec h1:after {
+  content: "";
+  position: absolute;
+  width: 140px;
+  height: 6px;
+  background-color: #c84a1a;
+  left: 0;
+  bottom: -20px;
+}
+.testi_sec p {
+  font-size: 34px !important;
+  color: #000 !important;
+  font-weight: 300 !important;
+  padding-bottom: 10px;
+  text-align: left;
+  padding-top: 50px;
+}
+.testi_sec li {
+  display: inline-block;
+  font-size: 18px;
+  padding-right: 15px;
+  color: #000;
+}
+.testi_p_cards .col-md-4 {
+  margin-top: 110px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.inner_p_card {
+  background-color: #fff;
+  box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.15);
+  padding: 20px 20px 0;
+  height: 100%;
+  position: relative;
+}
+.inner_p_card .testi_p_pic {
+  width: 130px;
+  height: 130px;
+  margin: -85px auto 20px;
+  border: 10px solid #e8e4db;
+  border-radius: 100%;
+}
+.inner_p_card .testi_p_pic img {
+  border-radius: 100%;
+}
+.inner_p_card .testi_p_descrip .testi_p_descrip_content {
+  min-height: 350px;
+}
+.inner_p_card .testi_p_descrip p {
+  font-size: 18px;
+  line-height: 26px;
+  padding-bottom: 15px;
+}
+.inner_p_card .testi_p_descrip h5 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 600;
+  position: relative;
+  padding-bottom: 15px;
+  font-family: Lato, arial;
+  color: #402221;
+}
+.inner_p_card .testi_p_descrip h5:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 100px;
+  height: 6px;
+  background: #f4f1ea;
+  margin: 0 auto;
+  bottom: 0;
+}
+.inner_p_card .testi_p_descrip h6 {
+  text-align: center;
+  font-family: Lato, arial;
+  font-size: 18px;
+  font-weight: 400;
+  padding-bottom: 50px;
+  color: #707070;
+}
+.inner_p_card .testi_p_descrip .disease_title {
+  text-align: center;
+  font-family: Lato, arial;
+  font-size: 15px;
+  font-weight: 400;
+  background-color: #bb3810;
+  color: #e8e4db;
+  text-transform: uppercase;
+  margin: 0 auto;
+  width: 70%;
+  border-radius: 15px 15px 0 0;
+  padding: 5px 10px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.owl-carousel .testi_p_cards {
+  display: none;
+  width: 100%;
+  -webkit-tap-highlight-color: transparent;
+  position: relative;
+  z-index: 1;
+}
+.owl-carousel .testi_p_cards .owl-stage {
+  position: relative;
+  -ms-touch-action: pan-Y;
+  touch-action: manipulation;
+  -moz-backface-visibility: hidden;
+}
+.owl-carousel .testi_p_cards .owl-stage:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+.owl-carousel .testi_p_cards .owl-stage-outer {
+  position: relative;
+  overflow: hidden;
+  -webkit-transform: translate3d(0, 0, 0);
+}
+.owl-carousel .testi_p_cards .owl-item,
+.owl-carousel .testi_p_cards .owl-wrapper {
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+}
+.owl-carousel .owl-item {
+  position: relative;
+  min-height: 1px;
+  float: left;
+  -webkit-backface-visibility: hidden;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+}
+.testi_p_cards .owl-dots {
+  text-align: center;
+  display: none;
+}
+.testi_p_cards .owl-dots .owl-dot {
+  display: inline-block;
+  zoom: 1;
+  background: 0 0;
+  border: none;
+  width: 30px;
+}
+.owl-dots .owl-dot:hover span,
+.testi_p_cards .owl-dots .owl-dot.active span {
+  background: #402221;
+}
+.testi_p_cards .owl-dots .owl-dot span {
+  width: 20px;
+  height: 20px;
+  margin: 5px 7px;
+  background: #fff;
+  border: 2px solid #cfccc3;
+  display: block;
+  -webkit-backface-visibility: visible;
+  transition: opacity 0.2s;
+  border-radius: 30px;
+}
+@media (min-width: 768px) and (max-width: 1920px) {
+  .owl-carousel.testi_p_cards .owl-stage {
+    width: 102% !important;
+    transform: none !important;
+  }
+  .owl-carousel.testi_p_cards .owl-item {
+    display: none;
+  }
+  .owl-carousel.testi_p_cards .owl-item:first-child,
+  .owl-carousel.testi_p_cards .owl-item:nth-child(2),
+  .owl-carousel.testi_p_cards .owl-item:nth-child(3),
+  .owl-carousel.testi_p_cards.load-more-testi .owl-item {
+    display: block;
+  }
+}
+.imrc_info .head-bx {
+  width: 70%;
+  margin: 0 auto 140px;
+}
+.imrc_benefits .head-bx h2,
+.imrc_info .head-bx h2 {
+  font-size: 36px;
+}
+.scientic_approch {
+  background-color: #c84a1a;
+  width: 40%;
+  margin: 0 auto;
+  padding: 50px 40px;
+  border-radius: 30px;
+  text-align: center;
+  color: #fff;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -30%;
+}
+.scientic_approch h2 {
+  font-size: 28px;
+  text-transform: uppercase;
+  color: #fff;
+}
+.dr_chauhan_info,
+ul.jivabrandstore-list > li:nth-child(12n) .li-innr,
+ul.jivabrandstore-list > li:nth-child(13n) .li-innr,
+ul.jivabrandstore-list > li:nth-child(18n) .li-innr,
+ul.jivabrandstore-list > li:nth-child(23n) .li-innr,
+ul.jivabrandstore-list > li:nth-child(2n) .li-innr,
+ul.jivabrandstore-list > li:nth-child(5n) .li-innr,
+ul.jivabrandstore-list > li:nth-child(7n) .li-innr {
+  background-color: #f4f1ea;
+}
+.dr_chauhan_info .dr_info_inner {
+  padding: 150px 0 50px;
+}
+.dr_chauhan_info .dr_info_inner h3 {
+  background-color: #000;
+  font-size: 32px;
+  color: #fff;
+  padding: 5px 10px;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+.dr_chauhan_info .dr_info_inner h2 {
+  font-size: 42px;
+  color: #c84a1a;
+  font-weight: 700;
+  position: relative;
+  margin-bottom: 50px;
+}
+.dr_chauhan_info .dr_info_inner h2:after {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 6px;
+  background-color: #402221;
+  left: 0;
+  bottom: -20px;
+}
+.dr_chauhan_info .dr_info_inner h4 {
+  font-size: 30px;
+  color: #000;
+  font-weight: 600;
+}
+.dr_chauhan_info .dr_info_inner h4 span {
+  display: block;
+  font-size: 20px;
+  color: #747474;
+  margin-bottom: 30px;
+}
+.whychoosejivaayrvd-sec {
+  position: relative;
+  overflow: hidden;
+  background-color: #fff;
+  padding: 50px 0 98px;
+}
+.whychoosejivaayrvd-sec .secheader-grp {
+  width: 95%;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 0 30px;
+  font-family: Lato, arial;
+}
+.whychoosejivaayrvd-sec .secheader-grp h2 {
+  text-align: center;
+  font-weight: 700;
+  color: #000;
+}
+@media (max-width: 1600px) {
+  .whychoosejivaayrvd-sec .secheader-grp {
+    width: 80%;
+    max-width: 980px;
+  }
+}
+ul.whychsejivaayrvd-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0 -24px;
+  list-style: none;
+}
+ul.whychsejivaayrvd-list > li {
+  width: 33.33%;
+  padding: 22px 24px;
+}
+ul.whychsejivaayrvd-list > li .li-innr {
+  width: 100%;
+  height: 100%;
+  background-color: #c84a1a;
+}
+ul.helthandhelngstris-list > li .li-innr .img-grp,
+ul.whychsejivaayrvd-list > li .li-innr .img-grp {
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 275px;
+}
+ul.whychsejivaayrvd-list > li .li-innr .img-grp > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  right: auto;
+  transform: translateX(-50%);
+}
+ul.whychsejivaayrvd-list > li .li-innr .text {
+  color: #e8e4db;
+  text-transform: capitalize;
+  padding: 22px 32px 25px;
+  margin: 0;
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 400;
+}
+@media (max-width: 1600px) {
+  ul.whychsejivaayrvd-list > li .li-innr .img-grp {
+    padding-bottom: 272px;
+  }
+  ul.whychsejivaayrvd-list > li .li-innr .text {
+    padding: 21px 30px 27px;
+  }
+  .knowyourdiseases-sec .container {
+    width: 90%;
+    max-width: 1300px;
+  }
+}
+@media (max-width: 1100px) {
+  ul.whychsejivaayrvd-list > li {
+    width: 50%;
+  }
+}
+.imrc_benefits {
+  background: #f4f1e8;
+}
+.imrc_benefit ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.imrc_benefit li {
+  flex: 1 1 400px;
+  margin: 20px;
+}
+.imrc_benefit li span.img-benefit::after {
+  content: "";
+  position: absolute;
+  width: 60px;
+  height: 3px;
+  margin: 0 auto;
+  background-color: #953714;
+  left: 0;
+  right: 0;
+  bottom: -40px;
+}
+.imrc_benefit li h5 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #c84a1a;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+.imrc_benefit li p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #707070;
+  line-height: 20px;
+}
+.knowyourdiseases-sec {
+  position: relative;
+  overflow: hidden;
+  background-color: #fff;
+  padding: 110px 0 50px;
+}
+.btn,
+.btn:focus,
+.btn:hover {
+  background-color: #c74a1a;
+  color: #fff;
+}
+.knowyourdiseases-sec .secheader-grp {
+  padding: 0 0 44px;
+}
+.knowyourdiseases-sec .btn-grp {
+  padding-top: 47px;
+}
+.knowyourdiseases-sec .btn {
+  min-width: 210px;
+}
+ul.jivabrandstore-list,
+ul.knowyourdiseases-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0 -15px;
+  list-style: none;
+}
+ul.knowyourdiseases-list > li {
+  width: 16.6%;
+  padding: 15px;
+}
+ul.knowyourdiseases-list > li .li-innr {
+  color: #fff;
+  text-align: center;
+  background-color: #c3cc9d;
+  padding: 30px 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+}
+ul.helthandhelngstris-list > li .li-innr .img-grp img,
+ul.knowyourdiseases-list > li .li-innr > a {
+  width: 100%;
+  height: auto;
+}
+ul.knowyourdiseases-list > li .icon a,
+ul.knowyourdiseases-list > li .icon a:hover,
+ul.knowyourdiseases-list > li .li-innr > a,
+ul.knowyourdiseases-list > li .li-innr > a:hover,
+ul.knowyourdiseases-list > li .taketest-link > a,
+ul.knowyourdiseases-list > li .taketest-link > a:hover,
+ul.knowyourdiseases-list > li .text a,
+ul.knowyourdiseases-list > li .text a:hover {
+  color: inherit;
+  text-decoration: none;
+}
+ul.knowyourdiseases-list > li .icon {
+  padding: 0 0 30px;
+}
+ul.knowyourdiseases-list > li .icon > img,
+ul.stpprsnldayrdictrtmnt-list > li .li-innr .icon > img {
+  display: block;
+  margin: 5px auto;
+}
+ul.knowyourdiseases-list > li .text,
+ul.knowyourdiseases-list > li .text h6 {
+  font-size: 17px;
+}
+ul.knowyourdiseases-list > li .text u {
+  display: inline-block;
+  vertical-align: top;
+  text-decoration: none;
+  padding-bottom: 1px;
+  border-bottom: 1px solid #fff;
+}
+.healthandhealingstories-sec .btn-grp > :last-child,
+.secheader-grp > :last-child,
+ul.helthandhelngstris-list > li .li-innr .text-grp > :last-child,
+ul.knowyourdiseases-list > li .text > :last-child {
+  margin-bottom: 0 !important;
+}
+ul.knowyourdiseases-list > li .taketest-link {
+  display: block;
+  padding: 15px 20px;
+  color: #fff;
+  background-color: #c3cc9d;
+  border-top: 1px solid #fff;
+  text-align: center;
+  height: auto;
+}
+ul.knowyourdiseases-list > li .knowmore-link {
+  display: block;
+  padding: 15px 0 2px;
+  font-size: 80%;
+}
+@media (min-width: 1101px) {
+  ul.knowyourdiseases-list > li .li-innr > a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+}
+@media (max-width: 1366px) {
+  .whychoosejivaayrvd-sec {
+    padding: 42px 0 84px;
+  }
+  .whychoosejivaayrvd-sec .secheader-grp {
+    width: 80%;
+    max-width: 825px;
+    padding-bottom: 24px;
+  }
+  ul.whychsejivaayrvd-list {
+    margin: 0 -20px;
+  }
+  ul.whychsejivaayrvd-list > li {
+    padding: 17px 20px;
+  }
+  ul.whychsejivaayrvd-list > li .li-innr .img-grp {
+    padding-bottom: 70.2%;
+  }
+  ul.whychsejivaayrvd-list > li .li-innr .text {
+    padding: 17px 24px 22px;
+  }
+  .knowyourdiseases-sec {
+    padding: 95px 0 42px;
+  }
+  .knowyourdiseases-sec .container {
+    width: 85%;
+    max-width: 1105px;
+  }
+  .knowyourdiseases-sec .secheader-grp {
+    padding-bottom: 35px;
+  }
+  .knowyourdiseases-sec .btn-grp {
+    padding-top: 35px;
+  }
+  .knowyourdiseases-sec .btn {
+    min-width: 181px;
+  }
+  ul.knowyourdiseases-list {
+    margin: 0 -12px;
+  }
+  ul.knowyourdiseases-list > li {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  ul.knowyourdiseases-list > li .li-innr {
+    padding-top: 28px;
+    padding-bottom: 20px;
+  }
+  ul.knowyourdiseases-list > li .icon {
+    padding-bottom: 30px;
+  }
+  ul.knowyourdiseases-list > li .icon > img {
+    max-width: 63%;
+    max-height: 80px;
+  }
+  ul.knowyourdiseases-list > li .text {
+    font-size: 14px;
+  }
+  ul.knowyourdiseases-list > li .text > * {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 1300px) {
+  .whychoosejivaayrvd-sec {
+    padding: 38px 0 78px;
+  }
+  .knowyourdiseases-sec {
+    padding: 88px 0 40px;
+  }
+  .knowyourdiseases-sec .secheader-grp {
+    padding-bottom: 31px;
+  }
+  .knowyourdiseases-sec .container {
+    width: 83%;
+    max-width: 1040px;
+  }
+  .knowyourdiseases-sec .btn-grp {
+    padding-top: 32px;
+  }
+  .knowyourdiseases-sec .btn {
+    min-width: 172px;
+  }
+  ul.knowyourdiseases-list > li .li-innr {
+    padding-top: 25px;
+    padding-bottom: 18px;
+  }
+  ul.knowyourdiseases-list > li .icon > img {
+    max-width: 63%;
+    max-height: 74px;
+  }
+  ul.knowyourdiseases-list > li .text {
+    font-size: 13px;
+  }
+}
+@media (max-width: 420px) {
+  ul.knowyourdiseases-list > li .icon {
+    padding-bottom: 20px;
+    min-height: 30vw;
+  }
+}
+.secheader-grp {
+  color: rgba(35, 31, 32, 0.7);
+  font-size: 136%;
+  font-weight: 300;
+  text-align: center;
+  font-family: Lato, arial;
+}
+.secheader-grp .h1,
+.secheader-grp .h2,
+.secheader-grp .h3,
+.secheader-grp .h4,
+.secheader-grp .h5,
+.secheader-grp .h6,
+.secheader-grp h1,
+.secheader-grp h2,
+.secheader-grp h3,
+.secheader-grp h4,
+.secheader-grp h5,
+.secheader-grp h6 {
+  color: #231f20;
+}
+@media (max-width: 1600px) {
+  .secheader-grp {
+    font-size: 124%;
+  }
+}
+.btn {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.5;
+  text-transform: uppercase;
+  padding: 18.5px 40px;
+  display: inline-block;
+  vertical-align: top;
+  border-radius: 0;
+  margin: 15px 0 12px;
+}
+.stepprsnlid-ayrvdictrtmnt-sec {
+  position: relative;
+  overflow: hidden;
+  padding: 100px 0;
+  color: #200;
+  background-color: #f4f1ea;
+}
+.healthandhealingstories-sec .h1,
+.healthandhealingstories-sec .h2,
+.healthandhealingstories-sec .h3,
+.healthandhealingstories-sec .h4,
+.healthandhealingstories-sec h1,
+.healthandhealingstories-sec h2,
+.healthandhealingstories-sec h3,
+.healthandhealingstories-sec h4,
+.stepprsnlid-ayrvdictrtmnt-sec .h1,
+.stepprsnlid-ayrvdictrtmnt-sec .h2,
+.stepprsnlid-ayrvdictrtmnt-sec .h3,
+.stepprsnlid-ayrvdictrtmnt-sec .h4,
+.stepprsnlid-ayrvdictrtmnt-sec .h5,
+.stepprsnlid-ayrvdictrtmnt-sec .h6,
+.stepprsnlid-ayrvdictrtmnt-sec h1,
+.stepprsnlid-ayrvdictrtmnt-sec h2,
+.stepprsnlid-ayrvdictrtmnt-sec h3,
+.stepprsnlid-ayrvdictrtmnt-sec h4,
+.stepprsnlid-ayrvdictrtmnt-sec h5,
+.stepprsnlid-ayrvdictrtmnt-sec h6 {
+  color: #200;
+}
+.stepprsnlid-ayrvdictrtmnt-sec .secheader-grp {
+  width: 95%;
+  max-width: 1055px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px 0 52px;
+}
+.stepprsnlid-ayrvdictrtmnt-sec .btn-grp {
+  padding-top: 52px;
+  padding-bottom: 6px;
+}
+.stepprsnlid-ayrvdictrtmnt-sec .btn-grp > a {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+@media (max-width: 1600px) {
+  .stepprsnlid-ayrvdictrtmnt-sec .secheader-grp {
+    font-size: 136%;
+    line-height: 1.6;
+    padding-top: 12px;
+  }
+  .stepprsnlid-ayrvdictrtmnt-sec .container {
+    width: 90%;
+    max-width: 1310px;
+  }
+}
+.healthandhealingstories-sec .secheader-grp,
+.jivabrandestore-sec .secheader-grp {
+  width: 95%;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  text-transform: capitalize;
+}
+ul.stpprsnldayrdictrtmnt-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0 -7px;
+  list-style: none;
+}
+ul.stpprsnldayrdictrtmnt-list > li {
+  width: 20%;
+  padding: 10px 7px;
+}
+ul.stpprsnldayrdictrtmnt-list > li .li-innr {
+  color: #fff;
+  text-align: center;
+  padding: 90px 20px 20px;
+  border: 1px solid #c3cc9d;
+  background-color: #c3cc9d;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.missionVision-sec-content-group > *,
+ul.stpprsnldayrdictrtmnt-list > li .li-innr .h1,
+ul.stpprsnldayrdictrtmnt-list > li .li-innr .h2,
+ul.stpprsnldayrdictrtmnt-list > li .li-innr .h3,
+ul.stpprsnldayrdictrtmnt-list > li .li-innr .h4,
+ul.stpprsnldayrdictrtmnt-list > li .li-innr .h5,
+ul.stpprsnldayrdictrtmnt-list > li .li-innr .h6,
+ul.stpprsnldayrdictrtmnt-list > li .li-innr h1,
+ul.stpprsnldayrdictrtmnt-list > li .li-innr h2,
+ul.stpprsnldayrdictrtmnt-list > li .li-innr h3,
+ul.stpprsnldayrdictrtmnt-list > li .li-innr h4,
+ul.stpprsnldayrdictrtmnt-list > li .li-innr h5,
+ul.stpprsnldayrdictrtmnt-list > li .li-innr h6 {
+  color: inherit;
+}
+ul.stpprsnldayrdictrtmnt-list > li .li-innr .h6,
+ul.stpprsnldayrdictrtmnt-list > li .li-innr h6 {
+  line-height: 1.35;
+}
+ul.stpprsnldayrdictrtmnt-list > li .li-innr .h6 strong,
+ul.stpprsnldayrdictrtmnt-list > li .li-innr h6 strong {
+  font-weight: 700;
+}
+ul.stpprsnldayrdictrtmnt-list > li .li-innr .stepnumb {
+  color: #9aa668;
+  font-weight: 700;
+  line-height: 1;
+  margin: 0;
+  display: inline-block;
+  vertical-align: top;
+  position: absolute;
+  top: 15px;
+  left: 0;
+  right: 0;
+  font-size: 40px;
+}
+ul.stpprsnldayrdictrtmnt-list > li .li-innr .icon {
+  position: relative;
+  overflow: hidden;
+  min-height: 105px;
+  margin-bottom: 40px;
+}
+ul.stpprsnldayrdictrtmnt-list > li .li-innr .text {
+  color: inherit;
+  text-transform: capitalize;
+  margin: 0 0 17px;
+  font-size: 18px;
+  font-weight: 300;
+}
+@media (max-width: 1600px) {
+  ul.stpprsnldayrdictrtmnt-list > li .li-innr {
+    padding: 81px 15px 22px;
+  }
+}
+@media (max-width: 1366px) {
+  .secheader-grp {
+    font-size: 112%;
+  }
+  .secheader-grp > * {
+    margin-top: 12px;
+    margin-bottom: 12px;
+  }
+  .btn {
+    font-size: 12px;
+    padding: 15.4px 20px;
+  }
+  .stepprsnlid-ayrvdictrtmnt-sec {
+    padding: 82px 0;
+  }
+  .stepprsnlid-ayrvdictrtmnt-sec .container {
+    width: 85%;
+    max-width: 1105px;
+  }
+  .stepprsnlid-ayrvdictrtmnt-sec .secheader-grp {
+    font-size: 124%;
+    padding-bottom: 44px;
+  }
+  .stepprsnlid-ayrvdictrtmnt-sec .btn-grp {
+    padding-top: 42px;
+  }
+  ul.stpprsnldayrdictrtmnt-list > li .li-innr {
+    padding: 61px 12px 20px;
+  }
+  ul.stpprsnldayrdictrtmnt-list > li .li-innr .stepnumb {
+    top: 14px;
+    left: 17px;
+  }
+  ul.stpprsnldayrdictrtmnt-list > li .li-innr .icon {
+    margin-bottom: 30px;
+  }
+  ul.stpprsnldayrdictrtmnt-list > li .li-innr .icon > img {
+    max-width: 85%;
+  }
+  ul.stpprsnldayrdictrtmnt-list > li .li-innr .text {
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 1300px) {
+  .secheader-grp {
+    font-size: 106%;
+  }
+  .btn {
+    padding: 15px 20px;
+    font-size: 14px;
+  }
+  .stepprsnlid-ayrvdictrtmnt-sec {
+    padding: 78px 0;
+  }
+  .stepprsnlid-ayrvdictrtmnt-sec .container {
+    width: 83%;
+    max-width: 1042px;
+  }
+  .stepprsnlid-ayrvdictrtmnt-sec .secheader-grp {
+    font-size: 117%;
+    padding-bottom: 36px;
+  }
+  .stepprsnlid-ayrvdictrtmnt-sec .btn-grp {
+    padding-top: 37px;
+    padding-bottom: 4px;
+  }
+  ul.stpprsnldayrdictrtmnt-list {
+    margin: 0 -5px;
+  }
+  ul.stpprsnldayrdictrtmnt-list > li {
+    padding: 10px 5px;
+  }
+  ul.stpprsnldayrdictrtmnt-list > li .li-innr {
+    padding: 58px 10px 15px;
+  }
+  ul.stpprsnldayrdictrtmnt-list > li .li-innr .stepnumb {
+    top: 13px;
+    left: 16px;
+  }
+}
+@media (max-width: 1100px) {
+  ul.knowyourdiseases-list > li,
+  ul.stpprsnldayrdictrtmnt-list > li {
+    width: 33.33%;
+  }
+  ul.knowyourdiseases-list > li .li-innr {
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+}
+@media (max-width: 900px) {
+  .frmbtn {
+    font-size: 14px;
+    padding: 22px 25px;
+  }
+  ul.stpprsnldayrdictrtmnt-list > li {
+    width: 50%;
+  }
+  ul.stpprsnldayrdictrtmnt-list > li .li-innr .icon {
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 767px) {
+  .frmbtn {
+    padding: 20px 25px;
+    font-size: 13px;
+  }
+  .inner-appointment .inner-form .select {
+    width: calc(100% / 1);
+    padding: 4px 2px;
+    margin-bottom: 10px;
+  }
+  ul.testi_p_cards {
+    width: 100%;
+    overflow: hidden;
+  }
+  .testi_sec h2 {
+    font-size: 44px !important;
+    text-align: center !important;
+  }
+  .testi_sec h2:after {
+    margin: 0 auto;
+    right: 0;
+  }
+  .testi_sec h2 span {
+    font-size: 38px;
+    text-align: center !important;
+  }
+  .testi_sec p {
+    font-size: 24px !important;
+  }
+  .loadMore,
+  ul.stpprsnldayrdictrtmnt-list > li .li-innr .text > br {
+    display: none;
+  }
+  .testi_p_cards .owl-dots {
+    display: block;
+  }
+  .whychoosejivaayrvd-sec {
+    padding: 30px 0 65px;
+  }
+  .whychoosejivaayrvd-sec .secheader-grp {
+    width: 100%;
+    max-width: 100%;
+  }
+  ul.whychsejivaayrvd-list {
+    margin: 0 -15px;
+  }
+  ul.whychsejivaayrvd-list > li {
+    padding: 15px;
+  }
+  ul.whychsejivaayrvd-list > li .li-innr .text {
+    padding: 20px 25px;
+  }
+  ul.whychsejivaayrvd-list > li .li-innr .text > br {
+    display: none !important;
+  }
+  .knowyourdiseases-sec {
+    padding: 65px 0 30px;
+  }
+  .knowyourdiseases-sec .secheader-grp {
+    width: 100%;
+    max-width: 100%;
+    padding-bottom: 35px;
+  }
+  .knowyourdiseases-sec .btn {
+    min-width: 150px;
+  }
+  ul.knowyourdiseases-list {
+    margin: 0 -6px;
+  }
+  ul.knowyourdiseases-list > li {
+    width: 50%;
+    padding: 6px;
+  }
+  ul.knowyourdiseases-list > li .li-innr {
+    width: 100%;
+    height: auto;
+  }
+  ul.knowyourdiseases-list > li .text {
+    font-size: 16px;
+  }
+  ul.knowyourdiseases-list > li .taketest-link {
+    font-size: 90%;
+    padding: 12px;
+    height: auto;
+  }
+  .secheader-grp {
+    font-size: 125%;
+  }
+  .btn {
+    margin-top: 7px;
+    margin-bottom: 7px;
+  }
+  .stepprsnlid-ayrvdictrtmnt-sec {
+    padding: 75px 0;
+  }
+  .stepprsnlid-ayrvdictrtmnt-sec .secheader-grp {
+    width: 100%;
+    max-width: 100%;
+    padding-bottom: 20px;
+  }
+  .stepprsnlid-ayrvdictrtmnt-sec .btn-grp {
+    padding-top: 15px;
+    padding-bottom: 0;
+  }
+  .stepprsnlid-ayrvdictrtmnt-sec .btn-grp > a {
+    width: 100%;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  ul.stpprsnldayrdictrtmnt-list > li {
+    width: 100%;
+    padding: 5px;
+  }
+  ul.stpprsnldayrdictrtmnt-list > li .li-innr {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 30px 25px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+  ul.stpprsnldayrdictrtmnt-list > li .li-innr > span {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  ul.stpprsnldayrdictrtmnt-list > li .li-innr > span:first-child {
+    margin-left: 0;
+  }
+  ul.stpprsnldayrdictrtmnt-list > li .li-innr > span:last-child {
+    margin-right: 0;
+  }
+  ul.stpprsnldayrdictrtmnt-list > li .li-innr .stepnumb {
+    color: #fff;
+    position: static;
+    opacity: 0.6;
+  }
+  ul.stpprsnldayrdictrtmnt-list > li .li-innr .icon {
+    margin-bottom: 0;
+    min-height: auto;
+    width: 30%;
+  }
+  ul.stpprsnldayrdictrtmnt-list > li .li-innr .icon > img {
+    max-width: 85px;
+    max-height: 75px;
+  }
+  ul.stpprsnldayrdictrtmnt-list > li .li-innr .text {
+    margin: 0;
+    text-align: left;
+  }
+}
+@media (max-width: 600px) {
+  ul.ayrvdcnsltatnadvntg-list > li {
+    width: 50%;
+    max-width: 100%;
+  }
+  ul.whychsejivaayrvd-list > li {
+    width: 100%;
+  }
+  ul.whychsejivaayrvd-list > li .li-innr .text {
+    text-align: center;
+  }
+  ul.stpprsnldayrdictrtmnt-list > li .li-innr {
+    padding: 25px 20px;
+  }
+  ul.stpprsnldayrdictrtmnt-list > li .li-innr > span {
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+  ul.stpprsnldayrdictrtmnt-list > li .li-innr .icon {
+    width: auto;
+    min-width: 90px;
+  }
+  ul.stpprsnldayrdictrtmnt-list > li .li-innr .icon > img {
+    max-width: 75px;
+    max-height: 65px;
+  }
+  ul.stpprsnldayrdictrtmnt-list > li .li-innr .h6,
+  ul.stpprsnldayrdictrtmnt-list > li .li-innr h6 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 400px) {
+  ul.stpprsnldayrdictrtmnt-list > li .li-innr {
+    padding: 25px 17px;
+  }
+  ul.stpprsnldayrdictrtmnt-list > li .li-innr > span {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  ul.stpprsnldayrdictrtmnt-list > li .li-innr .icon {
+    width: auto;
+    min-width: 80px;
+  }
+  ul.stpprsnldayrdictrtmnt-list > li .li-innr .icon > img {
+    max-width: 63px;
+    max-height: 60px;
+  }
+  ul.stpprsnldayrdictrtmnt-list > li .li-innr .h4,
+  ul.stpprsnldayrdictrtmnt-list > li .li-innr h4 {
+    font-size: 22px;
+  }
+  ul.stpprsnldayrdictrtmnt-list > li .li-innr .h6,
+  ul.stpprsnldayrdictrtmnt-list > li .li-innr h6 {
+    font-size: 18px;
+  }
+}
+.jivabrandestore-sec {
+  padding: 110px 0 98px;
+  position: relative;
+  overflow: hidden;
+}
+.jivabrandestore-sec .secheader-grp {
+  padding: 0 0 37px;
+  font-size: 136%;
+}
+@media (max-width: 1366px) {
+  .jivabrandestore-sec {
+    padding: 95px 0 88px;
+  }
+  .jivabrandestore-sec .secheader-grp {
+    font-size: 123%;
+    padding-bottom: 30px;
+  }
+}
+@media (max-width: 1300px) {
+  .jivabrandestore-sec {
+    padding: 88px 0 80px;
+  }
+}
+ul.jivabrandstore-list > li {
+  width: 25%;
+  padding: 18px 15px;
+}
+ul.jivabrandstore-list > li > a,
+ul.jivabrandstore-list > li > a > .li-innr {
+  width: 100%;
+  height: 100%;
+}
+ul.jivabrandstore-list > li .li-innr {
+  text-align: center;
+  padding: 35px 20px;
+  background-color: #f4dba2;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+ul.jivabrandstore-list > li .li-innr .img {
+  margin: 0 0 30px;
+}
+ul.jivabrandstore-list > li .li-innr .text {
+  color: #303030;
+  letter-spacing: 2px;
+  padding: 0;
+  margin: 0;
+}
+ul.jivabrandstore-list > li .li-innr .h6,
+ul.jivabrandstore-list > li .li-innr h6 {
+  font-size: 21px;
+}
+ul.jivabrandstore-list > li:nth-child(14n) .li-innr,
+ul.jivabrandstore-list > li:nth-child(22n) .li-innr,
+ul.jivabrandstore-list > li:nth-child(6n) .li-innr,
+ul.jivabrandstore-list > li:nth-child(8n) .li-innr {
+  background-color: #f4dba2;
+}
+@media (max-width: 1366px) {
+  ul.jivabrandstore-list > li {
+    padding: 15px 13px;
+  }
+  ul.jivabrandstore-list > li .li-innr {
+    padding: 30px 20px;
+  }
+  ul.jivabrandstore-list > li .li-innr .img {
+    margin-bottom: 26px;
+  }
+  ul.jivabrandstore-list > li .li-innr .img > img {
+    max-width: 85%;
+  }
+  ul.jivabrandstore-list > li .li-innr .h6,
+  ul.jivabrandstore-list > li .li-innr h6 {
+    font-size: 17.5px;
+  }
+}
+@media (max-width: 1300px) {
+  ul.jivabrandstore-list {
+    margin: 0 -12px;
+  }
+  ul.jivabrandstore-list > li {
+    padding: 14px 12px;
+  }
+  ul.jivabrandstore-list > li .li-innr .h6,
+  ul.jivabrandstore-list > li .li-innr h6 {
+    font-size: 16px;
+  }
+  ul.jivabrandstore-list > li .li-innr .img > img {
+    max-width: 79%;
+  }
+}
+@media (max-width: 1100px) {
+  ul.jivabrandstore-list > li {
+    width: 33.33%;
+  }
+}
+@media (max-width: 900px) {
+  .jivabrandestore-sec {
+    padding: 55px 0;
+  }
+  .jivabrandestore-sec .secheader-grp {
+    font-size: 135%;
+    padding-bottom: 10px;
+  }
+  ul.jivabrandstore-list > li {
+    width: 50%;
+  }
+  ul.jivabrandstore-list > li .li-innr .h6,
+  ul.jivabrandstore-list > li .li-innr h6 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 767px) {
+  .jivabrandestore-sec .secheader-grp {
+    font-size: 126%;
+  }
+  ul.jivabrandstore-list {
+    display: flex;
+    width: auto;
+    overflow-x: scroll;
+    -webkit-overflow-scrolling: touch;
+    white-space: nowrap;
+    -ms-overflow-style: none;
+    overflow: -moz-scrollbars-none;
+    flex-wrap: nowrap;
+    margin: 0 -8%;
+    padding: 0 6%;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  ul.jivabrandstore-list::-webkit-scrollbar {
+    display: none !important;
+  }
+  ul.jivabrandstore-list::-moz-scrollbar {
+    display: none !important;
+  }
+  ul.jivabrandstore-list::-ms-scrollbar {
+    display: none !important;
+  }
+  ul.jivabrandstore-list::-o-scrollbar {
+    display: none !important;
+  }
+  ul.jivabrandstore-list > li {
+    width: 100%;
+    max-width: 296px;
+    min-width: 296px;
+    padding: 12px;
+  }
+  ul.jivabrandstore-list > li .li-innr {
+    white-space: normal;
+  }
+  ul.jivabrandstore-list > li .li-innr .h6,
+  ul.jivabrandstore-list > li .li-innr h6 {
+    font-size: 22px;
+  }
+}
+@media (max-width: 479px) {
+  ul.jivabrandstore-list > li .li-innr .h6,
+  ul.jivabrandstore-list > li .li-innr h6 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 340px) {
+  ul.ayrvdcnsltatnadvntg-list > li .li-innr {
+    min-height: 220px;
+    padding: 20px 16px 15px;
+  }
+  ul.ayrvdcnsltatnadvntg-list > li .li-innr .text {
+    font-size: 14px;
+  }
+  .inputgrp .select,
+  .inputgrp input,
+  .inputgrp select,
+  .inputgrp textarea {
+    font-size: 15px;
+    padding: 20px 25px;
+  }
+  ul.stpprsnldayrdictrtmnt-list > li .li-innr .icon {
+    min-width: 75px;
+  }
+  ul.stpprsnldayrdictrtmnt-list > li .li-innr .icon > img {
+    max-width: 58px;
+    max-height: 55px;
+  }
+  ul.stpprsnldayrdictrtmnt-list > li .li-innr .h4,
+  ul.stpprsnldayrdictrtmnt-list > li .li-innr h4 {
+    font-size: 20px;
+  }
+  ul.stpprsnldayrdictrtmnt-list > li .li-innr .h6,
+  ul.stpprsnldayrdictrtmnt-list > li .li-innr h6 {
+    font-size: 17px;
+  }
+  ul.jivabrandstore-list {
+    padding: 0 2%;
+  }
+  ul.jivabrandstore-list > li {
+    width: 100%;
+    max-width: 290px;
+    min-width: 290px;
+    padding: 12px 8px;
+  }
+}
+.healthandhealingstories-sec {
+  padding: 105px 0;
+  background-color: #f4f1ea;
+  position: relative;
+  overflow: hidden;
+}
+.healthandhealingstories-sec .secheader-grp {
+  padding: 5px 0 32px;
+  font-size: 136%;
+}
+.healthandhealingstories-sec .secheader-grp > * {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.healthandhealingstories-sec .btn-grp {
+  padding: 35px 0 0;
+}
+.healthandhealingstories-sec .btn-grp .btn {
+  min-width: 277px;
+}
+@media (max-width: 1600px) {
+  .healthandhealingstories-sec .secheader-grp > * {
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+}
+@media (max-width: 1100px) and (min-width: 768px) {
+  .healthandhealingstories-sec {
+    font-size: 15px;
+  }
+}
+ul.helthandhelngstris-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0 -23px;
+  list-style: none;
+}
+ul.helthandhelngstris-list > li {
+  width: 33.33%;
+  padding: 20px 23px;
+}
+ul.helthandhelngstris-list > li .li-innr {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  padding-bottom: 40px;
+  position: relative;
+  overflow: hidden;
+}
+ul.helthandhelngstris-list > li .li-innr .img-grp > a,
+ul.helthandhelngstris-list > li .li-innr .img-grp > img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  top: 10%;
+  left: 0;
+  right: 0;
+  transform: translateY(-10%);
+}
+ul.helthandhelngstris-list > li .li-innr .text-grp {
+  color: rgba(34, 0, 0, 0.8);
+  font-size: 17.8px;
+  font-weight: 300;
+  line-height: 1.6;
+  padding: 25px 30px 32px;
+  position: relative;
+  height: 50%;
+}
+ul.helthandhelngstris-list > li .li-innr .text-grp h5 {
+  font-size: 24px;
+}
+ul.helthandhelngstris-list > li .li-innr .text-grp p {
+  font-size: 15px;
+}
+ul.helthandhelngstris-list > li .li-innr .text-grp .btn-txtlnk {
+  position: absolute;
+  top: auto;
+  left: auto;
+  bottom: 0;
+}
+ul.helthandhelngstris-list > li .li-innr .text-grp > * {
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+ul.helthandhelngstris-list > li .li-innr .btn-txtlnk {
+  color: #c74a1b;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+  vertical-align: top;
+  border-bottom: 1px solid #c74a1b;
+  padding-bottom: 2px;
+  margin: 15px 0;
+}
+@media (max-width: 1600px) {
+  ul.helthandhelngstris-list > li .li-innr .img-grp {
+    padding-bottom: 270px;
+  }
+  ul.helthandhelngstris-list > li .li-innr .text-grp {
+    padding: 22px 30px;
+  }
+  ul.helthandhelngstris-list > li .li-innr .text-grp > * {
+    margin-top: 9px;
+    margin-bottom: 9px;
+  }
+}
+@media (max-width: 1366px) {
+  .healthandhealingstories-sec {
+    padding: 88px 0 85px;
+  }
+  .healthandhealingstories-sec .secheader-grp {
+    font-size: 123%;
+    padding-bottom: 28px;
+  }
+  .healthandhealingstories-sec .secheader-grp > * {
+    margin-top: 6px;
+    margin-bottom: 6px;
+  }
+  .healthandhealingstories-sec .btn-grp .btn {
+    min-width: 232px;
+  }
+  ul.helthandhelngstris-list {
+    margin: 0 -20px;
+  }
+  ul.helthandhelngstris-list > li {
+    padding: 15px 20px;
+  }
+  ul.helthandhelngstris-list > li .li-innr {
+    padding-bottom: 40px;
+  }
+  ul.helthandhelngstris-list > li .li-innr .img-grp {
+    padding-bottom: 231px;
+  }
+  ul.helthandhelngstris-list > li .li-innr .text-grp {
+    font-size: 15px;
+    line-height: 1.55;
+    padding: 18px 25px;
+  }
+  ul.helthandhelngstris-list > li .li-innr .btn-txtlnk {
+    letter-spacing: 0.4px;
+    margin-top: 16px !important;
+    font-size: 11px;
+  }
+}
+@media (max-width: 1300px) {
+  .healthandhealingstories-sec {
+    padding: 84px 0 80px;
+  }
+  .healthandhealingstories-sec .secheader-grp > * {
+    margin-top: 4px;
+    margin-bottom: 4px;
+  }
+  .healthandhealingstories-sec .btn-grp {
+    padding-top: 33px;
+  }
+  ul.helthandhelngstris-list {
+    margin: 0 -19px;
+  }
+  ul.helthandhelngstris-list > li {
+    padding: 15px 19px;
+  }
+  ul.helthandhelngstris-list > li .li-innr {
+    padding-bottom: 40px;
+  }
+  ul.helthandhelngstris-list > li .li-innr .img-grp {
+    padding-bottom: 70%;
+  }
+  ul.helthandhelngstris-list > li .li-innr .text-grp {
+    font-size: 14px;
+    line-height: 1.6;
+    height: 50%;
+  }
+}
+@media (max-width: 1120px) {
+  ul.helthandhelngstris-list > li {
+    padding: 15px;
+  }
+  ul.helthandhelngstris-list > li .li-innr {
+    padding-bottom: 45px;
+  }
+  ul.helthandhelngstris-list > li .li-innr .text-grp {
+    height: 60%;
+  }
+}
+@media (max-width: 991px) {
+  ul.helthandhelngstris-list > li .li-innr {
+    padding-bottom: 40px;
+  }
+  ul.helthandhelngstris-list > li .li-innr .text-grp {
+    height: 70%;
+  }
+}
+@media (max-width: 767px) {
+  .healthandhealingstories-sec {
+    padding: 65px 0;
+  }
+  ul.helthandhelngstris-list {
+    display: flex;
+    width: auto;
+    overflow-x: scroll;
+    -webkit-overflow-scrolling: touch;
+    white-space: nowrap;
+    -ms-overflow-style: none;
+    overflow: -moz-scrollbars-none;
+    flex-wrap: nowrap;
+    margin: 0 -8%;
+    padding: 0 6%;
+  }
+  ul.helthandhelngstris-list::-webkit-scrollbar {
+    display: none;
+  }
+  ul.helthandhelngstris-list > li {
+    width: 100%;
+    max-width: 297px;
+    min-width: 297px;
+    padding: 12px 0;
+    margin-right: 24px;
+  }
+  ul.helthandhelngstris-list > li .li-innr {
+    white-space: normal;
+    padding-bottom: 40px;
+  }
+  ul.helthandhelngstris-list > li .li-innr .text-grp {
+    height: 55%;
+  }
+}
+@media only screen and (max-width: 1600px) {
+  .techbx .inner-right h4 {
+    font-size: 24px;
+    position: relative;
+  }
+  section.technology-sec .row img {
+    width: 100%;
+    min-height: 380px;
+    object-fit: cover;
+  }
+  section.technology-sec .col-md-6 h2 {
+    font-size: 42px;
+  }
+  .big-img img {
+    width: 35%;
+    margin: auto;
+  }
+  section.trust-sec .inner-trust .other-head h4 {
+    font-size: 25px;
+  }
+  section.technology-sec .head h2 {
+    font-size: 64px;
+  }
+  .bottom-banner-menu .left-box .innerbx-sel select {
+    font-size: 24px;
+  }
+  section.doctor-section {
+    min-height: 900px;
+  }
+  .bottom-banner-menu .left-box p {
+    font-size: 13px;
+  }
+  .h2,
+  h2 {
+    font-size: 44px;
+  }
+  .detailtext p,
+  .symptombx ul li a {
+    font-size: 18px;
+  }
+  .ayurnique-treatment h3 {
+    font-size: 26px;
+  }
+  .ayurvedbx img {
+    width: 100%;
+  }
+  section.consult-category .col-md-4 li {
+    margin-bottom: 10px;
+  }
+  section.consult-category .col-md-4 .inner {
+    padding: 0 60px 40px;
+  }
+  section.consult-category .col-md-4 .know-more a {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 1440px) {
+  .techbx .slick-next {
+    right: -10%;
+  }
+  .techbx .slick-next,
+  .techbx .slick-prev {
+    background-size: 20px;
+    width: 30px;
+  }
+  .techbx .slick-prev {
+    left: -10%;
+  }
+  section.technology-sec .row {
+    width: 95%;
+    margin: auto;
+    padding: 0 60px;
+  }
+  section.firstwhyjiva .greenbx p,
+  section.why-jiva.years-sec .btm-jiva-why .inner p {
+    font-size: 20px;
+  }
+  section.digestive .head-bx h2 br {
+    display: none;
+  }
+  section.doctor-section {
+    min-height: 800px;
+  }
+  .inner-success .bx .top {
+    padding: 30px;
+  }
+  .inner-success .bx .bottom {
+    padding: 40px;
+  }
+  .techbx .inner-right h4,
+  section.trust-sec .inner-trust .other-head h4 {
+    font-size: 22px;
+  }
+  .big-img img {
+    width: 25%;
+  }
+  section.firstwhyjiva .greenbx {
+    padding: 80px;
+  }
+  .inner-success .bx .bottom p,
+  .inner-success .bx .top p,
+  section.doctor-section .left-sec p {
+    font-size: 18px;
+  }
+  .ayurvedbx {
+    padding: 50px;
+  }
+  section.digestive.quality-sec .inner h3 {
+    margin-top: 30px;
+  }
+  .btm-banner {
+    padding: 110px 100px;
+  }
+  .detailtext .col-md-12 h2,
+  .detailtext h3 {
+    margin-bottom: 20px;
+  }
+  section.consult-category {
+    padding-top: 70px;
+  }
+  .panchkarma-banner img {
+    width: 100%;
+    min-height: 400px;
+  }
+}
+@media only screen and (max-width: 1366px) {
+  section.desc-disc .col-md-3 {
+    padding-left: 30px;
+  }
+  section.technology-sec .row img {
+    width: 120%;
+  }
+  section.technology-sec .head h2 {
+    transform: translateY(40px);
+  }
+  .inner-doctor img,
+  .inner-treat img,
+  .map img {
+    width: 100%;
+  }
+  .big-img img {
+    width: 30%;
+  }
+  .inner-success .bx .bottom {
+    padding: 40px;
+  }
+  .inner-success .bx .top {
+    padding: 30px 40px;
+  }
+  .tab-sec .inner-tab p,
+  section.consult-category .col-md-4 li,
+  section.contact-adres .add-inner.row .box p,
+  section.digestive.quality-sec .inner h2 span {
+    font-size: 18px;
+  }
+  section.consult-category .col-md-4 .know-more {
+    margin-top: 30px;
+  }
+  section.consult-category .col-md-4 img {
+    height: 270px;
+    object-fit: cover;
+    width: 100%;
+    object-position: bottom;
+  }
+  .advantage-sec .disease-inner {
+    width: 93%;
+  }
+  .doctor-slider .slick-next,
+  .doctor-slider .slick-prev {
+    width: 50px;
+    height: 50px;
+  }
+  .btm-banner {
+    padding: 100px;
+  }
+  .btm-banner h3 br,
+  .more-detail.panchfirstsec h2 br {
+    display: none;
+  }
+  .desc-disc h3,
+  .detailtext .col-md-12 h2 {
+    font-size: 34px;
+  }
+  .add-inner.row .inner .contact a,
+  .add-inner.row .inner h5,
+  .enquire-form .form-prt p,
+  section.disease-treat.panchdis-sec .disease-inner .row .col .inner h4,
+  section.inner-banner-sec .inner-consult .iconbx .inner p {
+    font-size: 16px;
+  }
+  .enquire-form .form-prt h4 {
+    font-size: 14px;
+  }
+  .inner-consult {
+    padding: 50px 50px 60px;
+  }
+  section.inner-banner-sec .inner-consult h2 {
+    font-size: 36px;
+  }
+  .add-inner.row .inner p,
+  section.inner-banner-sec .inner-consult p {
+    font-size: 20px;
+  }
+  section.inner-banner-sec .inner-consult .iconbx .inner {
+    padding: 20px 30px;
+  }
+  .slctstate .know-btn.orange {
+    margin-left: 2.5%;
+  }
+  .inner-location .inner-bx {
+    padding: 50px 25px;
+    min-height: 430px;
+  }
+  .right-icobx .inner {
+    padding: 25px;
+    min-height: 310px;
+  }
+  .more-detail.panchfirstsec h2,
+  section.digestive.quality-sec .inner h2 {
+    font-size: 44px;
+  }
+  section.digestive.quality-sec .inner h3 {
+    font-size: 16px;
+    margin-top: 20px;
+    min-height: 70px;
+  }
+  .more-detail.panchfirstsec h3 {
+    font-size: 30px;
+    margin-bottom: 0;
+  }
+  .more-detail.panchfirstsec h1 {
+    font-size: 68px;
+    margin-top: 0;
+  }
+  section.desc-disc.more-detail.panchfirstsec .col-md-8 {
+    padding-right: 130px;
+  }
+  .tab-sec .inner-tab .content {
+    margin-top: 20px;
+  }
+  section.locations-sec.panch-locate .head h2 {
+    font-size: 66px;
+  }
+  .tabs ul li a {
+    font-size: 13px;
+  }
+  section.desc-disc.more-detail.panchfirstsec {
+    padding-bottom: 80px;
+  }
+  section.contact-adres .head h2,
+  section.inner-banner-sec .inner-cont h1 {
+    font-size: 80px;
+  }
+  .add-inner.row .inner h3,
+  section.contact-adres .head h3,
+  section.inner-banner-sec .inner-cont h3 {
+    font-size: 45px;
+  }
+  .add-inner.row {
+    margin-top: 120px;
+  }
+  section.contact-adres {
+    padding-top: 60px;
+  }
+  .add-inner.row.jivagram {
+    margin-top: 80px;
+  }
+}
+@media only screen and (max-width: 1280px) {
+  .thankinner img {
+    width: 14%;
+  }
+  .thankinner h1 {
+    font-size: 75px;
+  }
+  .phone-consult-page section.inner-banner-sec h1,
+  .thankinner p,
+  section.inner-banner-sec p {
+    font-size: 24px;
+  }
+  .thankinner .know-btn {
+    padding-top: 30px;
+  }
+  .thankinner {
+    padding: 0 0 20px;
+  }
+  .appointment-frm p,
+  .doctor-jiva-phone .bottom-box .boxprt .inner p,
+  .enquire-form .form-prt p,
+  .inner-choose .inner p,
+  .inner-success .bx .bottom p,
+  .inner-success .bx .top p,
+  .symptombx ul li a,
+  section.ayurnique-sec.why-ayurnique .ayurnique-treatment p {
+    font-size: 16px;
+  }
+  .inner-success .bx .bottom,
+  .inner-success .bx .top {
+    padding: 25px 30px;
+  }
+  .inner-success .bx .top h2,
+  section.technology-sec .col-md-6 h2 {
+    font-size: 40px;
+  }
+  .enquire-form .top-part h2,
+  section.technology-sec .head h2 {
+    font-size: 56px;
+  }
+  .bottom-banner-menu .left-box .innerbx-sel select,
+  .techbx .inner-right h4 {
+    font-size: 22px;
+  }
+  .inner-offer .inner h4,
+  section.trust-sec .inner-trust .other-head h4 {
+    font-size: 20px;
+  }
+  section.trust-sec .inner-trust .head-bx h2 {
+    font-size: 34px;
+  }
+  .inner-trust .head-bx h3 {
+    margin-top: 0;
+    font-size: 24px;
+  }
+  .big-img img {
+    width: 25%;
+  }
+  .showcase .box {
+    padding: 40px;
+  }
+  .mini-disease-page .inner-banner-sec h3,
+  section.inner-banner-sec h1,
+  section.inner-banner-sec h2 {
+    font-size: 64px;
+  }
+  section.journey-sec .inner-journey .col .inner p {
+    font-size: 16px;
+    margin-top: 50px;
+  }
+  .slctstate select {
+    padding: 14px 20px;
+  }
+  .btm-prt p {
+    font-size: 13px;
+  }
+  .doctor-slider {
+    width: 97%;
+  }
+  .doctor-slider .slick-slide img,
+  .inner-offer .inner img {
+    width: 100%;
+  }
+  .doctor-slider .slick-slide {
+    padding: 0 10px;
+  }
+  section.why-jiva .banner {
+    min-height: 430px;
+  }
+  section.diabetic-sec .btm-tag {
+    margin-top: 40px;
+  }
+  .inner-choose .inner {
+    padding: 30px;
+  }
+  .enquire-form .form-prt h4 {
+    font-size: 14px;
+  }
+  .enquire-form .top-part {
+    padding: 30px 30px 10px;
+  }
+  .enquire-form .form-prt {
+    padding: 20px 30px 55px;
+  }
+  .right-icobx .inner {
+    min-height: 260px;
+    padding: 35px 20px;
+  }
+  .right-icobx .inner .text {
+    margin-top: 80px;
+  }
+  .right-icobx .inner .text h4 span,
+  section.digestive.quality-sec .inner h3 {
+    font-size: 15px;
+  }
+  .right-icobx .inner .text h4 {
+    font-size: 26px;
+  }
+  section.desc-disc .col-md-3 {
+    padding-left: 20px;
+  }
+  .location-bx p,
+  section.consult-category .col-md-4 li {
+    font-size: 17px;
+  }
+  .location-bx .loc-name h3 {
+    font-size: 36px;
+  }
+  .bottom-banner-menu .bottom-bx {
+    padding: 20px 10px;
+  }
+  .inner-know-want ul li {
+    width: 18%;
+  }
+  .detailtext h1,
+  .symptombx h1,
+  .symptombx h2 {
+    font-size: 60px;
+  }
+  .desc-disc h3,
+  .detailtext .col-md-12 h2 {
+    font-size: 30px;
+  }
+  section.more-detail .detailtext p {
+    margin-bottom: 20px;
+  }
+  .disease-inner .row .col .inner {
+    padding: 30px 20px;
+  }
+  .how-bg {
+    min-height: 800px;
+  }
+  .mid-laptop img {
+    width: 30%;
+  }
+  .slctstate .know-btn.orange {
+    margin-left: 2%;
+  }
+  .inner-location .inner-bx {
+    padding: 30px 20px 50px;
+  }
+  .right-icon a.booknow {
+    font-size: 12px;
+    padding: 10px 18px;
+  }
+  section.doctors-jiva h1 {
+    font-size: 80px;
+  }
+  .inner-doctor .left {
+    padding-right: 20px;
+  }
+  section.digestive.quality-sec .right-icobx .inner {
+    padding: 25px 20px 20px;
+    min-height: 250px;
+  }
+  .col-md-3.form-sec-appoint {
+    padding-left: 10px;
+  }
+  .appointment-frm .inner-form input,
+  .appointment-frm .inner-form select {
+    padding: 12px;
+  }
+  .appointment-frm.fixed {
+    top: 90px;
+  }
+  .doctor-jiva-phone .inner-doctor p,
+  section.how-phone-works .quote h3,
+  section.testimonials .left-head p {
+    font-size: 18px;
+  }
+  section.how-phone-works .quote {
+    min-width: 230px;
+  }
+  section.consult-category {
+    padding-top: 60px;
+  }
+  section.consult-category .col-md-4 .know-more a {
+    padding: 15px 30px;
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 1099px) {
+  section.technology-sec .col-md-6:last-child {
+    margin-bottom: 20px;
+  }
+  .techbx .slick-next {
+    right: -13%;
+  }
+  .techbx .slick-prev {
+    left: -13%;
+  }
+  section.doctor-section {
+    min-height: 720px;
+  }
+  .causes p,
+  .detailtext p,
+  .quote-bx h3,
+  .techbx .inner-right h4,
+  section.testimonials .left-head h4 {
+    font-size: 18px;
+  }
+  .btm-jiva-why .inner h2,
+  section.technology-sec .head h2 {
+    font-size: 50px;
+  }
+  section.technology-sec .col-md-6 h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  .doctor-jiva-phone .bottom-box .boxprt .inner p,
+  section.ayurnique-sec.why-ayurnique .ayurnique-treatment p,
+  section.journey-sec .inner-journey .col .inner p {
+    font-size: 14px;
+  }
+  .add-inner.row .inner p,
+  .advantage-sec .disease-inner .row .col .inner h4,
+  .offer-phone .inner-offer .inner h4,
+  .showcase .box p,
+  section.digestive.quality-sec .inner h2 span,
+  section.doctor-section .left-sec p {
+    font-size: 16px;
+  }
+  section.doctor-section .slider {
+    padding: 30px 30px 60px;
+  }
+  section.journey-sec .inner-journey .col {
+    padding: 0 5px;
+  }
+  section.journey-sec .inner-journey .col .inner {
+    padding: 20px;
+  }
+  .inner-choose,
+  .inner-video .col:nth-child(2) .calender-img img,
+  .showcase img,
+  .top-consult,
+  section.diabetic-sec .inner-diabetic,
+  section.meet-doctor .item img {
+    width: 100%;
+  }
+  .heritage-sec .col-md-4 {
+    padding: 0 20px;
+  }
+  .symptombx {
+    padding-bottom: 10px;
+  }
+  .ayurnique-treatment .head-sec p,
+  .bottom-banner-menu .left-box .innerbx-sel select,
+  .btm-jiva-why .btm-line p,
+  .head-bx p,
+  .inner-offer .inner h4,
+  .phone-consult-page section.inner-banner-sec h1,
+  section.diabetic-sec .head-bx p,
+  section.inner-banner-sec h3,
+  section.inner-banner-sec h4,
+  section.inner-banner-sec p {
+    font-size: 20px;
+  }
+  section.how-phone-works .quote {
+    left: 90px;
+    top: auto;
+    bottom: 20px;
+  }
+  section.how-phone-works .col-md-12.third .quote {
+    height: 120px;
+  }
+  .doctor-jiva-phone .bottom-box .boxprt .inner h2 {
+    font-size: 38px;
+  }
+  .doctor-jiva-phone .bottom-box .boxprt .inner {
+    padding: 20px 18px;
+  }
+  .h2,
+  h2,
+  section.digestive .head-bx h2,
+  section.digestive.quality-sec .inner h2 {
+    font-size: 40px;
+  }
+  section.desc-disc.more-detail h3 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  section.more-detail.desc-disc .col-md-8 {
+    padding-right: 90px;
+  }
+  section.desc-disc .col-md-8 {
+    width: 64%;
+    padding-right: 30px;
+  }
+  .symptombx h1,
+  .symptombx h2 {
+    font-size: 68px;
+  }
+  .consult-btn a {
+    padding: 15px 30px;
+    font-size: 14px;
+  }
+  .inner-offer .inner .content,
+  .right-icobx .inner {
+    padding: 30px 20px;
+  }
+  .right-icobx .col-md-4 {
+    padding: 0 6px;
+  }
+  .right-icobx .inner .text h4 span {
+    font-size: 13px;
+  }
+  .right-icobx .inner .text h4 {
+    font-size: 22px;
+  }
+  .detailtext {
+    padding-bottom: 30px;
+  }
+  .causes {
+    padding-top: 20px;
+  }
+  .ayurnique-treatment h3,
+  .phone-consult-page section.inner-banner-sec h1,
+  section.inner-banner-sec p {
+    font-size: 24px;
+  }
+  section.inner-banner-sec h3,
+  section.inner-banner-sec h4 {
+    margin-bottom: 10px;
+  }
+  section.desc-disc .col-md-3 {
+    padding-left: 15px;
+  }
+  .btm-prt,
+  .leaf img {
+    width: 80%;
+  }
+  .enquire-form h3,
+  .location-bx .bottom-area {
+    margin-top: 0;
+  }
+  .enquire-form p,
+  .inner-know-want ul li a,
+  .location-bx .bottom-area p,
+  section.why-jiva.years-sec .btm-jiva-why .inner p {
+    font-size: 15px;
+  }
+  .enquire-form input {
+    padding: 9px 20px;
+  }
+  .bottom-bx {
+    padding: 22px 9px;
+  }
+  .appointment-frm .btm-prt,
+  .bottom-banner-menu .col-md-3 {
+    padding: 0;
+  }
+  section.inner-banner-sec {
+    background-repeat: no-repeat !important;
+    background-position: right;
+  }
+  .bottom-banner-menu .left-box .innerbx-sel {
+    width: 36%;
+  }
+  .disease-inner,
+  .form-part,
+  section.contact-adres .col-md-8 img {
+    width: 90%;
+  }
+  .stickmenu .innerbx p {
+    font-size: 11px;
+  }
+  .mini-disease-page .inner-banner-sec h3,
+  section.inner-banner-sec h1,
+  section.inner-banner-sec h2 {
+    font-size: 60px;
+  }
+  .btm-jiva-why .inner,
+  .inner-choose .inner {
+    padding: 30px;
+  }
+  .inner-choose .inner p,
+  .inner-location .detail h4 {
+    font-size: 17px;
+  }
+  .btm-banner {
+    padding: 80px;
+  }
+  .banner {
+    min-height: 400px;
+  }
+  .btm-jiva-why {
+    padding: 50px;
+  }
+  .appointment-frm,
+  .quote-bx {
+    width: 240px;
+  }
+  .how-bg {
+    min-height: 690px;
+  }
+  .quote-bx::after {
+    left: 40%;
+    background-size: 70%;
+  }
+  .inner-offer {
+    width: 95%;
+  }
+  .right-icon a.booknow {
+    font-size: 12px;
+  }
+  .right-icon ul li {
+    margin-right: 1px;
+  }
+  .right-icon ul li a::after {
+    right: -3px;
+  }
+  section.doctors-jiva h1 {
+    font-size: 72px;
+  }
+  section.digestive.quality-sec .inner h3 br {
+    display: none;
+  }
+  section.digestive.quality-sec .right-icobx .inner {
+    padding: 25px 15px 20px;
+    min-height: 220px;
+  }
+  section.digestive.quality-sec .inner h3 {
+    font-size: 13px;
+    min-height: 50px;
+  }
+  .inner-location .inner-bx {
+    min-height: 410px;
+  }
+  section.digestive.quality-sec .inner .text {
+    margin-top: 50px;
+  }
+  .disease-inner .row .col .inner {
+    padding: 30px 14px;
+  }
+  .col-md-3.form-sec-appoint {
+    padding-left: 0;
+  }
+  .appointment-frm .inner-form {
+    padding: 20px 13px;
+  }
+  .appointment-frm .inner-form input,
+  .appointment-frm .inner-form select {
+    padding: 10px;
+    font-size: 14px;
+  }
+  .appointment-frm .inner-form label.terms {
+    font-size: 12px;
+    width: 90%;
+  }
+  .leaf.two {
+    left: 60%;
+  }
+  .leaf.three {
+    left: 5%;
+  }
+  .leaf.four {
+    left: 74%;
+  }
+  section.consult-category .col-md-4 .inner {
+    padding: 0 30px 40px;
+  }
+  section.consult-category .col-md-4 .inner h3 {
+    font-size: 25px;
+  }
+  section.contact-adres .col-md-8 .box img {
+    width: auto;
+  }
+  section.contact-adres .box {
+    width: 250px;
+    height: auto;
+  }
+  section.contact-adres .box .button a {
+    display: inline-block;
+  }
+  .add-inner.row .inner .contact a {
+    font-size: 14px;
+    position: relative;
+    padding-left: 40px;
+  }
+  .add-inner.row .inner .contact a img {
+    position: absolute;
+    left: 0;
+    width: 20px;
+    height: 22px;
+    object-fit: contain;
+  }
+  section.contact-adres .add-inner.row .box p {
+    font-size: 16px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+  }
+  section.consult-loacte .inner h3 {
+    font-size: 26px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .tech-slider .slide {
+    display: block !important;
+  }
+  section.technology-sec .col-md-6:last-child {
+    margin-top: 50px;
+    margin-bottom: 0;
+  }
+  section.technology-sec .head h2 {
+    transform: none;
+  }
+  .techbx .slick-prev {
+    left: -15%;
+  }
+  .techbx .slick-next {
+    right: -15%;
+  }
+  .heritage-sec .row {
+    display: flex;
+  }
+  .ayurnique-treatment p br,
+  .col-md-3.form-sec-appoint,
+  .inner-personalised p br,
+  section.contact-adres .box,
+  section.digestive .head-bx h2 br,
+  section.meet-doctor .head-bx br {
+    display: none;
+  }
+  .tab-sec .tab-content,
+  section.trust-sec .inner-trust {
+    width: 90%;
+  }
+  .heritage-sec .col-md-4,
+  .inner-success .col-md-4 {
+    width: calc(100% / 3);
+    padding: 0 10px;
+  }
+  section.technology-sec .row img {
+    right: -90px;
+    width: 100%;
+  }
+  section.technology-sec .row {
+    padding: 50px;
+    position: relative;
+    width: 90%;
+  }
+  section.technology-sec .col-md-6 {
+    width: 100%;
+    padding: 0;
+  }
+  .consult-ayur-sec section.about .col-md-7,
+  .heritage-sec .row img,
+  .inner-btm,
+  .inner-offer,
+  section.about.consult-ayur-sec .col-md-7,
+  section.consult-category .col-md-4:last-child,
+  section.contact-adres .col-md-8 img {
+    width: 100%;
+  }
+  section.doctor-section .slider .slick-next,
+  section.doctor-section .slider .slick-prev {
+    bottom: -36%;
+  }
+  section.doctor-section .slider {
+    margin-top: 41px;
+    background: rgba(255, 255, 255, 0.9);
+  }
+  .ayurnique-treatment .col-md-4,
+  .disease-inner,
+  .inner-interesting .col-md-6,
+  .right-icobx .col-md-4,
+  section.diabetic-sec .inner-diabetic .col-md-6 {
+    padding: 0 15px;
+  }
+  .desc-disc h3,
+  .detailtext .col-md-12 h2,
+  .inner-success .bx .top h2,
+  .more-detail.panchfirstsec h2 {
+    font-size: 36px;
+  }
+  .inner-success .bx .bottom,
+  .inner-success .bx .top {
+    padding: 20px;
+  }
+  .inner-success .bx .bottom p {
+    font-size: 15px;
+  }
+  section.inner-banner-sec {
+    background-size: cover !important;
+  }
+  .detailtext h1,
+  .symptombx h1,
+  .symptombx h2,
+  section.locations-sec.panch-locate .head h2 {
+    font-size: 46px;
+  }
+  .enquire-form .form-prt p,
+  .symptombx ul li a,
+  section.locations-sec.panch-locate .bootstrap-select button {
+    font-size: 14px;
+  }
+  .more-detail.panchfirstsec h1 {
+    font-size: 49px;
+  }
+  .tabs ul {
+    width: 100%;
+    padding: 10px;
+  }
+  .inner-ayurpanch .inner-content {
+    margin-top: 30px;
+  }
+  .detailtext p,
+  .inner-choose .inner p,
+  .quote-bx h3,
+  .right-icobx .inner .text h4 span,
+  .test-crsl .right p {
+    font-size: 16px;
+  }
+  section.digestive .head-bx {
+    margin-bottom: 60px;
+  }
+  .right-icobx .inner {
+    padding: 40px 30px;
+  }
+  .right-icobx .inner .text h4,
+  section.desc-disc.more-detail h3 {
+    font-size: 24px;
+  }
+  section.testimonials .left-head p {
+    width: 60%;
+    font-size: 20px;
+  }
+  .test-crsl .right {
+    padding-top: 0;
+  }
+  .symptombx ul {
+    margin-top: 20px;
+  }
+  body.inner-page header {
+    padding: 20px 10px;
+  }
+  .bottom-banner-menu .bottom-bx {
+    display: block;
+    margin: auto;
+    position: fixed;
+    bottom: 20px;
+    padding: 15px 0;
+    opacity: 0;
+    transition: 0.2s;
+    z-index: 99999;
+    width: 280px;
+    right: 30px;
+  }
+  .add-inner.row,
+  section.meet-doctor {
+    margin-top: 50px;
+  }
+  .bottom-banner-menu .bottom-bx.showing {
+    opacity: 1;
+  }
+  section.contact-form .col-md-12 textarea {
+    margin-top: 4px;
+  }
+  section.desc-disc .col-md-8 {
+    width: 58%;
+    padding-right: 30px;
+  }
+  section.desc-disc .col-md-4 {
+    margin-top: 0;
+    width: 41%;
+  }
+  section.more-detail.desc-disc .col-md-8 {
+    padding-right: 30px;
+  }
+  .inner-offer .col-md-3,
+  .inner-treat .col-md-3 {
+    margin-bottom: 30px;
+  }
+  .inner-choose .inner {
+    padding: 15px;
+  }
+  .inner-choose .inner .num {
+    width: 100px;
+    height: 100px;
+  }
+  .btm-banner {
+    background-size: cover;
+  }
+  .btm-banner h2 {
+    margin-bottom: 40px;
+  }
+  .enquire-form input[type="submit"] {
+    margin-top: 0;
+  }
+  .inner-know-want ul li {
+    width: 23%;
+  }
+  section.inner-banner-sec.category-banner {
+    /* background: url(../img/category-disease-banner.jpg) -600px / cover; */
+  }
+  .disease-inner {
+    width: 100%;
+  }
+  .disease-inner .row .col .inner {
+    padding: 30px 20px;
+  }
+  .disease-inner .row .col .inner h4 {
+    width: 100%;
+    padding-top: 0;
+  }
+  .btm-jiva-why {
+    padding: 50px 40px;
+  }
+  .btm-jiva-why .inner h2 {
+    font-size: 45px;
+  }
+  .btm-jiva-why .inner {
+    padding: 28px 10px;
+  }
+  .inner-offer .inner img {
+    object-fit: cover;
+    object-position: top;
+    height: 100%;
+  }
+  .inner-offer .inner::after {
+    opacity: 0.6;
+    border-radius: 8px;
+  }
+  .inner-offer .inner {
+    height: 320px;
+  }
+  section.offer-sec {
+    padding-bottom: 30px;
+  }
+  .quote-bx {
+    width: 90%;
+    padding: 10px;
+  }
+  .inner-video .col {
+    width: 32.5%;
+  }
+  .how-bg {
+    min-height: 600px;
+  }
+  .doctor-slider .slick-prev {
+    left: -15px;
+    top: 50%;
+  }
+  .doctor-slider .slick-next {
+    right: -15px;
+    top: 47.1%;
+  }
+  .doctor-slider .slick-next,
+  .doctor-slider .slick-prev {
+    width: 40px;
+    height: 40px;
+  }
+  section#faqs .inner-faq {
+    padding: 50px;
+  }
+  section#faqs .head-bx .heading {
+    padding: 0;
+  }
+  .video-consult-page .consult-btn.btnwicon a {
+    font-size: 14px;
+    display: block;
+    width: 195px;
+  }
+  .video-consult-page .consult-btn.btnwicon a:first-child {
+    width: 360px;
+    margin-bottom: 10px;
+  }
+  .video-consult-page .consult-btn.btnwicon img {
+    padding-left: 10px;
+    margin-left: 10px;
+    width: 34px;
+  }
+  .slctstate .know-btn.orange {
+    margin-left: 0;
+  }
+  .slctstate select {
+    padding: 15px 20px;
+  }
+  .inner-doctor p {
+    font-size: 18px;
+  }
+  .right-icon ul li {
+    margin-right: 8px;
+  }
+  .right-icon a.booknow {
+    font-size: 13px;
+    padding: 10px 30px;
+  }
+  .right-icon {
+    text-align: center;
+  }
+  section.doctors-jiva h1 {
+    font-size: 66px;
+  }
+  .location-bx h3 {
+    font-size: 25px;
+  }
+  section.consult-category .col-md-4 {
+    width: 50%;
+  }
+  section.consult-category .col-md-4:last-child .inner {
+    width: 50%;
+    margin-left: auto;
+    display: inline-block;
+    padding-top: 30px;
+    padding-bottom: 0;
+  }
+  section.consult-category .col-md-4:last-child img {
+    width: 48%;
+    display: inline-block;
+    vertical-align: top;
+  }
+  section.consult-category .col-md-4:last-child h3 {
+    left: 70px;
+    top: auto;
+    bottom: 30px;
+  }
+  .panchkarma-banner img {
+    object-fit: cover;
+    object-position: right;
+  }
+  .add-inner.row .col-md-4,
+  .add-inner.row .col-md-8,
+  section.about.consult-ayur-sec .about-icon {
+    position: static;
+  }
+  .row.top-consultation {
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 70px;
+  }
+  section.desc-disc.more-detail.panchfirstsec .col-md-8 {
+    padding-right: 20px;
+  }
+  section.inner-banner-sec .inner-cont h1 {
+    font-size: 70px;
+  }
+  section.inner-banner-sec .inner-cont h3 {
+    font-size: 40px;
+  }
+  .add-inner.row {
+    display: flex;
+    flex-direction: column;
+    flex-direction: column-reverse;
+    position: relative;
+    padding-top: 120px;
+  }
+  .add-inner.row.jiva-office {
+    flex-direction: column;
+  }
+  .add-inner.row.jiva-school {
+    margin-bottom: 0;
+  }
+  .add-inner.row .inner h3,
+  .add-inner.row .inner h5 {
+    position: absolute;
+    top: 0;
+  }
+  .add-inner.row .inner h3 {
+    top: 30px;
+  }
+  .add-inner.row .inner p {
+    padding-top: 20px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .add-inner.row .inner .contact a.show-mobile,
+  .inner-choose .row,
+  .location,
+  .tab-sec .btn_tabs_change,
+  .video-consult-page .consult-btn.btnwicon a.show-mobile,
+  body.inner-page .stickmenu,
+  section.panchdis-sec .disease-inner .row {
+    display: block;
+  }
+  .tab-sec,
+  section.consult-category .col-md-4 .inner ul {
+    min-height: auto;
+  }
+  .detailtext .row,
+  section.digestive {
+    position: relative;
+  }
+  section.technology-sec .col-md-6:last-child {
+    margin-top: 20px;
+    padding: 0 20px;
+  }
+  .consult-btn.btnwicon.sticky img {
+    display: block;
+    margin: 0 auto !important;
+    padding: 0;
+    width: auto;
+    height: auto;
+    border: 0;
+  }
+  .video-consult-page .consult-btn.btnwicon.sticky a {
+    font-size: 0;
+    width: 60px;
+    display: inline-block;
+    height: 60px;
+  }
+  .video-consult-page .consult-btn.btnwicon.sticky a:first-child {
+    width: 60px;
+    line-height: 6px;
+  }
+  .consult-btn.btnwicon.sticky {
+    left: 10px;
+    bottom: 10px;
+  }
+  .bottom-banner-menu .bottom-bx img,
+  .know-btn.orange a.call,
+  body.inner-page .descbx {
+    display: inline-block;
+  }
+  .techbx .slick-next,
+  .techbx .slick-prev {
+    background-size: 16px;
+  }
+  .techbx .slick-next {
+    right: -30px;
+  }
+  .techbx .slick-prev {
+    left: -30px;
+  }
+  .bootstrap-select.btn-group .dropdown-menu,
+  .left-box .bootstrap-select.btn-group .dropdown-menu {
+    min-width: 100% !important;
+  }
+  .video-sec iframe {
+    height: 280px;
+  }
+  section.journey-sec .inner-journey .col {
+    min-height: 320px;
+  }
+  .bootstrap-select.btn-group .dropdown-menu li a span.text,
+  .breadcrumb ul li a,
+  .inner-know-want ul li a,
+  .panchkarma-banner .content .know-btn a,
+  section.consult-category .col-md-4 .know-more a {
+    font-size: 13px;
+  }
+  .inner-journey.slick-slider .slick-slide .inner,
+  section.digestive.quality-sec .right-icobx .inner {
+    min-height: 300px;
+  }
+  .location {
+    text-align: center;
+  }
+  .bootstrap-select.btn-group .dropdown-toggle .filter-option {
+    font-size: 17px;
+  }
+  .innerbx-sel.catbx .bootstrap-select > .dropdown-toggle {
+    min-width: 100%;
+  }
+  .bootstrap-select.btn-group .dropdown-menu li a {
+    padding: 7px 10px;
+  }
+  .left-box .bootstrap-select.form-control {
+    height: 10px;
+  }
+  .left-box.innerbx-sel.catbx .innerbx-sel::after {
+    bottom: 30px;
+  }
+  .inner-success .bx .top {
+    padding: 15px;
+  }
+  .inner-success .bx {
+    min-height: 280px;
+  }
+  section.doctor-section .slider .slick-next,
+  section.doctor-section .slider .slick-prev {
+    width: 35px;
+    height: 35px;
+    bottom: -25%;
+  }
+  .inner-journey.slick-slider .slick-slide {
+    min-height: 310px;
+  }
+  section.doctor-section .slider .slick-prev {
+    right: 40px;
+  }
+  .location ul li {
+    background: #c74a1b;
+    padding: 10px 15px;
+    color: #fff;
+    font-size: 17px;
+    text-align: center;
+    margin: 5px;
+    border-radius: 4px;
+  }
+  .ayurnique-treatment .head-sec br,
+  .consult-btn.btnwicon a img,
+  .doctor-imrc-slider .slick-dots li button,
+  .head-bx p br,
+  .inner-personalised p br,
+  .inner-video .col:nth-child(2) .calender-img,
+  .leaf,
+  .map img,
+  .tab-sec .col-md-3,
+  body.inner-page .stickmenu .innerbx.wellness,
+  section.contact-adres .head h3 br,
+  section.contact-form .heading br,
+  section.testimonials .left-head h2 br,
+  section.testimonials .left-head h4 br,
+  section.testimonials .left-head p br,
+  section.treat-possible-sec .head-bx h2 br {
+    display: none;
+  }
+  .location ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+  }
+  section.presence-sec .head-bx {
+    margin-bottom: 30px;
+    text-align: left;
+  }
+  .ayurnique-treatment,
+  .content-inner,
+  .inner-consult .know-btn,
+  .testi_sec ul,
+  section.digestive .head-bx,
+  section.how-phone-works .col-md-12,
+  section.how-phone-works .col-md-12.third,
+  section.how-phone-works .col-md-12.third .num {
+    text-align: center;
+  }
+  section.journey-sec {
+    padding: 60px 0 50px;
+  }
+  .thankinner img {
+    width: 100px;
+  }
+  .thankinner h1 {
+    margin-top: 0;
+    padding-top: 20px;
+    font-size: 60px;
+  }
+  .thankinner p {
+    font-size: 23px;
+    line-height: 1.4;
+  }
+  section.consult-category.whyjiva-consult {
+    padding-top: 50px;
+  }
+  .heritage-sec,
+  body.mini-disease-page.phone-consult-page
+    section.inner-banner-sec
+    .content-inner {
+    margin-top: 60px;
+  }
+  .quote-bx::after,
+  section.doctor-section .slick-vertical .slick-slide::after {
+    opacity: 0;
+  }
+  section.doctor-section .slider .slide {
+    padding: 13px;
+  }
+  .inner-success .bx .bottom {
+    padding: 15px 12px;
+    min-height: 160px;
+  }
+  .ayurnique-treatment .head-sec sup,
+  .right-icon a.booknow,
+  .video-consult-page .consult-btn.btnwicon a,
+  section.ayurved-banner.speak-cont-sec .right-ayurved .input input,
+  section.ayurved-banner.speak-cont-sec .right-ayurved .input textarea {
+    font-size: 12px;
+  }
+  .bottom-banner-menu .left-box .innerbx-sel select,
+  .head-bx p,
+  .quote-bx h3,
+  section.diabetic-sec .head-bx p,
+  section.firstwhyjiva .greenbx p,
+  section.inner-banner-sec .inner-consult p,
+  section.trust-sec .inner-trust .other-head h4 {
+    font-size: 18px;
+  }
+  section.trust-sec .inner-trust .head-bx h2 {
+    font-size: 30px;
+  }
+  .big-img img,
+  .leaf img {
+    width: 50%;
+  }
+  section.technology-sec .row {
+    padding: 20px 0;
+  }
+  .doctor-jiva-phone .bottom-box .boxprt .inner h2,
+  .doctor-slider,
+  .heritage-sec .col-md-4,
+  .slctstate .know-btn.orange a,
+  section#faqs .inner-faq .head-bx img,
+  section.consult-category .col-md-4:last-child img,
+  section.how-phone-works .col-md-12.second,
+  section.locations-sec.panch-locate .slctstate .selctbx,
+  section.technology-sec .row img {
+    width: 100%;
+  }
+  .more-detail.panchfirstsec h1,
+  section.technology-sec .head h2,
+  section.why-jiva.years-sec .btm-jiva-why .inner h2 {
+    font-size: 40px;
+  }
+  section.technology-sec .head {
+    margin-bottom: 0;
+    padding-left: 20px;
+  }
+  section.technology-sec .col-md-6 h2 {
+    font-size: 26px;
+    margin-bottom: 10px;
+  }
+  .add-inner.row .inner p,
+  .ayurnique-treatment .head-sec p,
+  .ayurnique-treatment p,
+  .btm-jiva-why .btm-line p,
+  .disease-inner .row .col .inner h4,
+  .inner-interesting p,
+  .techbx .inner-right h4,
+  section.diabetic-sec p {
+    font-size: 16px;
+  }
+  .showcase .box {
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 10px;
+  }
+  .doctor-jiva-phone .bottom-box,
+  .heritage-sec .row,
+  .showcase {
+    flex-wrap: wrap;
+  }
+  .ayurnique-treatment .slick-slide,
+  .right-icobx .slick-slide,
+  .slick-slider .slick-list .slick-slide,
+  section.doctor-section .left-sec,
+  section.testimonials .slick-slider .slick-slide {
+    padding: 0;
+  }
+  section.locations-sec.panch-locate {
+    padding-top: 60px;
+    padding-bottom: 30px;
+  }
+  section.firstwhyjiva .greenbx {
+    padding: 30px;
+  }
+  body.inner-page .breadcrumb,
+  section.desc-disc.more-detail.panchfirstsec {
+    padding-bottom: 0;
+  }
+  section.desc-disc.more-detail h3 {
+    font-size: 22px;
+  }
+  section.desc-disc.more-detail.panchfirstsec .tab-sec {
+    margin-top: 50px;
+  }
+  .inner-personalised .inner-form textarea {
+    height: 120px;
+  }
+  .inner-personalised .head-bx {
+    margin-bottom: 30px;
+  }
+  .inner-personalised label {
+    margin-bottom: 40px;
+    width: 85%;
+  }
+  .video-sec .play img {
+    width: 60%;
+  }
+  .tab-content > .tab-pane button {
+    background: #c74a1b;
+    border: 0;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    margin: 0 5px;
+  }
+  .tab-content > .tab-pane.active {
+    -webkit-animation: none;
+  }
+  .tab-content > .tab-pane {
+    transform: none;
+  }
+  .inner-treat .col-md-3 {
+    padding: 0 8px;
+    margin-bottom: 0;
+  }
+  .h2,
+  .more-detail.panchfirstsec h2,
+  h2,
+  section.digestive .head-bx h2 {
+    font-size: 34px;
+  }
+  section.locations-sec.panch-locate .head h2 {
+    font-size: 34px;
+    margin-bottom: 0;
+  }
+  section.locations-sec.panch-locate .bootstrap-select button {
+    background: #fff !important;
+    font-family: Roboto;
+    color: #6f6f6f;
+    font-weight: 500;
+  }
+  .tab-sec {
+    padding: 50px 10px;
+  }
+  .panchkarma-banner .row,
+  section.contact-form,
+  section.contact-form .col-md-12,
+  section.inner-banner-sec .content-inner,
+  section.why-jiva.years-sec .btm-jiva-why .row {
+    margin: 0;
+  }
+  .doctor-slider .item,
+  .row.know-want-sec .head-bx,
+  body.inner-page .stickmenu .container {
+    padding: 0 15px;
+  }
+  .doctor-slider .slick-next,
+  .doctor-slider .slick-prev {
+    display: block !important;
+  }
+  section.diabetic-sec .btm-tag,
+  section.diabetic-sec .btm-tag h3 {
+    margin-top: 0;
+  }
+  .row.know-want-sec {
+    margin-bottom: 11px;
+  }
+  .inner-interesting .col-md-6:last-child,
+  .inner-location .col-md-4,
+  .inner-offer .col-md-3,
+  .symptombx {
+    margin-bottom: 0;
+  }
+  .inner-know-want ul li {
+    min-height: 110px;
+    margin: 0 10px;
+  }
+  .bottom-banner-menu .bottom-bx {
+    width: 95%;
+  }
+  .inner-know-want ul.slick-dots li {
+    background: #fff;
+    width: auto;
+    min-height: auto;
+    height: auto;
+    background: #08a34d94;
+    margin: 0 3px;
+  }
+  .inner-know-want .slick-dots {
+    bottom: -40px;
+  }
+  .inner-know-want .slick-dots li button {
+    width: 8px;
+    height: 8px;
+    padding: 0;
+  }
+  .inner-know-want ul.slick-dots li.slick-active {
+    background: #fa670f;
+    border-color: #fa670f;
+  }
+  .doctor-slider .slick-dots li button {
+    border: 1px solid #08a34d;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    padding: 0;
+  }
+  .doctor-slider .slick-dots li.slick-active button {
+    background: #08a34d;
+  }
+  .doctor-slider .slick-dots {
+    bottom: -30px;
+    display: none !important;
+  }
+  .inner-location .inner-bx,
+  .phone-consult-page .consult-btn.orange.know-btn a {
+    margin-bottom: 20px;
+  }
+  .doctor-slider .slick-dots li {
+    width: 9px;
+    height: 10px;
+  }
+  .desc-disc h3,
+  .detailtext .col-md-12 h2 {
+    font-size: 32px;
+  }
+  .inner-choose .row .col-md-4 {
+    padding: 0 5px;
+  }
+  section.inner-banner-sec.category-banner .content-inner {
+    margin-top: 30px;
+  }
+  .inner-choose .inner {
+    padding: 30px;
+    min-height: 0px;
+  }
+  section.ayurveda-choose {
+    padding-bottom: 60px;
+  }
+  .offer-phone .inner-offer .inner h4,
+  .phone-consult-page section.inner-banner-sec h1,
+  section.inner-banner-sec p {
+    font-size: 20px;
+  }
+  section.digestive .consult-btn {
+    position: absolute;
+    bottom: 60px;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    left: 0;
+  }
+  .detailtext .row .col-md-8,
+  section.digestive .col-md-5 {
+    position: static;
+  }
+  .inner-personalised .inner-form .input {
+    width: calc(100% / 2);
+    padding-top: 0;
+  }
+  .inner-personalised label .bootstrap-select button {
+    font-size: 14px;
+    font-family: Roboto;
+  }
+  .inner-personalised .inner-form .submit input {
+    font-size: 14px;
+    padding: 15px 30px;
+  }
+  section.digestive {
+    padding-bottom: 130px;
+  }
+  .ayurnique-treatment h3,
+  .detailtext .row .col-md-8 h2 {
+    position: absolute;
+    top: 0;
+  }
+  .mini-disease-page .inner-banner-sec h3,
+  section.inner-banner-sec h1,
+  section.inner-banner-sec h2 {
+    font-size: 44px;
+  }
+  .symptombx h1,
+  .symptombx h2 {
+    font-size: 48px;
+  }
+  .know-btn.orange a {
+    display: inline-block;
+    font-size: 14px;
+    padding: 13px 30px;
+  }
+  section.testimonials .left-head p {
+    width: 100%;
+    font-size: 16px;
+  }
+  section.testimonials .left-head h4 {
+    margin-bottom: 10px;
+    margin-top: 3px;
+  }
+  .ayurnique-treatment p {
+    padding-top: 10px;
+    margin-bottom: 0;
+  }
+  .ayurnique-treatment .innerbx img,
+  .detailtext .ayurnique-treatment img {
+    padding-top: 90px;
+  }
+  .right-icobx .slick-list {
+    height: 300px;
+  }
+  .symptombx ul li {
+    width: auto;
+    margin-right: 5px;
+  }
+  .bottom-banner-menu .bottom-bx a p {
+    display: inline-block;
+    padding-top: 0;
+    padding-left: 5px;
+  }
+  body.inner-page .stickmenu .innerbx h5 {
+    text-align: left;
+    font-size: 14px;
+    margin: 0;
+  }
+  body.inner-page .stickmenu .innerbx .icon {
+    padding: 15px 7px 15px 0;
+  }
+  body.inner-page .stickmenu .innerbx .icon img {
+    display: inline-block;
+    padding-right: 10px;
+  }
+  body.inner-page .stickmenu .innerbx {
+    width: 47%;
+  }
+  .symptombx ul li a {
+    font-size: 16px;
+    padding-left: 25px;
+    padding-right: 14px;
+  }
+  section.inner-banner-sec {
+    background-position: left !important;
+    background-color: #903316 !important;
+    color: #fff;
+  }
+  .content-inner {
+    margin-left: 25px;
+  }
+  section.inner-banner-sec .container {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+  .bottom-banner-menu .left-box .icon {
+    width: 55px;
+    height: 70px;
+    line-height: 70px;
+    display: none;
+  }
+  .bottom-banner-menu .left-box .innerbx-sel {
+    padding: 0 10px;
+    width: 47%;
+  }
+  .bottom-banner-menu .left-box p,
+  section.consult-loacte .inner .button a {
+    font-size: 11px;
+  }
+  .bottom-banner-menu .left-box .innerbx-sel::after {
+    background-size: 8px;
+    height: 5px;
+    right: -10px;
+    bottom: 0;
+  }
+  .bottom-banner-menu .left-box {
+    height: 75px;
+  }
+  .detailtext .col-md-4 img {
+    margin-bottom: 10px;
+    padding-top: 60px;
+  }
+  .symptombx {
+    padding-bottom: 20px;
+  }
+  .causes {
+    padding: 0;
+    margin: 30px 0 10px;
+  }
+  .ayurvedbx,
+  .row.top-consultation,
+  .slctstate,
+  section.diabetic-sec .inner-diabetic .col-md-6 {
+    margin-bottom: 40px;
+  }
+  .ayurvedbx {
+    padding: 50px 20px;
+    width: 100%;
+  }
+  .ayurvedbx img {
+    height: 200px;
+    object-fit: cover;
+  }
+  .box-sec,
+  .phone-consult-page .consult-btn.orange.know-btn {
+    margin-top: 10px;
+  }
+  .ayurnique-treatment h3 {
+    width: 93%;
+  }
+  .inner-video .col:last-child,
+  .phone-consult-page .content-inner,
+  .testi_sec p,
+  .video-consult-page section.inner-banner-sec h2,
+  .video-consult-page section.inner-banner-sec p,
+  section.inner-banner-sec .bottom-banner-menu .container,
+  section.inner-banner-sec h1 {
+    text-align: left;
+  }
+  section.contact-form input,
+  section.contact-form textarea {
+    margin-bottom: 8px;
+    padding: 14px;
+  }
+  section.desc-disc {
+    padding-bottom: 40px;
+  }
+  .ayurnique-treatment .col-md-4 {
+    padding: 0 3px;
+  }
+  section.desc-disc .col-md-8,
+  section.more-detail.desc-disc .col-md-8 {
+    width: 100%;
+    padding-right: 15px;
+  }
+  .detailtext h2 {
+    font-size: 42px;
+  }
+  .doctor-jiva-phone .bottom-box .boxprt .inner,
+  section.more-detail .detailtext p {
+    margin-bottom: 15px;
+  }
+  section.desc-disc.more-detail {
+    padding-bottom: 50px;
+    padding-top: 70px;
+  }
+  section.desc-disc.more-detail .detailtext {
+    border: 0;
+    padding-bottom: 0;
+  }
+  .inner-interesting .col-md-6 {
+    margin-bottom: 50px;
+  }
+  section.diabetic-sec {
+    padding-bottom: 70px;
+  }
+  .btm-banner {
+    padding: 90px 20px;
+    margin-top: 50px;
+  }
+  .inner-know-want ul li {
+    width: 43%;
+  }
+  .inner-know-want .slick-slide > div {
+    margin: 0 3px;
+  }
+  .video-consult-page section.inner-banner-sec {
+    background-size: cover;
+    background-position: -550px;
+  }
+  .consult-btn.btnwicon {
+    margin-top: 20px;
+  }
+  .consult-btn.btnwicon a {
+    width: 140px;
+  }
+  .consult-btn.btnwicon a:first-child {
+    width: 310px;
+  }
+  .bottom-video-banner ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  .bottom-video-banner ul li:first-child {
+    padding-right: 10px;
+    margin-left: 0;
+  }
+  .bottom-video-banner ul li:last-child {
+    margin-right: 0;
+  }
+  .bottom-video-banner ul li {
+    font-size: 0;
+  }
+  .bottom-video-banner {
+    left: 0;
+    width: 100%;
+    bottom: 0;
+  }
+  .video-consult-page .consult-btn.btnwicon a:first-child {
+    width: 260px;
+  }
+  .banner {
+    min-height: 290px;
+    background-attachment: local;
+  }
+  .inner-btm .col-md-3 {
+    margin-bottom: 10px;
+  }
+  .inner-offer .inner {
+    height: auto;
+  }
+  .inner-video .col {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .inner-video .col:nth-child(2) {
+    text-align: left;
+    transform: none;
+  }
+  .how-bg {
+    min-height: auto;
+    padding: 40px 40px 210px;
+    background: #ececec;
+  }
+  .inner-video .col h4 {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    font-size: 20px;
+    line-height: 60px;
+  }
+  .quote-bx {
+    display: inline-block;
+    width: 80%;
+    margin-top: 0;
+    margin-left: -20px;
+    transform: translateY(30px);
+  }
+  .mid-laptop img {
+    width: 40%;
+  }
+  .mid-laptop {
+    bottom: -20px;
+  }
+  .inner-consult,
+  section#faqs .inner-faq {
+    padding: 50px 20px;
+  }
+  section#faqs .head-bx .icon {
+    width: 20%;
+  }
+  section#faqs .head-bx .heading {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .video-consult-page .consult-btn.btnwicon a {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  section.meet-doctor .head-bx h2 span {
+    font-size: 54px;
+  }
+  section.how-video {
+    padding-bottom: 20px;
+  }
+  section#faqs {
+    padding-top: 10px;
+  }
+  .clinic-bx {
+    width: 100%;
+    margin-top: 80px;
+  }
+  section.inner-banner-sec .inner-consult h2 {
+    font-size: 28px;
+    line-height: 1.2;
+  }
+  section.consult-category .col-md-4 li,
+  section.digestive.quality-sec .inner h3,
+  section.inner-banner-sec .inner-consult .iconbx .inner p {
+    font-size: 15px;
+  }
+  section.inner-banner-sec .inner-consult .iconbx .inner {
+    padding: 15px 10px;
+  }
+  section.locations-sec {
+    padding-top: 240px;
+  }
+  .slctstate .selctbx {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .slctstate .know-btn.orange {
+    width: 100%;
+    padding-top: 10px !important;
+  }
+  .slctstate {
+    border-radius: 8px;
+    background: 0 0;
+    box-shadow: none;
+  }
+  .inner-location .inner-bx {
+    min-height: auto;
+    padding-bottom: 60px;
+  }
+  section.doctors-jiva h1 {
+    font-size: 46px;
+    margin-bottom: 10px;
+    padding-top: 0;
+    margin-top: 0;
+  }
+  .right-icon ul li {
+    margin-right: 14px;
+  }
+  .right-icon ul li a::after {
+    right: -10px;
+  }
+  section.digestive.quality-sec {
+    padding-bottom: 50px;
+    overflow: hidden;
+  }
+  section.digestive.quality-sec .right-icobx .slick-list {
+    overflow: visible;
+  }
+  .phone-consult-page .inner-banner-sec form input {
+    width: 110%;
+  }
+  .doctor-jiva-phone .bottom-box .boxprt {
+    width: calc(100% / 2);
+  }
+  section.how-phone-works h2 {
+    padding: 0;
+    margin-bottom: 40px;
+    width: 100%;
+    text-align: center;
+  }
+  .leaf.one {
+    display: block;
+    top: 0;
+    left: 0;
+  }
+  section.how-phone-works {
+    overflow: hidden;
+  }
+  section.how-phone-works .col-md-12.third .quote {
+    top: auto;
+    left: 40px;
+  }
+  section.how-phone-works .col-md-12 .quote {
+    top: auto;
+    left: 68px;
+  }
+  section.consult-category .col-md-4 {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  section.consult-category .col-md-4:last-child .inner {
+    width: 100%;
+    padding: 0 30px 40px;
+  }
+  section.consult-category .col-md-4:last-child h3 {
+    top: 140px;
+    left: auto;
+  }
+  .panchkarma-banner .content {
+    width: 100%;
+    padding: 30px 40px 0;
+  }
+  .panchkarma-banner img {
+    opacity: 0.4;
+  }
+  .panchkarma-banner {
+    background: #000;
+  }
+  section.consult-category .col-md-4 img {
+    height: 230px;
+  }
+  section.about.consult-ayur-sec {
+    padding-bottom: 0;
+    margin-bottom: 20px;
+  }
+  .disease-inner .row .col .inner {
+    min-height: 170px;
+  }
+  section.contact-adres .head h2,
+  section.inner-banner-sec .inner-cont h1 {
+    font-size: 55px;
+  }
+  section.contact-adres .head h3,
+  section.inner-banner-sec .inner-cont h3 {
+    font-size: 28px;
+  }
+  .add-inner.row.jivagram {
+    margin-top: 40px;
+  }
+  .add-inner.row .inner h5 {
+    font-weight: 500;
+    padding-bottom: 8px;
+  }
+  .add-inner.row .inner h3 {
+    font-size: 40px;
+    top: 30px;
+    margin-top: 18px;
+  }
+  .add-inner.row {
+    padding-top: 110px;
+    margin-top: 30px;
+  }
+  .add-inner.row .inner .contact a {
+    font-size: 14px;
+  }
+  .btm-jiva-why .btm-line img {
+    padding-left: 90px;
+  }
+  section.consult-loacte .inner .button {
+    padding-left: 0;
+  }
+  section.consult-loacte .col-md-6 {
+    padding: 30px 20px;
+  }
+  section.consult-loacte .inner h3 {
+    font-size: 24px;
+    padding-left: 20px;
+    padding-right: 14px;
+  }
+  section.consult-loacte .inner img {
+    width: 55px;
+    height: 60px;
+    object-fit: contain;
+  }
+  section.ayurved-banner.speak-cont-sec {
+    padding: 0 0 20px;
+  }
+  section.ayurved-banner.speak-cont-sec .quotesec {
+    margin-bottom: 0;
+    margin-top: 40px;
+  }
+  section.ayurved-banner.speak-cont-sec .right-ayurved {
+    padding-top: 30px;
+  }
+  section.inner-banner-sec.contact-banner {
+    background-position: center !important;
+  }
+  section.why-jiva.years-sec {
+    padding-top: 50px;
+    padding-bottom: 40px;
+  }
+  .testi_sec {
+    width: 90%;
+  }
+  .testi_sec h1 {
+    font-size: 40px !important;
+    text-align: center !important;
+  }
+  .testi_sec h1:after {
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+  .testi_sec h1 span {
+    font-size: 28px;
+    text-align: center;
+  }
+  .imrc_info .head-bx,
+  .scientic_approch {
+    width: 80%;
+  }
+  .imrc_benefits {
+    background-size: 0;
+  }
+}
+.jivaGenesis-sec-content-group,
+.missionVision-sec-content-group,
+.twoColEqualImg-cols-group {
+  font-size: 22px;
+  line-height: 1.55;
+}
+@media only screen and (max-width: 375px) {
+  .breadcrumb ul li a {
+    font-size: 12px;
+  }
+  .breadcrumb ul li a::after {
+    margin-right: 1px;
+    margin-left: 2px;
+  }
+  .symptombx ul li a {
+    font-size: 15px;
+  }
+  .symptombx {
+    padding-bottom: 20px;
+  }
+  h2 {
+    font-size: 34px;
+  }
+  .symptombx ul li:last-child {
+    margin: 0;
+  }
+  .bottom-banner-menu .left-box .innerbx-sel select {
+    font-size: 16px;
+  }
+  .bottom-banner-menu .left-box {
+    padding: 15px 10px;
+  }
+  .video-consult-page section.inner-banner-sec h2 br {
+    display: none;
+  }
+  .video-consult-page section.inner-banner-sec h1,
+  .video-consult-page section.inner-banner-sec h2,
+  section.inner-banner-sec h1 {
+    font-size: 40px;
+  }
+  .video-consult-page .consult-btn.btnwicon a:first-child {
+    width: 260px;
+  }
+  .btm-jiva-why .inner {
+    padding: 25px 15px;
+    min-height: 170px;
+  }
+  .btm-jiva-why .inner h2 {
+    font-size: 35px;
+  }
+  .btm-jiva-why .inner p {
+    font-size: 13px;
+  }
+  .how-bg {
+    padding: 40px 25px 180px;
+  }
+  .advantage-sec .disease-inner .row .col .inner h4 {
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .techbx .slick-next,
+  .techbx .slick-prev {
+    width: 15px;
+    background-size: 12px;
+  }
+  .consult-btn.btnwicon.sticky {
+    left: 10px;
+    bottom: 44px;
+  }
+}
+@media only screen and (max-width: 360px) {
+  section.locations-sec {
+    padding-top: 270px;
+  }
+  .inner-success .bx .top p {
+    font-size: 15px;
+  }
+  .right-icon ul li {
+    margin-right: 7px;
+  }
+  .right-icon ul li a::after {
+    right: -8px;
+  }
+  .advantage-sec .disease-inner .row .col .inner {
+    padding: 20px 12px;
+  }
+  .doctor-jiva-phone .bottom-box .boxprt .inner h2 {
+    font-size: 36px;
+  }
+  section.how-phone-works .col-md-12 img {
+    width: 100%;
+  }
+  section.how-phone-works .col-md-12 .quote {
+    left: 20px;
+  }
+  .consult-btn.btnwicon.sticky {
+    left: 10px;
+    bottom: 44px;
+  }
+}
+.treat-yrself-sec {
+  padding-bottom: 35px;
+}
+.treatyrself-video-group {
+  width: 100%;
+  max-width: 1150px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  border-radius: 15px;
+}
+.treatyrself-video-group > img {
+  width: 100%;
+  max-width: 100%;
+}
+.treatyrself-video-group .playicon {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  width: 130px;
+  height: 130px;
+  /* background-image: url(../img/treatyrself-video-playicon.png); */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.treatyrself-video-group iframe,
+.treatyrself-video-group video {
+  width: 100%;
+  max-width: 100%;
+  object-fit: cover;
+}
+.aboutUs-founder-section img,
+.aboutus-page-container img {
+  max-width: 100%;
+}
+.aboutus-banner-section {
+  position: relative;
+  overflow: hidden;
+  color: #fff;
+  background-position: center top !important;
+}
+.aboutus-banner-section .container {
+  width: 100% !important;
+  max-width: 100% !important;
+}
+.aboutus-banner-section h1,
+.aboutus-banner-section h2,
+section.aboutus-banner-section h1,
+section.aboutus-banner-section h2 {
+  color: inherit;
+  font-size: 65px;
+  line-height: 1;
+  margin: 0;
+  padding: 0 0 5px;
+}
+.aboutus-banner-section h3,
+section.aboutus-banner-section h3 {
+  font-size: 45px;
+  line-height: 1.2;
+  text-transform: none;
+  margin: 0;
+  padding: 0;
+}
+.aboutus-banner-img-col {
+  position: absolute;
+  top: -22%;
+  left: auto;
+  right: 52%;
+  z-index: -1;
+}
+.aboutus-banner-content-col {
+  padding: 0 10px;
+}
+.jiva-genesis-section {
+  padding: 125px 0;
+  /* background-image: url(../img/giving-back-to-society.jpg); */
+  background-position: center right;
+  background-size: cover;
+}
+.jiva-genesis-section h3 {
+  color: #000;
+  font-size: 50px;
+  line-height: 1.2;
+  letter-spacing: 0;
+  margin: 0 0 10px;
+}
+.jiva-genesis-section h2 {
+  color: #c74a1b;
+  font-size: 75px;
+  line-height: 1.06;
+  letter-spacing: 0.1px;
+  margin: 0 0 15px;
+  padding: 0 0 15px;
+}
+.jivaGenesis-sec-content-group {
+  margin-bottom: 5px;
+}
+.jivaGenesis-sec-content-group p {
+  font-size: inherit;
+  line-height: inherit;
+  margin: 0 0 30px;
+}
+.jivaGenesis-sec-content-group > :last-child,
+.missionVision-sec-content-group > :last-child {
+  margin-bottom: 0;
+}
+.mission-vision-section {
+  color: #fff;
+  background-color: #007333;
+  text-align: center;
+  padding: 115px 0 125px;
+}
+.mission-vision-section h2 {
+  font-size: 80px;
+  line-height: 1;
+  letter-spacing: -2px;
+  text-transform: none;
+  margin: 0 0 20px;
+}
+.missionVision-sec-content-group p {
+  font-size: inherit;
+  line-height: inherit;
+  margin: 0 0 25px;
+}
+.missionVision-sec-content-group p a {
+  color: #e4f61b;
+  text-decoration: none;
+}
+.missionVision-sec-content-group p a:hover {
+  color: #e4f61b;
+  text-decoration: underline;
+}
+.greybg {
+  background-color: #f6f6f6 !important;
+}
+.twoColEqual-with-img-sec {
+  padding: 115px 0;
+  background-color: #fff;
+}
+.twoColEqualImg-cols-group {
+  color: #000;
+}
+.twoColEqualImg-cols-group h3 {
+  color: #08a34d;
+  font-size: 50px;
+  line-height: 1.2;
+  letter-spacing: 0;
+  margin: 0 0 25px;
+}
+.twoColEqualImg-cols-group h3 img {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 8px;
+}
+.twoColEqualImg-cols-group p {
+  color: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  padding: 0;
+  margin: 0 0 22px;
+}
+.twoCol-equal-with-img-group .image-group img {
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  object-fit: cover;
+}
+.twoColEqualImg-btn {
+  display: inline-block;
+  color: #fff;
+  font-family: Roboto, arial;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.3;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  padding: 23px 30px;
+  margin: 10px 0 0;
+  min-width: 287px;
+  background: #fa670f;
+  box-shadow: inset 0 0 1px rgba(0, 0, 0, 0.2);
+  border-radius: 50px;
+  opacity: 1;
+}
+.twoColEqualImg-btn:hover {
+  color: #fff;
+  background: #fa670f;
+  opacity: 0.85;
+}
+section.about-jiva-section {
+  padding: 115px 10px;
+  background: #faeac5;
+}
+.about-jiva-content-group h2 {
+  font-family: Philosopher, sans-serif;
+  font-size: 72px;
+  line-height: 1.08;
+  margin: 0 0 10px;
+  padding: 0;
+}
+.aboutJiva-video-group {
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  overflow: hidden;
+  margin: 25px 0 15px;
+  width: 100%;
+  max-width: 1072px;
+}
+.aboutJiva-video-poster {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  cursor: pointer;
+}
+.aboutJiva-video-poster > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.aboutJiva-video-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 1;
+  width: 91px;
+  height: 91px;
+  transform: translate(-50%, -50%);
+}
+.aboutJiva-video-group > video {
+  display: block;
+  width: 100%;
+  max-width: 1072px;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+}
+.page-loaded .aboutJiva-video-group > video::-webkit-media-controls {
+  display: none;
+}
+section.our-success-section {
+  background: #f6f6f6;
+  padding: 110px 0 115px;
+}
+.our-success-content-wrap h2 {
+  font-family: Philosopher, sans-serif;
+  font-size: 50px;
+  line-height: 1.1;
+  margin: 0 0 10px;
+  padding: 0 0 10px;
+}
+.our-success-col {
+  padding: 0 5px;
+  margin-top: 25px;
+}
+.our-success-col-inner {
+  background-color: #08a34d;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.4;
+  text-align: left;
+  position: relative;
+  overflow: hidden;
+  border-radius: 15px;
+  height: 100%;
+}
+.our-success-col-inner h4 {
+  color: #e4f61b;
+  font-family: Roboto, arial;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.1;
+  margin: 0;
+  padding: 0 0 5px;
+}
+.our-success-col-inner h6 {
+  font-family: Roboto, arial;
+  font-size: 20px;
+  line-height: 1.1;
+  margin: 0;
+  padding: 0 0 10px;
+}
+.our-success-col-inner p {
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+}
+.our-success-headings {
+  background: #007333;
+  padding: 42px 30px;
+}
+.our-success-content {
+  padding: 35px 30px;
+}
+.our-success-content > :last-child,
+.our-success-headings > :last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+@media all and (min-width: 768px) {
+  .aboutus-banner-content-col {
+    width: 45%;
+    margin-left: auto;
+    margin-right: 0;
+  }
+  .jivaGenesis-sec-content-group {
+    width: 100%;
+    max-width: 50%;
+  }
+  .show-in-responsive {
+    display: none;
+  }
+  .our-success-cols-group {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  .our-success-col {
+    padding: 0 15px;
+    margin-top: 35px;
+    width: 50%;
+    -webkit-box-flex: 50%;
+    -ms-flex: 50%;
+    flex: 50%;
+  }
+  .aboutJiva-video-group {
+    height: 405px;
+  }
+}
+@media all and (min-width: 992px) {
+  .twoColEqualImg-cols-group {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  .twoColEqualImg-cols-group .content-col,
+  .twoColEqualImg-cols-group .image-col {
+    width: 50%;
+  }
+  .twoCol-equal-with-img-group.with-right-img .image-col {
+    order: 2;
+    padding-left: 10px;
+  }
+  .twoCol-equal-with-img-group.with-right-img .content-col {
+    padding-right: 25px;
+  }
+  .twoCol-equal-with-img-group.with-left-img .image-col {
+    padding-right: 10px;
+  }
+  .twoCol-equal-with-img-group.with-left-img .content-col {
+    padding-left: 25px;
+  }
+  .our-success-col {
+    padding: 0 29px;
+    margin-top: 35px;
+    width: 33.33%;
+    -webkit-box-flex: 33%;
+    -ms-flex: 33%;
+    flex: 33%;
+  }
+  .aboutJiva-video-group {
+    height: 528px;
+  }
+}
+@media all and (min-width: 1201px) {
+  .aboutJiva-video-group {
+    height: 602px;
+  }
+}
+@media all and (min-width: 1281px) {
+  .jivaGenesis-sec-content-group {
+    padding-right: 65px;
+  }
+  .missionVision-sec-content-group p > br {
+    display: block;
+  }
+  .aboutus-health-section
+    .twoCol-equal-with-img-group.with-right-img
+    .content-col {
+    padding-right: 92px;
+  }
+  .twoCol-equal-with-img-group.with-left-img .content-col {
+    padding-left: 65px;
+  }
+  .show-under-1280 {
+    display: none;
+  }
+}
+@media all and (min-width: 1401px) {
+  .aboutus-banner-content-col {
+    width: 40%;
+  }
+}
+@media (max-width: 1600px) {
+  .treatyrself-video-group .playicon {
+    width: 80px;
+    height: 80px;
+  }
+}
+@media (max-width: 1600px) and (min-width: 768px) {
+  .treat-yrself-sec .head-bx {
+    margin-bottom: 35px;
+  }
+  .treatyrself-video-group {
+    width: 100%;
+    max-width: 850px;
+  }
+  .treat-yrself-sec h2 {
+    font-size: 42px;
+  }
+  .treat-yrself-sec .head-bx p {
+    font-size: 20px;
+  }
+  .treat-yrself-sec {
+    padding-top: 60px;
+    padding-bottom: 35px;
+  }
+  .offer-sec {
+    padding-top: 70px;
+  }
+}
+@media (max-width: 1400px) and (min-width: 768px) {
+  .treat-yrself-sec .head-bx {
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 1360px) and (min-width: 1201px) {
+  .jivaGenesis-sec-content-group {
+    padding-right: 10px;
+    width: 100%;
+    max-width: 40%;
+  }
+}
+@media all and (max-width: 1280px) {
+  .aboutus-banner-section h3 > br {
+    display: none;
+  }
+}
+@media (max-width: 1280px) and (min-width: 768px) {
+  .jivaGenesis-sec-content-group {
+    font-size: 20px;
+  }
+}
+@media (max-width: 1280px) and (min-width: 1101px) {
+  .aboutus-banner-content-col {
+    width: 42%;
+  }
+  .aboutus-banner-section h1,
+  .aboutus-banner-section h2,
+  section.aboutus-banner-section h1,
+  section.aboutus-banner-section h2 {
+    font-size: 55px;
+  }
+  .aboutus-banner-section h3,
+  section.aboutus-banner-section h3 {
+    font-size: 35px;
+  }
+}
+@media (max-width: 1100px) and (min-width: 992px) {
+  .aboutus-banner-section {
+    background-position: 53% top !important;
+  }
+  .aboutus-banner-content-col {
+    width: 43%;
+  }
+  .aboutus-banner-section h1,
+  .aboutus-banner-section h2,
+  section.aboutus-banner-section h1,
+  section.aboutus-banner-section h2 {
+    font-size: 52px;
+  }
+  .aboutus-banner-section h3,
+  section.aboutus-banner-section h3 {
+    font-size: 32px;
+  }
+}
+@media (max-width: 1280px) and (min-width: 992px) {
+  .jiva-genesis-section {
+    /* background-image: url(../img/giving-backSociety-mobileBG.jpg); */
+    padding: 100px 0;
+  }
+  .jiva-genesis-section img.show-under-1280 {
+    float: right;
+    width: 50%;
+  }
+  .jivaGenesis-sec-content-group {
+    width: 100%;
+    max-width: 48%;
+    padding-right: 25px;
+  }
+  .jiva-genesis-section h2 {
+    font-size: 50px;
+  }
+  .jiva-genesis-section h3 {
+    font-size: 37px;
+  }
+}
+@media (max-width: 1200px) and (min-width: 992px) {
+  .aboutUs-founder-section .foundrbx {
+    padding: 0 5px;
+  }
+  .error404sec .errorinner h1 {
+    font-size: 180px;
+    color: #fff;
+  }
+}
+@media (max-width: 1200px) {
+  .treatyrself-video-group .playicon {
+    width: 60px;
+    height: 60px;
+  }
+}
+@media all and (max-width: 991px) {
+  .jiva-genesis-section {
+    padding: 100px 0;
+    /* background-image: url(../img/giving-backSociety-mobileBG.jpg); */
+  }
+  .jiva-genesis-section img.show-under-1280 {
+    width: 100%;
+    max-width: 600px;
+  }
+  .jiva-genesis-section img + .jivaGenesis-sec-content-wrap {
+    margin-top: 25px;
+  }
+  .jivaGenesis-sec-content-group {
+    width: 100%;
+    max-width: 100%;
+    padding-right: 0;
+  }
+  .jiva-genesis-section h2 {
+    font-size: 62px;
+  }
+  .jiva-genesis-section h3 {
+    font-size: 45px;
+  }
+  .twoCol-equal-with-img-group .image-col {
+    margin-bottom: 35px;
+  }
+  .aboutus-banner-section {
+    /* background-image: url(../img/aboutus-banner-mobile_image.jpg) !important; */
+    background-position: center top !important;
+  }
+  .aboutus-banner-content-col {
+    width: 100% !important;
+    max-width: 550px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .error404sec .errorinner p {
+    font-size: 25px;
+  }
+  .error404sec .errorinner h1 {
+    font-size: 100px;
+    color: #fff;
+  }
+  .error404sec {
+    height: 90vh;
+  }
+}
+@media all and (max-width: 767px) {
+  .aboutus-banner-img-col,
+  .hide-in-responsive {
+    display: none;
+  }
+  .about-jiva-content-group h2,
+  .aboutus-banner-section h1,
+  .aboutus-banner-section h2,
+  .mission-vision-section h2,
+  section.aboutus-banner-section h1,
+  section.aboutus-banner-section h2 {
+    font-size: 48px;
+  }
+  .jiva-genesis-section h2,
+  .our-success-content-wrap h2 {
+    font-size: 44px;
+  }
+  .aboutus-banner-section h3,
+  .jiva-genesis-section h3,
+  .our-success-col-inner h4,
+  .twoColEqualImg-cols-group h3,
+  section.aboutus-banner-section h3 {
+    font-size: 32px;
+  }
+  .jivaGenesis-sec-content-group,
+  .missionVision-sec-content-group,
+  .twoColEqualImg-cols-group {
+    font-size: 16px;
+  }
+  .jivaGenesis-sec-content-group p {
+    font-size: inherit;
+  }
+  .aboutus-banner-section,
+  section.inner-banner-sec.aboutus-banner-section {
+    background-position: center right !important;
+  }
+  .twoCol-equal-with-img-group .image-col {
+    margin-bottom: 35px;
+  }
+  .mission-vision-section,
+  .twoColEqual-with-img-sec,
+  section.about-jiva-section,
+  section.our-success-section {
+    padding: 70px 0;
+  }
+  .twoColEqualImg-cols-group h3 img {
+    width: auto;
+    height: 36px;
+  }
+  .twoColEqualImg-btn {
+    font-size: 14px;
+    padding: 16px 35px;
+    min-width: auto;
+  }
+  .jiva-genesis-section {
+    padding: 60px 0;
+  }
+  .twoCol-equal-with-img-group .image-group img {
+    width: 100%;
+    max-width: 500px;
+  }
+  .newslet {
+    padding-left: 0;
+    padding-top: 20px;
+  }
+  .aboutJiva-video-group {
+    min-height: 250px;
+    height: 55vw;
+    margin: 10px 0;
+  }
+  .aboutJiva-video-icon {
+    width: 62px;
+    height: 62px;
+  }
+  .our-success-content-wrap h2 {
+    padding-bottom: 5px;
+  }
+  .our-success-content,
+  .our-success-headings {
+    padding: 25px 20px;
+  }
+  .our-success-col {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .our-success-col-inner h6 {
+    font-size: 18px;
+  }
+  .our-success-col-inner {
+    font-size: 15px;
+    width: 100%;
+    max-width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .comfort_icons li {
+    font-size: 14px;
+    line-height: 20px;
+    padding: 0 20px;
+    width: 50%;
+    margin-bottom: 25px;
+  }
+  .testi_p_head {
+    width: 100%;
+  }
+  .testi_p_head h4 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .testi_select {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+}
+@media (max-width: 767px) and (min-width: 501px) {
+  .newslet {
+    padding-left: 0;
+    padding-top: 20px;
+    margin-top: 40px;
+    border-top: 1px solid #ddd;
+  }
+  .partext {
+    border-right: 0 !important;
+  }
+}
+@media all and (max-width: 500px) {
+  .aboutus-banner-section h1,
+  .aboutus-banner-section h2,
+  section.aboutus-banner-section h1,
+  section.aboutus-banner-section h2 {
+    font-size: 45px;
+    line-height: 1;
+  }
+  .aboutus-banner-content-col {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .aboutus-page-container .bottom-bx,
+  .ayurbaby-page-container .bottom-bx {
+    padding: 15px 9px;
+    text-align: center;
+    transition: bottom 0.3s;
+  }
+  .aboutus-page-container .bottom-bx .icon img,
+  .ayurbaby-page-container .bottom-bx .icon img {
+    margin-right: 5px;
+  }
+  .aboutus-page-container .bottom-bx .icon img,
+  .aboutus-page-container .bottom-bx .icon p,
+  .ayurbaby-page-container .bottom-bx .icon img,
+  .ayurbaby-page-container .bottom-bx .icon p {
+    display: inline-block;
+    vertical-align: middle;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+  .bottom-banner-menu .bottom-bx,
+  .page-loaded .aboutus-page-container .bottom-banner-menu .bottom-bx,
+  .page-loaded .ayurbaby-page-container .bottom-banner-menu .bottom-bx {
+    bottom: 50px;
+  }
+  .error404sec .errorinner p {
+    font-size: 20px;
+  }
+}
+.book-hd {
+  color: #c74a1b;
+}
+.why-txt {
+  padding: 0 80px 0 80px;
+}
+.pop-term-bg {
+  background: #c74a1b;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  color: #fff;
+}
+.vid-baner-hd {
+  color: #000 !important;
+  font-size: 50px !important;
+}
+.vid-consult {
+  color: #000 !important;
+  font-size: 28px !important;
+  margin-top: 0px !important;
+}
+.whr-frm {
+  width: 25%;
+}
+@media (min-width: 320px) {
+  .padbtm {
+    padding: 0 !important;
+  }
+  .brd-frm {
+    border: 1px solid #c74a1b;
+    border-bottom: 0;
+    padding: 10px;
+    min-height: 275px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  .book-hd {
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 0;
+    font-weight: 700;
+    padding-top: 20px;
+  }
+  .book-tag {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .mob-frm1,
+  .mob-frm2,
+  .mob-frm3 {
+    float: left;
+    margin-bottom: 10px !important;
+  }
+  .imgradius {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  .txt-mob {
+    padding: 15px 5px !important;
+  }
+  .call-txt {
+    font-size: 13px !important;
+    font-weight: 700;
+  }
+  .cnslttncrds-colinnr {
+    border-radius: 15px;
+  }
+  .mob-frm1 {
+    max-width: 98px !important;
+    padding: 0 0 0 15px;
+  }
+  .mob-frm2,
+  .mob-frm3 {
+    max-width: 93px !important;
+    padding: 0 0 0 10px;
+  }
+  .mobinput,
+  section.appointment-form {
+    padding-top: 0;
+  }
+  .mobinput {
+    width: 100% !important;
+  }
+  .inner-personalised .inner-form .input input {
+    padding: 13px;
+    border-radius: 0;
+    margin-bottom: 7px;
+  }
+  .inner-personalised .inner-form .submit input {
+    width: 100%;
+    background: #000;
+    color: #fff;
+    border-radius: 5px;
+  }
+  .padtp {
+    padding: 0;
+  }
+  .appointment-form-bg {
+    background: #c74a1b;
+    padding: 10px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+  .mob-head {
+    margin-top: 0;
+    text-align: left;
+    margin-bottom: 30px;
+    padding-left: 0;
+  }
+  .mob-diseas {
+    color: #c74a1b;
+    font-weight: 600;
+    text-align: left;
+    font-size: 25px;
+  }
+  .btm-jiva-why {
+    padding: 50px 30px 20px;
+    border: 0 solid #ccc;
+    box-shadow: 0 -2px 10px rgb(0 0 0 / 19%), 0 6px 6px rgb(0 0 0 / 23%);
+    border-radius: 15px;
+  }
+  .col-frm,
+  .col-frm2 {
+    width: 30%;
+    float: left;
+    background: #eceee1;
+    margin-bottom: 14px;
+    border-radius: 15px;
+  }
+  .why-txt {
+    font-size: 15px !important;
+    padding: 0;
+  }
+  .btm-jiva-why .inner p {
+    font-size: 15px;
+    margin-bottom: 0;
+  }
+  .exper {
+    padding-top: 24px;
+  }
+  .btm-line-mob {
+    text-align: center;
+  }
+  .col-frm2 {
+    margin-left: 14px;
+  }
+  .treat-inner {
+    min-height: 120px;
+    padding: 20px 5px 10px;
+  }
+  .treat-inner h4 {
+    color: #4b4b4b;
+    padding-top: 15px;
+    font-size: 11px;
+  }
+  .btm-jiva-why .inner_nbg {
+    min-height: 190px !important;
+  }
+  .close {
+    width: 30px;
+    height: 30px;
+    margin-top: -8px !important;
+    margin-right: -8px;
+    border-radius: 20px;
+    border: 1px solid #fff !important;
+    background: #fff !important;
+    opacity: inherit;
+  }
+  .consult-btn.btnwicon.sticky {
+    left: 10px;
+    bottom: 63px;
+  }
+}
+@media (min-width: 360px) {
+  .mob-frm1,
+  .mob-frm2,
+  .mob-frm3 {
+    float: left;
+    margin-bottom: 10px !important;
+  }
+  .mob-frm1 {
+    max-width: 106px !important;
+    padding: 0 0 0 10px;
+  }
+  .mob-frm2 {
+    max-width: 107px !important;
+    padding: 0 0 0 10px;
+  }
+  .mob-frm3 {
+    max-width: 111px !important;
+    padding: 0 0 0 14px;
+  }
+  .col-frm,
+  .col-frm2 {
+    width: 30%;
+    float: left;
+    background: #eceee1;
+    margin-bottom: 16px;
+    border-radius: 15px;
+  }
+  .btm-jiva-why .inner_nbg {
+    min-height: 170px !important;
+  }
+  .col-frm2 {
+    margin-left: 16px;
+  }
+  .treat-inner {
+    min-height: 120px;
+    padding: 20px 10px 10px;
+  }
+  .treat-inner h4 {
+    color: #4b4b4b;
+    padding-top: 15px;
+    font-size: 12px;
+  }
+  .close {
+    width: 30px;
+    height: 30px;
+    margin-top: -8px !important;
+    margin-right: -8px;
+    border-radius: 20px;
+    border: 1px solid #fff !important;
+    background: #fff !important;
+    opacity: inherit;
+  }
+  .consult-btn.btnwicon.sticky {
+    left: 10px;
+    bottom: 44px;
+  }
+}
+@media (min-width: 375px) {
+  .padbtm {
+    padding: 0 !important;
+  }
+  .brd-frm {
+    border: 1px solid #c74a1b;
+    border-bottom: 0;
+    padding: 10px;
+    min-height: 275px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  .book-hd {
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 0;
+    font-weight: 700;
+    padding-top: 20px;
+  }
+  .book-tag {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .mob-frm1,
+  .mob-frm2,
+  .mob-frm3 {
+    float: left;
+    margin-bottom: 10px !important;
+  }
+  .imgradius {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  .txt-mob {
+    padding: 15px 5px !important;
+  }
+  .call-txt {
+    font-size: 13px !important;
+    font-weight: 700;
+  }
+  .cnslttncrds-colinnr {
+    border-radius: 15px;
+  }
+  .mob-frm1 {
+    max-width: 114px !important;
+    padding: 0 0 0 15px;
+  }
+  .mob-frm2 {
+    max-width: 112px !important;
+    padding: 0 0 0 13px;
+  }
+  .mob-frm3 {
+    max-width: 113px !important;
+    padding: 0 0 0 14px;
+  }
+  .mobinput,
+  section.appointment-form {
+    padding-top: 0;
+  }
+  .mobinput {
+    width: 100% !important;
+  }
+  .inner-personalised .inner-form .input input {
+    padding: 13px;
+    border-radius: 0;
+    margin-bottom: 7px;
+  }
+  .inner-personalised .inner-form .submit input {
+    width: 100%;
+    background: #000;
+    color: #fff;
+    border-radius: 5px;
+  }
+  .padtp {
+    padding: 0;
+  }
+  .appointment-form-bg {
+    background: #c74a1b;
+    padding: 10px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+  .mob-head {
+    margin-top: 0;
+    text-align: left;
+    margin-bottom: 30px;
+    padding-left: 0;
+  }
+  .mob-diseas {
+    color: #c74a1b;
+    font-weight: 600;
+    text-align: left;
+    font-size: 25px;
+  }
+  .btm-jiva-why {
+    padding: 50px 30px 20px;
+    border: 0 solid #ccc;
+    box-shadow: 0 -2px 10px rgb(0 0 0 / 19%), 0 6px 6px rgb(0 0 0 / 23%);
+    border-radius: 15px;
+  }
+  .col-frm,
+  .col-frm2 {
+    width: 31%;
+    float: left;
+    background: #eceee1;
+    margin-bottom: 12px;
+    border-radius: 15px;
+  }
+  .why-txt {
+    font-size: 15px !important;
+    padding: 0;
+  }
+  .btm-jiva-why .inner p {
+    font-size: 15px;
+    margin-bottom: 0;
+  }
+  .exper {
+    padding-top: 24px;
+  }
+  .btm-line-mob {
+    text-align: center;
+  }
+  .col-frm2 {
+    margin-left: 12px;
+  }
+  .treat-inner {
+    min-height: 120px;
+    padding: 20px 10px 10px;
+  }
+  .treat-inner h4 {
+    color: #4b4b4b;
+    padding-top: 15px;
+    font-size: 13px;
+  }
+  .btm-jiva-why .inner_nbg {
+    min-height: 170px !important;
+  }
+  .close {
+    width: 30px;
+    height: 30px;
+    margin-top: -8px !important;
+    margin-right: -8px;
+    border-radius: 20px;
+    border: 1px solid #fff !important;
+    background: #fff !important;
+    opacity: inherit;
+  }
+  .consult-btn.btnwicon.sticky {
+    left: 10px;
+    bottom: 44px;
+  }
+}
+@media (min-width: 384px) {
+  .padbtm {
+    padding: 0 !important;
+  }
+  .brd-frm {
+    border: 1px solid #c74a1b;
+    border-bottom: 0;
+    padding: 10px;
+    min-height: 275px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  .book-hd {
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 0;
+    font-weight: 700;
+    padding-top: 20px;
+  }
+  .book-tag {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .mob-frm1,
+  .mob-frm2,
+  .mob-frm3 {
+    float: left;
+    margin-bottom: 10px !important;
+  }
+  .imgradius {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  .txt-mob {
+    padding: 15px 5px !important;
+  }
+  .call-txt {
+    font-size: 13px !important;
+    font-weight: 700;
+  }
+  .cnslttncrds-colinnr {
+    border-radius: 15px;
+  }
+  .mob-frm1,
+  .mob-frm2 {
+    max-width: 114px !important;
+    padding: 0 0 0 11px;
+  }
+  .mob-frm3 {
+    max-width: 118px !important;
+    padding: 0 0 0 15px;
+  }
+  .mobinput,
+  section.appointment-form {
+    padding-top: 0;
+  }
+  .mobinput {
+    width: 100% !important;
+  }
+  .inner-personalised .inner-form .input input {
+    padding: 13px;
+    border-radius: 0;
+    margin-bottom: 7px;
+  }
+  .inner-personalised .inner-form .submit input {
+    width: 100%;
+    background: #000;
+    color: #fff;
+    border-radius: 5px;
+  }
+  .padtp {
+    padding: 0;
+  }
+  .appointment-form-bg {
+    background: #c74a1b;
+    padding: 10px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+  .mob-head {
+    margin-top: 0;
+    text-align: left;
+    margin-bottom: 30px;
+    padding-left: 0;
+  }
+  .mob-diseas {
+    color: #c74a1b;
+    font-weight: 600;
+    text-align: left;
+    font-size: 25px;
+  }
+  .btm-jiva-why {
+    padding: 50px 30px 20px;
+    border: 0 solid #ccc;
+    box-shadow: 0 -2px 10px rgb(0 0 0 / 19%), 0 6px 6px rgb(0 0 0 / 23%);
+    border-radius: 15px;
+  }
+  .why-txt {
+    font-size: 15px !important;
+    padding: 0;
+  }
+  .btm-jiva-why .inner p {
+    font-size: 15px;
+    margin-bottom: 0;
+  }
+  .exper {
+    padding-top: 24px;
+  }
+  .btm-line-mob {
+    text-align: center;
+  }
+  .disease-inner .row .col .inner {
+    background: #c74a1b;
+    min-height: 150px;
+    padding: 20px;
+  }
+  .disease-inner .row .col .inner h4 {
+    color: #fff;
+    padding-top: 0;
+    font-size: 14px;
+  }
+  .btm-jiva-why .inner_nbg {
+    min-height: 190px !important;
+  }
+  .close {
+    width: 30px;
+    height: 30px;
+    margin-top: -8px !important;
+    margin-right: -8px;
+    border-radius: 20px;
+    border: 1px solid #fff !important;
+    background: #fff !important;
+    opacity: inherit;
+  }
+  .btm-jiva-why .inner {
+    height: 170px;
+  }
+}
+@media (min-width: 390px) {
+  .padbtm {
+    padding: 0 !important;
+  }
+  .brd-frm {
+    border: 1px solid #c74a1b;
+    border-bottom: 0;
+    padding: 10px;
+    min-height: 275px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  .book-hd {
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 0;
+    font-weight: 700;
+    padding-top: 20px;
+  }
+  .book-tag {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .mob-frm1,
+  .mob-frm2,
+  .mob-frm3 {
+    float: left;
+    margin-bottom: 10px !important;
+  }
+  .imgradius {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  .txt-mob {
+    padding: 15px 5px !important;
+  }
+  .call-txt {
+    font-size: 13px !important;
+    font-weight: 700;
+  }
+  .cnslttncrds-colinnr {
+    border-radius: 15px;
+  }
+  .mob-frm1,
+  .mob-frm2 {
+    max-width: 116px !important;
+    padding: 0 0 0 10px;
+  }
+  .mob-frm3 {
+    max-width: 121px !important;
+    padding: 0 0 0 15px;
+  }
+  .mobinput,
+  section.appointment-form {
+    padding-top: 0;
+  }
+  .mobinput {
+    width: 100% !important;
+  }
+  .inner-personalised .inner-form .input input {
+    padding: 13px;
+    border-radius: 0;
+    margin-bottom: 7px;
+  }
+  .inner-personalised .inner-form .submit input {
+    width: 100%;
+    background: #000;
+    color: #fff;
+    border-radius: 5px;
+  }
+  .padtp {
+    padding: 0;
+  }
+  .appointment-form-bg {
+    background: #c74a1b;
+    padding: 10px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+  .mob-head {
+    margin-top: 0;
+    text-align: left;
+    margin-bottom: 30px;
+    padding-left: 0;
+  }
+  .mob-diseas {
+    color: #c74a1b;
+    font-weight: 600;
+    text-align: left;
+    font-size: 25px;
+  }
+  .btm-jiva-why {
+    padding: 50px 30px 20px;
+    border: 0 solid #ccc;
+    box-shadow: 0 -2px 10px rgb(0 0 0 / 19%), 0 6px 6px rgb(0 0 0 / 23%);
+    border-radius: 15px;
+  }
+  .why-txt {
+    font-size: 15px !important;
+    padding: 0;
+  }
+  .btm-jiva-why .inner p {
+    font-size: 15px;
+    margin-bottom: 0;
+  }
+  .exper {
+    padding-top: 24px;
+  }
+  .btm-line-mob {
+    text-align: center;
+  }
+  .disease-inner .row .col .inner {
+    background: #c74a1b;
+    min-height: 150px;
+    padding: 20px;
+  }
+  .disease-inner .row .col .inner h4 {
+    color: #fff;
+    padding-top: 0;
+    font-size: 14px;
+  }
+  .btm-jiva-why .inner_nbg {
+    min-height: 190px !important;
+  }
+  .close {
+    width: 30px;
+    height: 30px;
+    margin-top: -8px !important;
+    margin-right: -8px;
+    border-radius: 20px;
+    border: 1px solid #fff !important;
+    background: #fff !important;
+    opacity: inherit;
+  }
+  .btm-jiva-why .inner {
+    height: 170px;
+  }
+  .consult-btn.btnwicon.sticky {
+    left: 10px;
+    bottom: 44px;
+  }
+}
+@media (min-width: 412px) {
+  .padbtm {
+    padding: 0 !important;
+  }
+  .brd-frm {
+    border: 1px solid #c74a1b;
+    border-bottom: 0;
+    padding: 10px;
+    min-height: 275px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  .book-hd {
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 0;
+    font-weight: 700;
+    padding-top: 20px;
+  }
+  .book-tag {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .mob-frm1,
+  .mob-frm2,
+  .mob-frm3 {
+    float: left;
+    margin-bottom: 10px !important;
+  }
+  .imgradius {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  .txt-mob {
+    padding: 15px 5px !important;
+  }
+  .call-txt {
+    font-size: 13px !important;
+    font-weight: 700;
+  }
+  .cnslttncrds-colinnr {
+    border-radius: 15px;
+  }
+  .mob-frm1 {
+    max-width: 125px !important;
+    padding: 0 0 0 14px;
+  }
+  .mob-frm2 {
+    max-width: 124px !important;
+    padding: 0 0 0 13px;
+  }
+  .mob-frm3 {
+    max-width: 126px !important;
+    padding: 0 0 0 15px;
+  }
+  .mobinput,
+  section.appointment-form {
+    padding-top: 0;
+  }
+  .mobinput {
+    width: 100% !important;
+  }
+  .inner-personalised .inner-form .input input {
+    padding: 13px;
+    border-radius: 0;
+    margin-bottom: 7px;
+  }
+  .inner-personalised .inner-form .submit input {
+    width: 100%;
+    background: #000;
+    color: #fff;
+    border-radius: 5px;
+  }
+  .padtp {
+    padding: 0;
+  }
+  .appointment-form-bg {
+    background: #c74a1b;
+    padding: 10px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+  .mob-head {
+    margin-top: 0;
+    text-align: left;
+    margin-bottom: 30px;
+    padding-left: 0;
+  }
+  .mob-diseas {
+    color: #c74a1b;
+    font-weight: 600;
+    text-align: left;
+    font-size: 25px;
+  }
+  .btm-jiva-why {
+    padding: 50px 30px 20px;
+    border: 0 solid #ccc;
+    box-shadow: 0 -2px 10px rgb(0 0 0 / 19%), 0 6px 6px rgb(0 0 0 / 23%);
+    border-radius: 15px;
+  }
+  .why-txt {
+    font-size: 15px !important;
+    padding: 0;
+  }
+  .btm-jiva-why .inner p {
+    font-size: 15px;
+    margin-bottom: 0;
+  }
+  .exper {
+    padding-top: 24px;
+  }
+  .btm-line-mob {
+    text-align: center;
+  }
+  .disease-inner .row .col .inner {
+    background: #c74a1b;
+    min-height: 150px;
+    padding: 20px;
+  }
+  .disease-inner .row .col .inner h4 {
+    color: #fff;
+    padding-top: 0;
+    font-size: 14px;
+  }
+  .btm-jiva-why .inner_nbg {
+    min-height: 190px !important;
+  }
+  .close {
+    width: 30px;
+    height: 30px;
+    margin-top: -8px !important;
+    margin-right: -8px;
+    border-radius: 20px;
+    border: 1px solid #fff !important;
+    background: #fff !important;
+    opacity: inherit;
+  }
+  .consult-btn.btnwicon.sticky {
+    left: 10px;
+    bottom: 50px;
+  }
+}
+@media (min-width: 414px) {
+  .padbtm {
+    padding: 0 !important;
+  }
+  .brd-frm {
+    border: 1px solid #c74a1b;
+    border-bottom: 0;
+    padding: 10px;
+    min-height: 275px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  .appointment-form-bg,
+  .cnslttncrds-colinnr {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+  .book-hd {
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 0;
+    font-weight: 700;
+    padding-top: 20px;
+  }
+  .book-tag {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .mob-frm1,
+  .mob-frm2,
+  .mob-frm3 {
+    float: left;
+    margin-bottom: 10px !important;
+  }
+  .imgradius {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  .txt-mob {
+    padding: 15px 5px !important;
+  }
+  .call-txt {
+    font-size: 13px !important;
+    font-weight: 700;
+  }
+  .mob-frm1,
+  .mob-frm2 {
+    max-width: 124px !important;
+    padding: 0 0 0 10px;
+  }
+  .mob-frm3 {
+    max-width: 129px !important;
+    padding: 0 0 0 15px;
+  }
+  .mobinput,
+  section.appointment-form {
+    padding-top: 0;
+  }
+  .mobinput {
+    width: 100% !important;
+  }
+  .inner-personalised .inner-form .input input {
+    padding: 13px;
+    border-radius: 0;
+    margin-bottom: 7px;
+  }
+  .inner-personalised .inner-form .submit input {
+    width: 100%;
+    background: #000;
+    color: #fff;
+    border-radius: 5px;
+  }
+  .padtp {
+    padding: 0;
+  }
+  .appointment-form-bg {
+    background: #c74a1b;
+    padding: 10px;
+  }
+  .mob-head {
+    margin-top: 0;
+    text-align: left;
+    margin-bottom: 30px;
+    padding-left: 0;
+  }
+  .mob-diseas {
+    color: #c74a1b;
+    font-weight: 600;
+    text-align: left;
+    font-size: 25px;
+  }
+  .btm-jiva-why {
+    padding: 50px 30px 20px;
+    border: 0 solid #ccc;
+    box-shadow: 0 -2px 10px rgb(0 0 0 / 19%), 0 6px 6px rgb(0 0 0 / 23%);
+    border-radius: 15px;
+  }
+  .why-txt {
+    font-size: 15px !important;
+    padding: 0;
+  }
+  .btm-jiva-why .inner p {
+    font-size: 15px;
+    margin-bottom: 0;
+  }
+  .exper {
+    padding-top: 24px;
+  }
+  .btm-line-mob {
+    text-align: center;
+  }
+  .disease-inner .row .col .inner {
+    background: #c74a1b;
+    min-height: 150px;
+    padding: 20px;
+  }
+  .disease-inner .row .col .inner h4 {
+    color: #fff;
+    padding-top: 0;
+    font-size: 14px;
+  }
+  .btm-jiva-why .inner_nbg {
+    min-height: 190px !important;
+  }
+  .close {
+    width: 30px;
+    height: 30px;
+    margin-top: -8px !important;
+    margin-right: -8px;
+    border-radius: 20px;
+    border: 1px solid #fff !important;
+    background: #fff !important;
+    opacity: inherit;
+  }
+  .consult-btn.btnwicon.sticky {
+    left: 10px;
+    bottom: 50px;
+  }
+}
+@media (min-width: 428px) {
+  .padbtm {
+    padding: 0 !important;
+  }
+  .brd-frm {
+    border: 1px solid #c74a1b;
+    border-bottom: 0;
+    padding: 10px;
+    min-height: 275px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  .book-hd {
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 0;
+    font-weight: 700;
+    padding-top: 20px;
+  }
+  .book-tag {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .imgradius {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  .txt-mob {
+    padding: 15px 5px !important;
+  }
+  .mob-frm1,
+  .mob-frm2 {
+    padding: 0 0 0 9px;
+    float: left;
+    margin-bottom: 10px !important;
+  }
+  .call-txt {
+    font-size: 13px !important;
+    font-weight: 700;
+  }
+  .cnslttncrds-colinnr {
+    border-radius: 15px;
+  }
+  .mob-frm1 {
+    max-width: 128px !important;
+  }
+  .mob-frm2 {
+    max-width: 129px !important;
+  }
+  .mob-frm3 {
+    max-width: 134px !important;
+    float: left;
+    padding: 0 0 0 15px;
+    margin-bottom: 10px !important;
+  }
+  .mobinput,
+  section.appointment-form {
+    padding-top: 0;
+  }
+  .mobinput {
+    width: 100% !important;
+  }
+  .inner-personalised .inner-form .input input {
+    padding: 13px;
+    border-radius: 0;
+    margin-bottom: 7px;
+  }
+  .inner-personalised .inner-form .submit input {
+    width: 100%;
+    background: #000;
+    color: #fff;
+    border-radius: 5px;
+  }
+  .padtp {
+    padding: 0;
+  }
+  .appointment-form-bg {
+    background: #c74a1b;
+    padding: 10px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+  .mob-head {
+    margin-top: 0;
+    text-align: left;
+    margin-bottom: 30px;
+    padding-left: 0;
+  }
+  .mob-diseas {
+    color: #c74a1b;
+    font-weight: 600;
+    text-align: left;
+    font-size: 25px;
+  }
+  .btm-jiva-why {
+    padding: 50px 30px 20px;
+    border: 0 solid #ccc;
+    box-shadow: 0 -2px 10px rgb(0 0 0 / 19%), 0 6px 6px rgb(0 0 0 / 23%);
+    border-radius: 15px;
+  }
+  .why-txt {
+    font-size: 15px !important;
+    padding: 0;
+  }
+  .btm-jiva-why .inner p {
+    font-size: 15px;
+    margin-bottom: 0;
+  }
+  .exper {
+    padding-top: 24px;
+  }
+  .btm-line-mob {
+    text-align: center;
+  }
+  .disease-inner .row .col .inner {
+    background: #c74a1b;
+    min-height: 150px;
+    padding: 20px;
+  }
+  .disease-inner .row .col .inner h4 {
+    color: #fff;
+    padding-top: 0;
+    font-size: 14px;
+  }
+  .btm-jiva-why .inner_nbg {
+    min-height: 190px !important;
+  }
+  .close {
+    width: 30px;
+    height: 30px;
+    margin-top: -8px !important;
+    margin-right: -8px;
+    border-radius: 20px;
+    border: 1px solid #fff !important;
+    background: #fff !important;
+    opacity: inherit;
+  }
+  .consult-btn.btnwicon.sticky {
+    left: 10px;
+    bottom: 50px;
+  }
+}
+@media (min-width: 320px) and (max-width: 428px) {
+  .mob-hide {
+    display: none;
+  }
+  .padremve {
+    padding: 0;
+  }
+  .whr-frm {
+    width: 50%;
+  }
+}
+@media (min-width: 540px) and (max-width: 960px) {
+  .desktop-hide {
+    display: none;
+  }
+  .btm-jiva-why {
+    padding: 50px 40px;
+    box-shadow: none;
+    border-radius: none;
+  }
+  .disease-inner .row .col .inner {
+    background: #c74a1b;
+    padding: 30px;
+    border-radius: 20px;
+    height: 100%;
+  }
+  .inner-appointment .inner-form .submit input {
+    width: 25%;
+    background: #fff;
+    color: #c74a1b;
+    border-radius: 50px;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1920px) {
+  .desktop-hide {
+    display: none;
+  }
+  .btm-jiva-why .inner_nbg {
+    min-height: 215px;
+  }
+  .inner-personalised .inner-form .input input {
+    border-radius: 5px;
+  }
+  .inner-appointment .inner-form .submit input {
+    width: 15%;
+    background: #fff;
+    color: #c74a1b;
+    border-radius: 50px;
+  }
+  .btm-jiva-why {
+    padding: 50px 100px;
+    box-shadow: none;
+    border-radius: none;
+  }
+  .exper {
+    padding-top: 0;
+  }
+  .mob-diseas {
+    color: #121212;
+    font-weight: 500;
+    text-align: center;
+    font-size: 44px;
+  }
+  .why-txt {
+    font-size: 24px !important;
+    padding: 0;
+  }
+  .head-bx {
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 30px;
+  }
+  .disease-inner .row .col .inner {
+    background: #6F4829;
+    padding: 30px;
+    border-radius: 20px;
+    height: 100%;
+  }
+  .disease-inner .row .col .inner h4 {
+    color: #fff;
+    vertical-align: bottom;
+    padding-top: 0;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.3;
+    width: 80%;
+    margin-bottom: 0;
+  }
+  .cnslttncrds-colinnr {
+    border-radius: 15px 15px 0 0;
+  }
+  .close {
+    width: 30px;
+    height: 30px;
+    margin-top: -8px !important;
+    margin-right: -28px;
+    border-radius: 20px;
+    border: 1px solid #fff !important;
+    background: #fff !important;
+    opacity: inherit;
+  }
+}

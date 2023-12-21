@@ -1,0 +1,599 @@
+
+@media (min-width: 460px){
+    .rocket{
+        display:none;
+    }
+    
+}
+
+@media (min-width: 768px){
+   
+    .for-sm, .footer-mobile, .hotelsWrapper h6, .footer-mobiles{
+        display:none;
+    }
+    
+}
+@media (max-width: 1200px){
+    .oyo-patron{
+        background-position: right bottom;
+        background-size: 560px auto;
+    }
+    
+    .swiper-pagination-bullet{margin: 0 16px;}
+    .swiper-button-prev{left:0}
+    .swiper-button-next{right:0}
+}
+@media (max-width: 1024px){
+    .linksWrapper{width:auto;}
+}
+@media (max-width: 992px){
+    .image-wrapper {
+        width: 100%;
+        max-width:100%;
+    }
+    
+    .banner-img{
+        padding-top: 100px;
+        max-width:80%;
+    }
+ 
+
+    .box-container{
+        left: 25%;
+        width: 70%;
+    }
+    .oyo-patron ul{
+        padding-top: 40px;
+        max-width: 100%;
+    }
+    .oyo-patron{
+        background-size: 600px auto;
+        background-position:right bottom;
+    }
+    .timeline .swiper-slide .timeline-title{
+        font-size: 22px;
+        line-height:34px;
+    }
+    .companyWrapper{
+        flex-flow: wrap;
+        -ms-flex-flow: wrap;
+    }
+    .linksWrapper{
+        min-width:auto;
+        width:50%;
+        margin-bottom:32px;
+    }
+    .swiper-pagination-bullet {
+        margin: 0 8px;
+    }
+    .timeline .swiper-pagination{
+        overflow-x:auto;
+        white-space: nowrap;
+    }
+   
+   
+}
+
+@media (max-width: 768px){
+
+    .team-wrapper:last-of-type:hover {
+        transform: unset;
+       
+    }
+    .banner-img>img {
+        width: 55vw;
+    }
+    .play-icon>img{
+        width: 16px;
+    }
+    
+    .white-popup{
+        max-width:90%;
+    }
+    .banner{
+       
+        transform: translateX(0) translateY(0);
+        padding-bottom:250px;
+    }
+    .play-icon{
+        width: 44px;
+        height: 44px;
+        line-height: 53px;
+        bottom: 12vw;
+        left: calc(50% - 22px);
+        padding:0 15px;
+    }
+    .play-icon>img{
+        width: 20px;
+        max-width: 100%;
+    }
+    
+    .oyo-grid{
+        min-height:auto;
+        padding:300px 0 16px;
+    }
+    .boxWrapper{
+        min-height:auto;
+    }
+    .box-container{
+        background:#fff;
+        background-image: conic-gradient(from 
+        180deg
+         at 50% 50%, #FFFFFF 
+        0deg
+        , rgba(255, 255, 255, 0) 
+        360deg
+        ), linear-gradient(
+        75.18deg
+        , rgba(34, 152, 218, 0.2) 0%, rgba(34, 152, 218, 0) 99.61%);
+        border-radius: 16px;
+        padding: 32px;
+        font-size: 24px;
+        line-height: 32px;
+       width:100%;
+        position: static;
+        color:#212121;
+        -webkit-transform: translateX(0) translateY(0);
+        transform: translateX(0) translateY(0);
+        font-weight:700;
+    }
+    
+    h1{
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .column-6{
+        width: 100%;
+        max-width: 100%;
+    }
+    
+    header .logo{margin:0 auto;}
+    .not-for-sm{display:none;}
+ 
+    
+    .image-wrapper{
+
+        height:258px;
+        position:static;
+    }
+    .for-sm{
+        display:block;
+    }
+    .timelines h3{text-align:left;}
+    .timelines .column-4{
+        width:100%;
+    }
+    .timeline .swiper-container{
+        height:auto;
+        padding-top:54px;
+    }
+    .timelines{
+        min-height:300px;
+    }
+    
+    .swiper-button-next {
+        right: -8px;
+    }
+    .swiper-button-prev {
+        left: -8px;
+    }
+    .timeline-year{
+        margin-bottom: 16px;
+    }
+    .timeline .swiper-slide .timeline-title{
+        margin: 0 0 32px;
+    }
+    .swiper-slide-content{
+        /* max-width:350px; */
+        padding:0 24px;
+    }
+    
+    .modal{
+        padding:30px;
+    }
+   
+    .team-wrapper, .team-wrapper:hover{
+        z-index: 2;
+        max-width: 90%;
+        width: 90%;
+    }
+    .team-wrapper{
+        height:640px;
+    }
+    .team-member-photo{
+        width:327px;
+        height: 370px;
+    }
+    .team-wrapper h4{
+        font-size:24px;
+        line-height:32px;
+    }
+    .team-wrapper p{
+        color: rgba(255, 255, 255, 0.55);
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 8;
+        -webkit-box-orient: vertical;
+    }
+    .team-wrapper .description{
+        padding: 32px 24px 446px;
+        max-width:100%;
+        width:100%;
+    }
+    #moveLeft, #moveRight, #memberNameDes{display:none;}
+    .our-team .btn-nav {
+        visibility: visible;
+      }
+  
+    .newsImage{
+       height:auto;
+    }
+    .newsWrapper{
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        margin: 32px 0px;
+        padding: 0 7vw;
+    } 
+    .newsColumn{
+        width: 95%
+    }
+
+    #newsBox{
+        padding :0;
+    }
+
+    .newsColumn:first-child {
+padding-left: 0;
+    }
+
+    .newsColumn:last-child{
+        padding-right: 0;
+    }
+
+    .less {
+        display: grid;
+        grid-template-columns: 340px 340px 340px;
+        column-gap: 16px;
+    }
+   
+   
+   
+    .oyo-patron{
+        background-size: 330px auto;
+        background-position: right bottom;
+        padding-bottom: 170px;
+    }
+    .oyo-patron ul{
+        padding-bottom:32px;
+        /* padding-left: 24px; */
+    }
+    .description{
+        display:block;
+    }
+ 
+   
+    .footerWrapper h6{
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 22px;
+        margin-top:32px;
+    }
+    .footerWrapper .supportLinks ul li a{
+        position:relative;
+        padding-left:30px;
+    }
+    .footerWrapper .supportLinks ul li a:before{
+        content:'';
+        position:absolute;
+        left:0;
+        width:16px;
+        height:16px;
+        top:calc(50% - 8px);
+    }
+    .icon-call a:before{
+        // background:url(../images/icons/call-icon.svg);
+    }
+    .icon-help a:before{
+        width:14px;
+        height:14px;
+        // background:url(../images/icons/help-icon.svg);
+    }
+    .footerWrapper .supportLinks ul {
+        margin-top:22px;
+    }
+    .footerWrapper .footerLinks{
+        margin-top:32px;
+    }
+    .footerWrapper ul li{
+        padding-top:16px;
+    }
+    .footerWrapper ul li a{
+        color: rgba(255, 255, 255, 0.55);
+    }
+    .language-field{
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        border-radius:6px;
+        position:relative;
+        height:48px;
+        line-height:48px;
+        display:inline-block;
+        margin-top:20px;
+    }
+    .fieldBox{
+        border:0;
+        background:transparent;
+        padding:0 12px;
+        color: rgba(255, 255, 255, 0.55);
+    }
+    .fieldBox:focus{
+        outline:0;
+    }
+    .language-field label{
+        color: rgba(255, 255, 255, 0.55);
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 16px;
+        position:absolute;
+        padding:0 4px;
+        top: -10px;
+        left: 8px;
+        background: #212121;
+    }
+    #showLinks{
+        display: none;
+    }
+    .hotelLinks{
+        position:relative;
+    }
+    .hotelLinks:after{
+        content:'';
+        width:10px;
+        height:6px;
+        position:absolute;
+        right:0;
+        // background:url(../images/icons/icon-down.svg);
+        top: calc(50% - 3px);
+    }
+    .hotelList{
+        grid-template-columns: none;
+        padding:0 0 30px;
+    }
+    .hotelList a{
+        display:block;
+    }
+    .hotelList a:first-child, .iconsAndTnCWrapper{
+        margin-top:32px;
+    }
+    .socialLinks{
+
+    }
+    .socialLinks ul li{
+        display:inline-block;
+        padding:0 13px;
+    }
+    .socialLinks ul li:first-child{
+        padding-left:0;
+    }
+    .social-icon{
+        width:24px ;
+        height:24px;
+        border: rgba(255, 255, 255, 0.55) solid 1px;
+        display:inline-block;
+        border-radius:50%;
+    }
+    .hotelsLinks{
+        padding:0 0 30px;
+    }
+    .mfp-close{
+        width: 42px;
+        height: 42px;
+        line-height: 42px;
+        right: 16px;
+        top: 16px;
+        padding: 7px;
+    }
+    .mfp-close:before{
+        width: 22px;
+        height: 22px;
+        background-size: 22px 22px;
+    }
+
+   
+    section h3{
+        text-align:left!important;
+    }
+    section {
+        min-height:unset;
+        padding: 48px 0;
+    }
+    .newsWrapper{scrollbar-width: none;}
+    .newsWrapper::-webkit-scrollbar { 
+        display: none; /* Chrome Safari */
+    }
+    .newsDiv {
+        margin-top: 20px;
+    }
+    .timeline .swiper-wrapper{
+        padding:0 32px;
+    }
+    .swiper-wrapper .content-center:before{display:none;}
+   
+   
+}
+
+@media (max-width: 576px){
+    .action-items, .tncWrapper, .companyWrapper, .wrapperTitle{display:none;}
+    .swiper-slide-content{
+        max-width:300px;
+    }
+    .swiper-pagination-bullet{
+        padding:3px 8px;
+        min-width:auto;
+    }
+    .container{
+        max-width: 100%;
+    }
+    .timelines{
+        height:100vh;
+        background-image: url(https://assets.oyoroomscdn.com/img_story_mweb.jpeg);
+    
+
+    }
+    .timelines .container{
+        margin:0;
+        width:95%;
+        padding:0 24px;
+    }
+    .timeline .row{
+        margin:0;
+    }
+    .timeline .swiper-wrapper, .swiper-slide-content{
+        padding:0;
+        transition-duration:100ms !important;
+    }
+    .swiper-button-prev{
+       display:none;
+    }
+    .swiper-button-next {
+        opacity: 0;
+        height: 500px;
+        top: 197px;
+    }
+    .timeline .swiper-slide{
+        padding-right:0;
+    }
+    .swiper-slide-next, .swiper-slide-prev{
+        box-sizing: content-box;
+        padding:0;
+    }
+    .timeline .swiper-slide .timeline-title{
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .swiper-slide-next{
+        padding-left:16px;
+    }
+}
+
+
+@media (max-width: 460px){
+header{
+    right: 0;
+    left: 0;
+}
+.goBack{
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    left: 24px;
+    top: 37px;
+    display: block;
+}
+.goBack img{width:18px;}
+
+    .headerPadding br{
+        display:none;
+    }
+
+    .banner p {
+        font-weight: 700;
+        margin-top: 24px;
+      
+    }
+
+    .oyo-patron ul {
+        // list-style-image: url("../../public/assets/img/icons/arrow.svg");
+        max-width: 400px;
+        margin-left: 24px;
+    }
+    .oyo-patron br{
+        display: none;
+    }
+    .oyo-grid {
+        background-image: url(https://assets.oyoroomscdn.com/Partnerfold.png);
+    }
+    .logo{
+        width: 58px;
+       }
+
+       .logo>img{
+        width: 58px;
+       }
+       .banner-img>img {
+        width: 80vw;
+        max-width: 100vw;
+    }
+    .banner-img {
+        padding-top: 20px;
+        position: absolute;
+        bottom: unset;
+        right: 50%;
+        transform: translateX(50%);
+        left: auto;
+    }
+    .play-icon{
+        width: 88px;
+        height: 88px;
+        bottom: -30px;
+        line-height: 79px;
+        left: calc(50% - 50px);
+    //  background: url(../images/icons/play-mobile.svg);
+     background-size: 88px 88px;
+     background-repeat: no-repeat;
+   
+    }
+    .rocket {
+        position: absolute;
+        right: 0;
+        top: -9px;
+        z-index: 1;
+        animation: mymove 5s infinite;
+        width: 35px;
+    }
+    .rocket>img{
+        max-width: 100%;
+    }
+    .patronImage{
+        display: none;
+    }
+    .team-member-photo {
+       
+        right: 0;
+        left: auto;
+    }
+    @keyframes mymove {
+        0%, 100% {
+            transform: translatex(0px) translatey(0px)
+        }
+        50% {
+            transform: translatex(20px) translatey(20px);
+        }
+      
+      }
+    .play-icon>img{
+        display: none;
+    }
+
+    .oyo-patron{
+        background-color: rgba(29, 29, 29, 1);
+        color: rgba(255, 255, 255, 1);
+        background-image: url(https://assets.oyoroomscdn.com/img_oyoinfra_mweb.png);
+        background-repeat: no-repeat;
+	background-position: right bottom;
+        padding-bottom: 230px;
+    }
+    .oyo-grid{
+        background-image: url(https://assets.oyoroomscdn.com/Partnerfold.png);
+    }
+}
+@media (max-width: 322px){
+    .timelines .container{
+        width:280px;
+    }
+    .timeline .swiper-slide .timeline-title {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .timeline-year{font-size:12px;}
+}

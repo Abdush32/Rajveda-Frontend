@@ -1,0 +1,278 @@
+.bg-image {
+  background-image: url("../../public/assets/img/franchise-banner-2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh; 
+}
+
+.menu {
+  right: 20px;
+  color: white;
+}
+.banner-business {
+  color: white;
+  margin-top: 82px;
+}
+.english-text {
+  font-family: "POPPINS";
+  font-size: 30px;
+  font-weight: 600;
+}
+.mobile-text {
+  font-family: "POPPINS";
+  font-size: 35px;
+  font-weight: 700;
+}
+.call-us-text {
+  font-family: "POPPINS";
+  font-weight: 600;
+}
+.logo-div {
+  margin-left: 75px !important;
+}
+.logo img {
+  width: 205px;
+}
+.business-text {
+  // font-family: 'Roboto';
+  font-size: 40px;
+  font-weight: 500;
+}
+.sirf-text {
+  font-family: "Poppins";
+  font-size: 50px;
+  font-weight: 700;
+}
+.yoyo-text{
+    font-size: 40px;
+    // font-weight: 500; 
+}
+.card-area{
+    width: 18rem;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.card-image{
+    width: 100%;
+    height: auto;
+    border-radius: 15px 15px 0 0;
+}
+.card-box{
+    width: 100%;
+    height: 100vh; 
+        position:relative;
+        display:block;
+      
+}
+.card-box-2{
+    width: 100%;
+    height: 100vh; 
+        position:relative;
+        display:block;
+      
+}
+.card-box::before{
+    content: "";
+    background-image: url("../../public/assets/img/card-bg.jpeg");
+    background-size: cover;
+    background-position: center;
+    // background-repeat: no-repeat;
+    opacity:0.1;
+    position:absolute;
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+    width:auto;
+    height:auto;
+    z-index:-3;
+    // opacity: 0.1;
+}
+.card-box-2::before{
+    content: "";
+    background-image: url("../../public/assets/img/card-bg-2.jpeg");
+    background-size: cover;
+    background-position: center;
+    // background-repeat: no-repeat;
+    opacity:0.1;
+    position:absolute;
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+    width:auto;
+    height:auto;
+    z-index:-3;
+}
+.card-box-black{
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh; 
+    color: white;
+}
+.card-upper-text{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: "Poppins";
+}
+.card-upper-text-two{
+    // font-size: 40px;
+    font-weight: 300;
+    font-family: "Poppins";
+}
+.fixed-footer{
+    background-color:white;
+    padding: 25px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+}
+.join-yoyo-button{
+    background: #FF0007;
+    color: #FFFFFF;
+    font-size: 1.2384rem;
+    font-family: Arial;
+    font-weight: 700;
+    font-style: normal;
+    height: 3.0625rem;
+    width: 42.75rem;
+    border-radius: 22px;
+    display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.join-yoyo-submit{
+    background: #FF0007;
+    color: #FFFFFF;
+    font-size: 1.2384rem;
+    font-family: Arial;
+    font-weight: 700;
+    font-style: normal;
+    height: 2.0625rem;
+    width: 42.75rem;
+    border-radius: 22px;
+    display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.join-yoyo-input{
+    color: #FFFFFF;
+    height: 2.0625rem;
+    width: 42.75rem;
+    margin-bottom: 5px;
+    border: none !important;
+}
+.join-yoyo-input:focus{
+  outline-color: black;
+}
+.btn-shadow{
+    box-shadow: 0 1px 3px rgba(1,1,1,0.5);
+}
+.border-sirf-text{
+    border-bottom: 1px solid red;
+}
+
+// .form-input{
+//     color: transparent;
+//     background-color: transparent;
+//     border: 1px solid transparent;
+//     border-radius: 3px;
+//     font-family: inherit;
+//     width: 100%;
+//     height: 3.5rem;
+//     margin: 0.5rem 0;
+//     padding: 0.5rem 0.625rem 0.5625rem;
+//     border-color: inherit;
+
+// }
+.main-input{
+    width: 60% !important;
+}
+.footer-bg{
+    background-color:#E3E3E3;
+    width: 100%;
+    height: 16rem;
+}
+.footer-bg ul li a{
+    color: black;
+}
+.footer-border{
+    border-bottom: 1px solid red;
+}
+.black-border-box{
+    background-color: #000000;
+    border-bottom: 1px solid rgb(22, 22, 22);
+    padding: 8px;
+    width: 100%;
+}
+@media screen and (max-width: 768px) {
+  .logo,
+  .menu {
+    width: 100%; /* On smaller screens, both elements take 100% width */
+    text-align: center; /* Center the content */
+    position: static; /* Reset position for stacking on smaller screens */
+    margin: 10px 0; /* Add some margin for better spacing */
+  }
+
+  .menu {
+    order: -1; /* Move the menu to the top on smaller screens */
+  }
+}
+.slick-slide{
+  width: 300px !important;
+  margin: 30px;
+}
+.card-box-3{
+  width: 100%;
+  height: 100vh; 
+      position:relative;
+      display:block;
+    
+}
+.card-box-3::before{
+  content: "";
+  background-image: url("../../public/assets/img/oyo-video.jpeg");
+  background-size: cover;
+  background-position: center;
+  // background-repeat: no-repeat;
+  opacity:0.1;
+  position:absolute;
+  top:0;
+  bottom:0;
+  right:0;
+  left:0;
+  width:auto;
+  height:auto;
+  z-index:-3;
+  // opacity: 0.1;
+}
+.card-box-4{
+  width: 100%;
+  height: 100vh; 
+      position:relative;
+      display:block;
+    
+}
+.card-box-4::before{
+  content: "";
+  background-image: url("../../public/assets/img/signup-bg.png");
+  background-size: cover;
+  background-position: center;
+  // background-repeat: no-repeat;
+  opacity:0.1;
+  position:absolute;
+  top:0;
+  bottom:0;
+  right:0;
+  left:0;
+  width:auto;
+  height:auto;
+  z-index:-3;
+  // opacity: 0.1;
+}

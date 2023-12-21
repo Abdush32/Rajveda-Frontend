@@ -1,0 +1,402 @@
+/* CSS for Desktop */
+$primary-color-border: #079347ba;
+$primary-color: #079347;
+$secondary-color-background: #8bc34369;
+$secondary-color: #8bc343;
+$primary-color-1:#83C9A3;
+
+.nav-clmn {
+  display: block; /* Display the navigation items by default on desktop */
+}
+
+/* CSS for Mobile */
+@media (max-width: 1100px) {
+  .mnav-trigger span {
+    background-color: #333; /* Style the hamburger icon */
+    height: 3px;
+    margin: 5px 0;
+    transition: 0.4s;
+  }
+
+  .nav-clmn {
+    display: none; /* Hide the navigation items by default on mobile */
+  }
+
+  .nav-clmn.show {
+    display: block; /* Show the navigation items when .show class is applied */
+  }
+
+  .mnav-trigger.show span:nth-child(1) {
+    transform: rotate(-45deg) translate(-5px, 6px); /* Rotate the first line */
+  }
+
+  .mnav-trigger.show span:nth-child(2) {
+    opacity: 0; /* Hide the second line */
+  }
+
+  .mnav-trigger.show span:nth-child(3) {
+    transform: rotate(45deg) translate(-5px, -6px); /* Rotate the third line */
+  }
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+  background-color: #f5f5f5;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: #f5f5f5;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #fff;
+  background-image: -webkit-gradient(
+    linear,
+    40% 0%,
+    75% 84%,
+    from(#079347),
+    to(#079347),
+    color-stop(0.6, #8bc343)
+  );
+}
+
+//Rajveda Upcoming page
+.rajveda {
+  background-color: rgba(192, 230, 142, 255);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.what_we_offer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.offer_content {
+  display: flex;
+  justify-content: space-between;
+}
+.offer_content {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+}
+.font_size {
+  font-size: 25px;
+}
+.img_circle {
+  width: 60px;
+  border: 2px solid #c1bfbfc4;
+  border-radius: 50%;
+  /* margin: 9px; */
+  height: 60px;
+  padding: 10px;
+}
+.disease_list {
+  background-color: #83c9a3;
+  padding: 15px;
+  border-radius: 20px;
+  text-align: center;
+}
+.disease_list img {
+  height: 40px;
+}
+.why_choose_us {
+  color: #006d77;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1em;
+  font-family: "Cookie";
+}
+.power_of_nature {
+  color: #2f2f2f;
+  font-size: 2.9rem;
+  font-weight: 600;
+  font-family: "Poppins";
+  line-height: 1.2em;
+}
+
+.power_of_nature_content p {
+  font-family: "Poppins";
+  text-align: justify;
+  color: #6f6f6f;
+  margin-top: 30px;
+}
+
+.disease_name {
+  display: flex;
+  justify-content: space-between;
+  color: #6f6f6f;
+  font-family: "Poppins";
+  margin-top: 30px;
+}
+ul li {
+  list-style-type: none;
+}
+.disease_img {
+  width: 100%;
+}
+.img_rotate {
+  transform: rotate(3deg);
+  border-radius: 3rem;
+}
+.border_rotate {
+  // content: "";
+  border: 4px solid $primary-color-border;
+  padding: 20px;
+  transform: rotate(-3deg);
+  border-radius: 3rem;
+  display: flex;
+  justify-content: center;
+  width: 70%;
+}
+.border_rotate2 {
+  // content: "";
+  border: 4px solid $primary-color-border;
+  padding: 20px;
+  // transform: rotate(-3deg);
+  border-radius: 3rem;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.about_border_rotate {
+  border: 4px solid $primary-color-border;
+  padding: 20px;
+  transform: rotate(-3deg);
+  border-radius: 3rem;
+  display: flex;
+  justify-content: center;
+  // width: 70%;
+}
+.about_img_rotate {
+  // transform: rotate(3deg);
+  border-radius: 3rem !important;
+}
+.fa-check {
+  color: $primary-color;
+}
+.quote-text {
+  padding: 0em 0em 0em 1em;
+  border-style: solid;
+  border-width: 0px 0px 0px 3px;
+  border-color: $primary-color-border;
+}
+.common-text {
+  color: #6f6f6f;
+  font-family: "Poppins";
+  font-size: 15px;
+}
+.button-2 {
+  color: #fff;
+  border: 3px solid $secondary-color;
+  background-image: -webkit-linear-gradient(
+    30deg,
+    $secondary-color 50%,
+    transparent 50%
+  );
+  background-image: linear-gradient(
+    30deg,
+    $secondary-color 50%,
+    transparent 50%
+  );
+  background-size: 500px;
+  background-repeat: no-repeat;
+  background-position: 0%;
+  -webkit-transition: background 300ms ease-in-out;
+  transition: background 300ms ease-in-out;
+  margin-right: 60px;
+}
+.button-2:hover {
+  background-position: 100%;
+  color: $secondary-color;
+}
+.circle {
+  width: 60px;
+  height: 60px;
+  // background-color: #E29578;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  border: 3px solid $secondary-color;
+  background-image: -webkit-linear-gradient(
+    30deg,
+    $secondary-color 50%,
+    transparent 50%
+  );
+  background-image: linear-gradient(
+    30deg,
+    $secondary-color 50%,
+    transparent 50%
+  );
+  background-size: 300px;
+  background-repeat: no-repeat;
+  background-position: 0%;
+  -webkit-transition: background 300ms ease-in-out;
+  transition: background 300ms ease-in-out;
+}
+.circle:hover {
+  background-position: 100%;
+  color: $secondary-color;
+}
+
+.telephone {
+  font-size: 24px; /* Adjust the font size as needed */
+  color: #fff; /* Color of the icon */
+}
+.circle h5 {
+  margin-left: 10px; /* Adjust this value to control the distance between the circle and the h5 tag */
+}
+.test {
+  // flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  line-height: 1;
+}
+.common-text-only {
+  // color: #E29578;
+  font-family: "Poppins";
+  font-size: 30px;
+  font-weight: 700;
+}
+.super-text {
+  color: #e29578;
+  vertical-align: top;
+  font-family: "Poppins";
+  font-size: 15px;
+  font-weight: bold;
+}
+.counter-text {
+  font-family: "Poppins";
+  font-size: 25px;
+  font-weight: 600;
+}
+.img_center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about-background {
+  background-color: #ecede8;
+}
+.slick-slide{
+  width: 200px !important;
+}
+.circle-container {
+  width: 130px; /* Set the width and height to the same value for a perfect circle */
+  height: 130px;
+  border-radius: 50%; /* This creates a circle */
+  // background-color:$primary-color-1; /* Change this to your desired background color */
+  background-image: linear-gradient(to bottom right, $primary-color, $secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.circle-container img{
+  width: 90px;
+}
+.disease-text{
+  font-family: "Poppins";
+  font-size: 14px;
+  font-weight: 700;
+}
+.book-appointment{
+  font-family: "Poppins";
+  font-size: 13px;
+  color: $primary-color-1;
+}
+.frontend-footer{
+  background-color: #6D787D;
+  color: white;
+}
+.foot-one{
+  border-bottom: 1px solid white;
+}
+.list-unstyled a{
+  color: white;
+  text-decoration: none;
+
+}
+.border-1{
+  border-right: 1px solid white;
+}
+.fa-1x {
+  background-color: #6D787D;
+  border-radius: 50%;
+  padding: 5px; /* Adjust as needed */
+  border: 2px solid white; /* Add this line for the rounded border */
+  cursor: pointer;
+}
+.foot-two{
+  border-bottom: 1px solid white;
+}
+.show-more-btn{
+  background-color: $secondary-color !important;
+}
+
+.card-hover {
+  padding: 8px; 
+  transition: padding 0.3s ease;
+}
+
+.card-hover:hover {
+  padding: 1px;
+  transform: scale(1.05);
+}
+.card-radius{
+  border-radius: 15px !important;
+  height: 180px !important;
+  width: 100%;
+  box-shadow: 0 0 10px #dadada;
+}
+.jivatvstory-sec{
+  background-color:#F1FCFA;
+}
+.consult-top-doctors{
+  background-color: #eaf0ef;
+}
+.button_text{
+  text-transform: none;
+}
+.react-tel-input .form-control {
+  width: 100% !important;
+}
+
+.appointment_image{
+  height: 535px;
+}
+.appointment-container-image{
+  // background-color: #F1FCFA;
+  // // padding: 10px;
+  // border-radius: 80px;
+  border-radius: 0% 100% 100% 0% / 100% 0% 100% 0% ;
+  background: rgba( 93, 138, 34, 0.1 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 2.5px );
+-webkit-backdrop-filter: blur( 2.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.appointment_booking_text{
+  color: #2f2f2f;
+  font-size: 45px;
+  font-weight: 600;
+  font-family: "Poppins";
+  line-height: 1.2em;
+}
+.appointment_background{
+
+  // background: #f4ffec;
+}
