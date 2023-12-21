@@ -214,7 +214,7 @@ const Index = () => {
           <div className="col-md-5 list-clmn">
             <ul className="homebanner-list">
               <li title="Book An Appointment">
-                <a href="#">
+                <a href="/home/appointment-booking">
                   <span className="li-inner">
                     <span className="icon">
                       <img
