@@ -1,0 +1,29 @@
+.appointment_background{
+    background-color: red;
+}
+.react-tel-input .form-control {
+    width: 100% !important;
+  }
+  
+  .appointment_image{
+    height: 535px;
+  }
+  .appointment-container-image{
+    // background-color: #F1FCFA;
+    // // padding: 10px;
+    // border-radius: 80px;
+    border-radius: 0% 100% 100% 0% / 100% 0% 100% 0% ;
+    background: rgba( 93, 138, 34, 0.1 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 2.5px );
+  -webkit-backdrop-filter: blur( 2.5px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  }
+  
+  .appointment_booking_text{
+    color: #2f2f2f;
+    font-size: 45px;
+    font-weight: 600;
+    font-family: "Poppins";
+    line-height: 1.2em;}
