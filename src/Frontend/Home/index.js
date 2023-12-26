@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import {
   Button,
   Col,
@@ -214,7 +214,7 @@ const Index = () => {
           <div className="col-md-5 list-clmn">
             <ul className="homebanner-list">
               <li title="Book An Appointment">
-                <a href="#">
+                <a href="appointment-booking">
                   <span className="li-inner">
                     <span className="icon">
                       <img
