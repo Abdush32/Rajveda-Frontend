@@ -65,14 +65,15 @@ function FrontFooter(props) {
             </div>
             <div class="col-md-2">
               <ul class="list-unstyled">
+                
                 <li className="pb-2">
-                  <a href="#">Terms & Conditions</a>
+                <li className="pb-2">
+                  <Link to="/shipping-policy">Shipping policy</Link>
+                </li>
+                  <Link to="/privacy-policy">Privacy Policy</Link>
                 </li>
                 <li className="pb-2">
-                <li className="pb-2">
-                  <a href="#">Guest Policies</a>
-                </li>
-                  <a href="#">Privacy Policy</a>
+                  <Link to="/terms-and-conditions">Terms & Conditions</Link>
                 </li>
                 <li className="pb-2">
                   <a href="#">Trust And safety</a>

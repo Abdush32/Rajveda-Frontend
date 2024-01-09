@@ -24,7 +24,7 @@ function App() {
           }
         >
           <Routes>
-            <Route path="/home" element={<FrontLayout />}>
+            <Route path="*" element={<FrontLayout />}>
               {FrontRoutes.map((route, index) => (
                 <Route
                   key={index}

@@ -244,7 +244,7 @@ const Index = () => {
               </li>
 
               <li title="Rajveda Franchise Opportunity">
-                <a href="/home/franchise">
+                <a href="/franchise">
                   <span className="li-inner">
                     <span className="icon">
                       <img
