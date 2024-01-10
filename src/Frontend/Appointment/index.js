@@ -1,10 +1,5 @@
 import React, { useState, useEffect } from "react";
-import DatePicker from "react-horizontal-datepicker";
-import ReactHorizontalDatePicker from "react-horizontal-strip-datepicker";
-import "react-horizontal-strip-datepicker/dist/ReactHorizontalDatePicker.css";
 
-import PhoneInput from "react-phone-input-2";
-import "react-phone-input-2/lib/style.css";
 import {
   Button,
   Card,
@@ -39,7 +34,6 @@ const Index = () => {
 
   const selectDate = (date) => {
     setSelectedDate(date);
-    // Call your onChange function here with the selected date
     console.log("Selected date:", date);
   };
 
@@ -54,11 +48,14 @@ const Index = () => {
   };
 
   useEffect(() => {
-    const today = new Date();
-    selectDate(today);
+    const tomorrow = new Date();
+    tomorrow.setDate(tomorrow.getDate() + 1);
+    selectDate(tomorrow);
   }, []);
 
   const startDate = new Date();
+  startDate.setDate(startDate.getDate() + 1);
+
   const endDate = new Date();
   endDate.setDate(startDate.getDate() + 30);
 
@@ -88,6 +85,7 @@ const Index = () => {
     );
     currentDate.setDate(currentDate.getDate() + 1);
   }
+
   const handleCardSelection = (cardName) => {
     setSelectedCard(cardName);
   };
@@ -134,7 +132,9 @@ const Index = () => {
       case 1:
         return (
           <div>
-            <h2>Make An Appointment</h2>
+            <div className="appointment_heading">
+              <p>Make An Appointment</p>
+            </div>
             <div className="appointment_first_form">
               <Row className="mt-4">
                 <Col md={12}>
@@ -166,10 +166,10 @@ const Index = () => {
               </Row>
 
               <div className="mt-4">
-                <strong>
+                <p>
                   <i className="fa-regular fa-sun me-2" />
                   Morning Slots
-                </strong>
+                </p>
                 <Row className="mt-3">
                   <Col xs={4} md={4} lg={4} sm={4}>
                     <div
@@ -368,14 +368,13 @@ const Index = () => {
                     </div>
                   </Col>
                 </Row>
-              
               </div>
 
               <div className="mt-4">
-                <strong>
+                <p>
                   <i className="fa-regular fa-moon me-2" />
                   Evening Slots
-                </strong>
+                </p>
                 <Row className="mt-3">
                   <Col xs={4} md={4} lg={4} sm={4}>
                     <div
@@ -576,10 +575,10 @@ const Index = () => {
                 </Row>
               </div>
             </div>
-            <hr/>
+            {/* <hr/> */}
             <FormGroup className="text-center mt-4">
               <Button
-                color="primary"
+                color="success"
                 className="button_text"
                 block
                 onClick={nextStep}
@@ -592,119 +591,154 @@ const Index = () => {
       case 2:
         return (
           <div>
-            <h2 className="mb-3">Patient Info</h2>
+            <p className="mb-3 patient_text">Patient Info</p>
             <div className="appointment_first_form_last">
-            <Row>
-              <Col md={6}>
-                <FormGroup>
-                  <Label for="exampleSelect">Choose Relationship</Label>
-                  <Input id="exampleSelect" name="select" type="select">
-                    <option>Self</option>
-                    <option>Relationship With User</option>
-                    <option>Spouse</option>
-                    <option>Husband</option>
-                    <option>Kid</option>
-                    <option>Father</option>
-                  </Input>
-                </FormGroup>
-              </Col>
-              <Col md={6}>
-                <FormGroup>
-                  <Label for="name">Patient's Name</Label>
-                  <Input
-                    name="name"
-                    placeholder="Enter patient name"
-                    type="text"
-                  />
-                </FormGroup>
-              </Col>
-            </Row>
-            <Row>
-              <Col md={6}>
-                <FormGroup>
-                  <Label for="name">Contact Number</Label>
-                  <Input
-                    name="mobile"
-                    placeholder="Enter contact number"
-                    type="number"
-                  />
-                </FormGroup>
-              </Col>
-              <Col md={6}>
-                <FormGroup>
-                  <Label for="name">Age</Label>
-                  <Input name="age" placeholder="Enter age" type="number" />
-                </FormGroup>
-              </Col>
-            </Row>
+              <Row>
+                <Col md={6}>
+                  <FormGroup>
+                    <Input id="exampleSelect" name="select" type="select">
+                      <option>Self</option>
+                      <option>Relationship With User</option>
+                      <option>Spouse</option>
+                      <option>Husband</option>
+                      <option>Kid</option>
+                      <option>Father</option>
+                    </Input>
+                  </FormGroup>
+                </Col>
+                <Col md={6}>
+                  <FormGroup>
+                    <Input
+                      name="name"
+                      placeholder="Enter patient name"
+                      type="text"
+                    />
+                  </FormGroup>
+                </Col>
+              </Row>
+              <Row>
+                <Col md={6}>
+                  <FormGroup>
+                    <Input
+                      name="mobile"
+                      placeholder="Enter contact number"
+                      type="number"
+                    />
+                  </FormGroup>
+                </Col>
+                <Col md={6}>
+                  <FormGroup>
+                    <Input name="age" placeholder="Enter age" type="number" />
+                  </FormGroup>
+                </Col>
+              </Row>
 
-            <Row>
-              <Col md={6}>
-                <FormGroup>
-                  <Label for="name">City</Label>
-                  <Input name="name" placeholder="Enter city" type="text" />
-                </FormGroup>
-              </Col>
-              <Col md={6}>
-                <FormGroup>
-                  <Label for="exampleSelect">Disease</Label>
-                  <Input id="exampleSelect" name="select" type="select">
-                    <option>Demo1</option>
-                    <option>Demo2</option>
-                    <option>Demo3</option>
-                  </Input>
-                </FormGroup>
-              </Col>
-            </Row>
+              <Row>
+                <Col md={6}>
+                  <FormGroup>
+                    <Input id="exampleSelect" name="select" type="select">
+                      <option disabled selected>
+                        -- Select clinic city --
+                      </option>
+                      <option>Patna</option>
+                      <option>Gaya</option>
+                      <option>Arah</option>
+                    </Input>
+                  </FormGroup>
+                </Col>
+                <Col md={6}>
+                  <FormGroup>
+                    <Input id="exampleSelect" name="select" type="select">
+                      <option disabled selected>
+                        -- Select disease --
+                      </option>
+                      <option>Kidney Fail</option>
+                      <option>Cancer</option>
+                      <option>Heart Problem</option>
+                      <option>Diabetes</option>
+                      <option>Piles</option>
+                      <option>High BP</option>
+                      <option>Low BP</option>
+                      <option>Stone</option>
+                      <option>Arthritis</option>
+                    </Input>
+                  </FormGroup>
+                </Col>
+              </Row>
+              <Row>
+                <Col md={12}>
+                  <FormGroup>
+                    <Input
+                      id="exampleSelect"
+                      placeholder="Description"
+                      name="select"
+                      type="textarea"
+                    />
+                  </FormGroup>
+                </Col>
+              </Row>
 
-            <Row>
-              <Col md={12}>
-                <strong>Patient Details</strong>
-                <Row>
-                  <Col md={12}>Roushan Singh</Col>
-                  <Col md={12}>Total Payable Consultation Fee ₹490/</Col>
-                </Row>
-              </Col>
-            </Row>
-            <Row className="mt-4">
-              <Col md={12} className="d-flex form_checkbox">
-                How would you like to pay?
-                <div class="form-check pay_radio">
-                  <input
-                    class="form-check-input"
-                    type="radio"
-                    name="flexRadioDefault"
-                    id="flexRadioDefault1"
-                    checked
-                  />
-                  <label class="form-check-label" for="flexRadioDefault1">
-                    Online
-                  </label>
-                </div>
-                <div class="form-check pay_radio2">
-                  <input
-                    class="form-check-input"
-                    type="radio"
-                    name="flexRadioDefault"
-                    id="flexRadioDefault2"
-                  />
-                  <label class="form-check-label inclinic_radio" for="flexRadioDefault2">
-                    In clinic
-                  </label>
-                </div>
-              </Col>
-            </Row>
-           
+              <Row>
+                <Col md={12}>
+                  <strong>Patient Details</strong>
+                  <Row>
+                    <Col md={12}>Roushan Singh</Col>
+                    <Col md={12}>Total Payable Consultation Fee ₹490/</Col>
+                  </Row>
+                </Col>
+              </Row>
+              <Row className="mt-4">
+                <Col md={12} className="d-flex form_checkbox">
+                  How would you like to pay?
+                  <div class="form-check pay_radio">
+                    <input
+                      class="form-check-input"
+                      type="radio"
+                      name="flexRadioDefault"
+                      id="flexRadioDefault1"
+                      checked
+                    />
+                    <label class="form-check-label" for="flexRadioDefault1">
+                      Online
+                    </label>
+                  </div>
+                  <div class="form-check pay_radio2">
+                    <input
+                      class="form-check-input"
+                      type="radio"
+                      name="flexRadioDefault"
+                      id="flexRadioDefault2"
+                    />
+                    <label
+                      class="form-check-label inclinic_radio"
+                      for="flexRadioDefault2"
+                    >
+                      In clinic
+                    </label>
+                  </div>
+                </Col>
+              </Row>
             </div>
-            <hr/>
-            <div className="d-flex justify-content-between">
-              <Button className="button_text" onClick={prevStep}>
+            {/* <hr/> */}
+            <div className="d-flex justify-content-center align-items-center">
+              {/* <Button className="button_text custom_back_btn" onClick={prevStep}>
                 Back
-              </Button>
+              </Button> */}
+              <img
+                src="/assets/img/back_button.png"
+                alt="rajveda"
+                className="custom_back_btn"
+                onClick={prevStep}
+              />
+              {/* <i className="fa-light fa-circle-arrow-left fa-2xl custom_back_btn"/> */}
+              {/* <i
+                className="fa-solid fa-backward-step fa-2xl custom_back_btn"
+                onClick={prevStep}
+              /> */}
 
               <Button
-                color="primary"
-                className="button_text"
+                color="success"
+                className="button_text custom_booknow_btn"
                 onClick={handleSubmit}
               >
                 Book now
@@ -843,7 +877,11 @@ const Index = () => {
         <Row className="mb-4 appointment_background2">
           <Col md={7} xs={12}>
             <div className="text_content">
-              <img src="/assets/img/appointment_bannere_text.png" alt="Rajveda" className="appointment_image"/>
+              <img
+                src="/assets/img/appointment_bannere_text.png"
+                alt="Rajveda"
+                className="appointment_image"
+              />
               {/* <h1 className="text-white appointment_text">
                 Book Your Appointment with Ease
               </h1>

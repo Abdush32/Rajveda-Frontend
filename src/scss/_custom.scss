@@ -559,7 +559,7 @@ ul li {
   font-weight: 400;
 }
 .radio_radious {
-  border-radius: 10px !important;
+  border-radius: 7px !important;
 }
 
 /* Chrome, Safari, Edge, Opera */
@@ -579,67 +579,6 @@ input[type="number"] {
   cursor: pointer;
 }
 
-//New date picker
-.scroll-head {
-  display: none;
-}
-.datepicker-month-label {
-  display: none;
-}
-.datepicker-button-previous {
-  border: none;
-  text-decoration: none;
-  background: #e6545b;
-  cursor: pointer;
-  border-radius: 50%;
-  width: 30px !important;
-  height: 30px !important;
-  color: white;
-  font-size: 20px;
-  font-weight: bold;
-  flex-shrink: 0;
-  position: relative;
-  right: 15px !important;
-}
-.datepicker-button-next {
-  border: none;
-  text-decoration: none;
-  background: #e6545b;
-  cursor: pointer;
-  border-radius: 50%;
-  width: 30px !important;
-  height: 30px !important;
-  color: white;
-  font-size: 20px;
-  font-weight: bold;
-  flex-shrink: 0;
-  position: relative;
-  left: 15px !important;
-  bottom: 15px !important;
-}
-
-.date-day-Item-selected {
-  background-color: #31a566 !important;
-  border: 2px solid #31a566 !important;
-  color: white !important;
-  width: 45px;
-  height: 45px;
-  border-radius: 50%;
-  border: 2px solid #e6545b;
-  color: #e6545b;
-  padding: 26px;
-  display: flex;
-  justify-content: center;
-}
-
-.datepicker-date-day-Item {
-  height: 45px !important;
-  width: 35px !important;
-  border-radius: 10px !important;
-  padding: 26px;
-  display: flex;
-  justify-content: center;
-}
 
 //NEW font
 .appointment_text {
@@ -689,7 +628,7 @@ input[type="number"] {
   justify-content: center;
   align-items: center;
   padding: 0.6rem 0.8rem 0.6rem 0.8rem;
-  border-radius: 10px;
+  border-radius:6px;
   // padding-left: 20px;
   box-shadow: -2px 2px 4px -1px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: -2px 2px 4px -1px rgba(0, 0, 0, 0.75);
@@ -774,6 +713,7 @@ input[type="number"] {
 
   .radio_radious {
     width: max-content;
+    color: rgb(73, 73, 73)  !important;
   }
   .appointment_background2 {
     background: white !important;
@@ -790,4 +730,25 @@ input[type="number"] {
 .appointment_image{
   width: 700px;
   height: 100%;
+}
+
+.appointment_heading{
+  display: flex;
+  justify-content: center;
+  text-decoration: underline;
+}
+.appointment_heading p{
+font-size: 20px;
+}
+
+.custom_back_btn{
+  margin-right: 75px;
+  width: 8%;
+  cursor: pointer;
+}
+.custom_booknow_btn{
+  width: -webkit-fill-available;
+}
+.patient_text{
+  font-size: 25px;
 }
